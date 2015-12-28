@@ -1,0 +1,4 @@
+---
+name: cloud_controller_ng
+repo: https://github.com/cloudfoundry/cloud_controller_ng.git
+branch: master
