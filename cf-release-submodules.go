@@ -5,6 +5,14 @@ type CfReleaseSubmodules[]struct {
 	Path string
 }
 
+func (c CfReleaseSubmodules) Paths() []string {
+	p := make([]string, len(c))
+	for k, v := range c {
+		p[k] = v.Path
+	}
+	return p
+}
+
 func NewCfReleaseSubmodules() CfReleaseSubmodules{
 	return CfReleaseSubmodules{
 		{
