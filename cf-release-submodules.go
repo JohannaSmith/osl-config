@@ -39,5 +39,10 @@ func NewCfReleaseSubmodules() CfReleaseSubmodules{
 			Path:   "src/uaa-release/src/uaa",
 			LtsPath:   "src/uaa",
 		},
+		{
+			Name:   "gorouter",
+			Path:   "src/github.com/cloudfoundry/gorouter",
+			LtsPath:   "src/github.com/cloudfoundry/gorouter",
+		},
 	}
 }
