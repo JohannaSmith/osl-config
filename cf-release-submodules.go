@@ -15,11 +15,22 @@ func (c CfReleaseSubmodules) Paths() []string {
 }
 
 func (c CfReleaseSubmodules) LtsPaths() []string {
-	p := make([]string, len(c))
-	for k, v := range c {
+	lts := c.Lts()
+	p := make([]string, len(lts))
+	for k, v := range lts {
 		p[k] = v.LtsPath
 	}
 	return p
+}
+
+func (c CfReleaseSubmodules) Lts() CfReleaseSubmodules{
+	var out CfReleaseSubmodules
+	for _, v := range c {
+		if (v.LtsPath != ""){
+			out = append(out,v)
+		}
+	}
+	return out
 }
 
 func NewCfReleaseSubmodules() CfReleaseSubmodules{
@@ -43,6 +54,10 @@ func NewCfReleaseSubmodules() CfReleaseSubmodules{
 			Name:   "gorouter",
 			Path:   "src/github.com/cloudfoundry/gorouter",
 			LtsPath:   "src/github.com/cloudfoundry/gorouter",
+		},
+		{
+			Name:   "cf-routing-release",
+			Path:   "src/cf-routing-release",
 		},
 	}
 }
