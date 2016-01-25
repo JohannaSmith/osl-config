@@ -1,8 +1,8 @@
 package main
 
-type CfReleaseSubmodules[]struct {
-	Name		string
-	Path		string
+type CfReleaseSubmodules []struct {
+	Name    string
+	Path    string
 	LtsPath string
 }
 
@@ -23,41 +23,46 @@ func (c CfReleaseSubmodules) LtsPaths() []string {
 	return p
 }
 
-func (c CfReleaseSubmodules) Lts() CfReleaseSubmodules{
+func (c CfReleaseSubmodules) Lts() CfReleaseSubmodules {
 	var out CfReleaseSubmodules
 	for _, v := range c {
-		if (v.LtsPath != ""){
-			out = append(out,v)
+		if v.LtsPath != "" {
+			out = append(out, v)
 		}
 	}
 	return out
 }
 
-func NewCfReleaseSubmodules() CfReleaseSubmodules{
+func NewCfReleaseSubmodules() CfReleaseSubmodules {
 	return CfReleaseSubmodules{
 		{
-			Name:   "cloud_controller_ng",
-			Path:   "src/cloud_controller_ng",
-			LtsPath:   "src/cloud_controller_ng",
+			Name:    "cloud_controller_ng",
+			Path:    "src/cloud_controller_ng",
+			LtsPath: "src/cloud_controller_ng",
 		},
 		{
-			Name:   "loggregator",
-			Path:   "src/loggregator",
-			LtsPath:   "src/loggregator",
+			Name:    "loggregator",
+			Path:    "src/loggregator",
+			LtsPath: "src/loggregator",
 		},
 		{
-			Name:   "uaa",
-			Path:   "src/uaa-release/src/uaa",
-			LtsPath:   "src/uaa",
+			Name:    "collector",
+			Path:    "src/collector",
+			LtsPath: "src/collector",
 		},
 		{
-			Name:   "gorouter",
-			Path:   "src/github.com/cloudfoundry/gorouter",
-			LtsPath:   "src/github.com/cloudfoundry/gorouter",
+			Name:    "uaa",
+			Path:    "src/uaa-release/src/uaa",
+			LtsPath: "src/uaa",
 		},
 		{
-			Name:   "cf-routing-release",
-			Path:   "src/cf-routing-release",
+			Name:    "gorouter",
+			Path:    "src/github.com/cloudfoundry/gorouter",
+			LtsPath: "src/github.com/cloudfoundry/gorouter",
+		},
+		{
+			Name: "cf-routing-release",
+			Path: "src/cf-routing-release",
 		},
 	}
 }
