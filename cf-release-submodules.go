@@ -1,9 +1,9 @@
 package main
 
 type CfReleaseSubmodules []struct {
-	Name    string
-	Path    string
-	LtsPath string
+	Name    string // the name of the project
+	Path    string // the path of the project in the latest release
+	LtsPath string // the path in the lts release
 }
 
 func (c CfReleaseSubmodules) Paths() []string {
@@ -59,6 +59,16 @@ func NewCfReleaseSubmodules() CfReleaseSubmodules {
 			Name:    "gorouter",
 			Path:    "src/github.com/cloudfoundry/gorouter",
 			LtsPath: "src/github.com/cloudfoundry/gorouter",
+		},
+		{
+			Name:    "dea_next",
+			Path:    "src/dea_next",
+			LtsPath: "src/dea_next",
+		},
+		{
+			Name:    "statsd-injector",
+			Path:    "src/statsd-injector",
+			LtsPath: "src/statsd-injector",
 		},
 		{
 			Name: "cf-routing-release",
