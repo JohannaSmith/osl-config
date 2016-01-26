@@ -66,6 +66,11 @@ func NewCfReleaseSubmodules() CfReleaseSubmodules {
 			LtsPath: "src/dea_next",
 		},
 		{
+			Name:    "smoke-tests",
+			Path:    "src/smoke-tests",
+			LtsPath: "src/smoke-tests",
+		},
+		{
 			Name:    "statsd-injector",
 			Path:    "src/statsd-injector",
 			LtsPath: "src/statsd-injector",
