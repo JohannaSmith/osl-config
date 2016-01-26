@@ -76,6 +76,11 @@ func NewCfReleaseSubmodules() CfReleaseSubmodules {
 			LtsPath: "src/statsd-injector",
 		},
 		{
+			Name:    "hm9000",
+			Path:    "src/hm9000",
+			LtsPath: "src/hm9000",
+		},
+		{
 			Name: "cf-routing-release",
 			Path: "src/cf-routing-release",
 		},
