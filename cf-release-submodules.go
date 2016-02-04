@@ -85,14 +85,28 @@ func NewCfReleaseSubmodules() CfReleaseSubmodules {
 			Path: "src/cf-routing-release",
 		},
 		{
-			Name: "nats",
-			Path: "src/nats",
+			Name:    "nats",
+			Path:    "src/nats",
 			LtsPath: "src/nats",
 		},
 		{
-			Name: "route-registrar",
-			Path: "src/github.com/cloudfoundry-incubator/route-registrar",
+			Name:    "route-registrar",
+			Path:    "src/github.com/cloudfoundry-incubator/route-registrar",
 			LtsPath: "src/route_registrar",
+		},
+		{
+			Name: "consul-release",
+			Path: "src/consul-release",
+		},
+		{
+			Name:    "etcd",
+			Path:    "src/github.com/coreos/etcd",
+			LtsPath: "src/github.com/coreos/etcd",
+		},
+		{
+			Name:    "etcd-metrics-server",
+			Path:    "src/etcd-metrics-server",
+			LtsPath: "src/etcd-metrics-server",
 		},
 	}
 }
