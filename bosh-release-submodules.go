@@ -27,17 +27,5 @@ func NewBoshReleaseSubmodules() BoshReleaseSubmodules {
 			Path:     "src/vsphere_cpi",
 			RepoURL:  "https://github.com/cloudfoundry-incubator/bosh-vsphere-cpi-release",
 		},
-		{
-			Name:     "bosh",
-			RepoName: "bosh",
-			Path:     ".",
-			RepoURL:  "https://github.com/cloudfoundry/bosh",
-		},
-		{
-			Name:     "bosh-davcli",
-			RepoName: "bosh-davcli",
-			Path:     ".",
-			RepoURL:  "https://github.com/cloudfoundry/bosh-davcli",
-		},
 	}
 }
