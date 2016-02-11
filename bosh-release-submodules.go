@@ -33,5 +33,11 @@ func NewBoshReleaseSubmodules() BoshReleaseSubmodules {
 			Path:     ".",
 			RepoURL:  "https://github.com/cloudfoundry/bosh",
 		},
+		{
+			Name:     "bosh-davcli",
+			RepoName: "bosh-davcli",
+			Path:     ".",
+			RepoURL:  "https://github.com/cloudfoundry/bosh-davcli",
+		},
 	}
 }
