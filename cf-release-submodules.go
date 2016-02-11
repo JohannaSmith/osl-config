@@ -108,5 +108,21 @@ func NewCfReleaseSubmodules() CfReleaseSubmodules {
 			Path:    "src/etcd-metrics-server",
 			LtsPath: "src/etcd-metrics-server",
 		},
+		{
+			Name:    "warden",
+			Path:    "src/warden/warden",
+		},
+		{
+			Name:    "warden-client",
+			Path:    "src/warden/warden-client",
+		},
+		{
+			Name:    "warden-protocol",
+			Path:    "src/warden/warden-protocol",
+		},
+		{
+			Name:    "em-posix-spawn",
+			Path:    "src/warden/em-posix-spawn",
+		},
 	}
 }
