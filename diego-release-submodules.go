@@ -8,7 +8,7 @@ type DiegoReleaseSubmodules []struct {
 func (c DiegoReleaseSubmodules) Paths() []string {
 	p := make([]string, len(c))
 	for k, v := range c {
-		p[k] = v.Path
+		p[k] = v.Name + ":" + v.Path
 	}
 	return p
 }

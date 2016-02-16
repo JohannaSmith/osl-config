@@ -8,7 +8,7 @@ type GardenWindowsReleaseSubmodules []struct {
 func (c GardenWindowsReleaseSubmodules) Paths() []string {
 	p := make([]string, len(c))
 	for k, v := range c {
-		p[k] = v.Path
+		p[k] = v.Name + ":" + v.Path
 	}
 	return p
 }
@@ -16,7 +16,7 @@ func (c GardenWindowsReleaseSubmodules) Paths() []string {
 func NewGardenWindowsReleaseSubmodules() GardenWindowsReleaseSubmodules {
 	return GardenWindowsReleaseSubmodules{
 		{
-			Name: "containerizer",
+			Name: "Containerizer",
 			Path: "src/github.com/cloudfoundry/garden-windows/Containerizer/",
 		},
 		{

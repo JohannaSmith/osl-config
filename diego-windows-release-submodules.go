@@ -8,7 +8,7 @@ type DiegoWindowsReleaseSubmodules []struct {
 func (c DiegoWindowsReleaseSubmodules) Paths() []string {
 	p := make([]string, len(c))
 	for k, v := range c {
-		p[k] = v.Path
+		p[k] = v.Name + ":" + v.Path
 	}
 	return p
 }
@@ -28,7 +28,7 @@ func NewDiegoWindowsReleaseSubmodules() DiegoWindowsReleaseSubmodules {
 			Path: "loggregator/src/metron",
 		},
 		{
-			Name: "diego-windows-release",
+			Name: "DiegoWindowsRelease",
 			Path: "DiegoWindowsRelease",
 		},
 	}

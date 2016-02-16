@@ -9,7 +9,7 @@ type CfReleaseSubmodules []struct {
 func (c CfReleaseSubmodules) Paths() []string {
 	p := make([]string, len(c))
 	for k, v := range c {
-		p[k] = v.Path
+		p[k] = v.Name + ":" + v.Path
 	}
 	return p
 }
@@ -18,7 +18,7 @@ func (c CfReleaseSubmodules) LtsPaths() []string {
 	lts := c.Lts()
 	p := make([]string, len(lts))
 	for k, v := range lts {
-		p[k] = v.LtsPath
+		p[k] = v.Name + ":" + v.LtsPath
 	}
 	return p
 }

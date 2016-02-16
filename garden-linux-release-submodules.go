@@ -8,7 +8,7 @@ type GardenLinuxReleaseSubmodules []struct {
 func (c GardenLinuxReleaseSubmodules) Paths() []string {
 	p := make([]string, len(c))
 	for k, v := range c {
-		p[k] = v.Path
+		p[k] = v.Name + ":" + v.Path
 	}
 	return p
 }
