@@ -16,7 +16,7 @@ func (c OpsManagerInstallationReleaseSubmodules) Paths() []string {
 func NewOpsManagerInstallationReleaseSubmodules() OpsManagerInstallationReleaseSubmodules {
 	return OpsManagerInstallationReleaseSubmodules{
 		{
-			Name: "web",
+			Name: "ops-manager-web",
 			Path: "web",
 		},
 	}
