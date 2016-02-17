@@ -1,8 +1,8 @@
 package main
 
 type GardenLinuxReleaseSubmodules []struct {
-	Name    string // the name of the project
-	Path    string // the path of the project in the latest release
+	Name string // the name of the project
+	Path string // the path of the project in the latest release
 }
 
 func (c GardenLinuxReleaseSubmodules) Paths() []string {
@@ -16,20 +16,20 @@ func (c GardenLinuxReleaseSubmodules) Paths() []string {
 func NewGardenLinuxReleaseSubmodules() GardenLinuxReleaseSubmodules {
 	return GardenLinuxReleaseSubmodules{
 		{
-			Name:    "garden",
-			Path:    "src/github.com/cloudfoundry-incubator/garden",
+			Name: "garden",
+			Path: "src/github.com/cloudfoundry-incubator/garden",
 		},
 		{
-			Name:    "garden-linux",
-			Path:    "src/github.com/cloudfoundry-incubator/garden-linux",
+			Name: "garden-linux",
+			Path: "src/github.com/cloudfoundry-incubator/garden-linux",
 		},
 		{
-			Name:    "garden-integration-tests",
-			Path:    "src/github.com/cloudfoundry-incubator/garden-integration-tests",
+			Name: "garden-integration-tests",
+			Path: "src/github.com/cloudfoundry-incubator/garden-integration-tests",
 		},
 		{
-			Name:    "garden-shed",
-			Path:    "src/github.com/cloudfoundry-incubator/garden-shed",
+			Name: "garden-shed",
+			Path: "src/github.com/cloudfoundry-incubator/garden-shed",
 		},
 	}
 }

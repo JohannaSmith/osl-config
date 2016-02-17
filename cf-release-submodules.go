@@ -81,8 +81,9 @@ func NewCfReleaseSubmodules() CfReleaseSubmodules {
 			LtsPath: "src/hm9000",
 		},
 		{
-			Name: "cf-routing-release",
-			Path: "src/cf-routing-release",
+			Name:    "cf-routing-release",
+			Path:    "src/cf-routing-release",
+			LtsPath: "src/github.com/cloudfoundry-incubator/routing-api",
 		},
 		{
 			Name:    "nats",
@@ -111,18 +112,21 @@ func NewCfReleaseSubmodules() CfReleaseSubmodules {
 		{
 			Name:    "warden",
 			Path:    "src/warden/warden",
+			LtsPath: "src/warden/warden",
 		},
 		{
 			Name:    "warden-client",
 			Path:    "src/warden/warden-client",
+			LtsPath: "src/warden/warden-client",
 		},
 		{
 			Name:    "warden-protocol",
 			Path:    "src/warden/warden-protocol",
+			LtsPath: "src/warden/warden-protocol",
 		},
 		{
-			Name:    "em-posix-spawn",
-			Path:    "src/warden/em-posix-spawn",
+			Name: "em-posix-spawn",
+			Path: "src/warden/em-posix-spawn",
 		},
 	}
 }
