@@ -71,6 +71,11 @@ func NewCfReleaseSubmodules() CfReleaseSubmodules {
 			LtsPath: "src/smoke-tests",
 		},
 		{
+			Name:    "cf-acceptance-tests",
+			Path:    "src/github.com/cloudfoundry/cf-acceptance-tests/",
+			LtsPath: "src/github.com/cloudfoundry/cf-acceptance-tests/",
+		},
+		{
 			Name:    "statsd-injector",
 			Path:    "src/statsd-injector",
 			LtsPath: "src/statsd-injector",
