@@ -41,11 +41,6 @@ func NewDiegoReleaseSubmodules() DiegoReleaseSubmodules {
 			LtsPath: "src/github.com/cloudfoundry-incubator/diego-smoke-tests",
 		},
 		{
-			Name:    "diego-acceptance-tests",
-			Path:    "src/github.com/cloudfoundry-incubator/diego-acceptance-tests",
-			LtsPath: "src/github.com/cloudfoundry-incubator/diego-acceptance-tests",
-		},
-		{
 			Name:    "auction",
 			Path:    "src/github.com/cloudfoundry-incubator/auction",
 			LtsPath: "src/github.com/cloudfoundry-incubator/auction",
