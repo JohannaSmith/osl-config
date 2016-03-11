@@ -136,7 +136,7 @@ func NewCfReleaseSubmodules() CfReleaseSubmodules {
 		},
 		{
 			Name: "statsd-injector",
-			Path: "src/statsd-injector",
+			Path: "src/loggregator/src/statsd-injector",
 		},
 		{
 			Name: "hm9000",
