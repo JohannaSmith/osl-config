@@ -27,5 +27,9 @@ func NewCfRoutingReleaseSubmodules() CfRoutingReleaseSubmodules {
 			Name: "tcp-emitter",
 			Path: "src/github.com/cloudfoundry-incubator/tcp-emitter",
 		},
+		{
+			Name: "gorouter",
+			Path: "src/github.com/cloudfoundry/gorouter",
+		},
 	}
 }

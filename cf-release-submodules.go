@@ -119,10 +119,6 @@ func NewCfReleaseSubmodules() CfReleaseSubmodules {
 			Path: "src/uaa-release/src/uaa",
 		},
 		{
-			Name: "gorouter",
-			Path: "src/github.com/cloudfoundry/gorouter",
-		},
-		{
 			Name: "dea_next",
 			Path: "src/dea_next",
 		},
