@@ -160,16 +160,8 @@ func NewDiegoReleaseSubmodules() DiegoReleaseSubmodules {
 			Path: "src/github.com/cloudfoundry-incubator/executor",
 		},
 		{
-			Name: "stager",
-			Path: "src/github.com/cloudfoundry-incubator/stager",
-		},
-		{
 			Name: "rep",
 			Path: "src/github.com/cloudfoundry-incubator/rep",
-		},
-		{
-			Name: "nsync",
-			Path: "src/github.com/cloudfoundry-incubator/nsync",
 		},
 		{
 			Name: "cf-debug-server",
@@ -194,10 +186,6 @@ func NewDiegoReleaseSubmodules() DiegoReleaseSubmodules {
 		{
 			Name: "locket",
 			Path: "src/github.com/cloudfoundry-incubator/locket",
-		},
-		{
-			Name: "tps",
-			Path: "src/github.com/cloudfoundry-incubator/tps",
 		},
 		{
 			Name: "cf_http",
@@ -230,10 +218,6 @@ func NewDiegoReleaseSubmodules() DiegoReleaseSubmodules {
 		{
 			Name: "healthcheck",
 			Path: "src/github.com/cloudfoundry-incubator/healthcheck",
-		},
-		{
-			Name: "cc-uploader",
-			Path: "src/github.com/cloudfoundry-incubator/cc-uploader",
 		},
 		{
 			Name: "vizzini",
