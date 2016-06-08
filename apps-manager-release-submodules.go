@@ -13,6 +13,28 @@ func (c AppsManagerReleaseSubmodules) Paths() []string {
 	return p
 }
 
+func (c AppsManagerReleaseSubmodules) LtsPaths() []string {
+	paths := c.Lts()
+	p := make([]string, len(paths))
+	for k, v := range paths {
+		p[k] = v.Name + ":" + v.Path
+	}
+	return p
+}
+
+func (c AppsManagerReleaseSubmodules) Lts() AppsManagerReleaseSubmodules {
+	return AppsManagerReleaseSubmodules{
+		{
+			Name: "apps-manager-console",
+			Path: "src/console",
+		},
+		{
+			Name: "app-usage-service",
+			Path: "src/app-usage-service",
+		},
+	}
+}
+
 func NewAppsManagerReleaseSubmodules() AppsManagerReleaseSubmodules {
 	return AppsManagerReleaseSubmodules{
 		{
@@ -22,6 +44,10 @@ func NewAppsManagerReleaseSubmodules() AppsManagerReleaseSubmodules {
 		{
 			Name: "app-usage-service",
 			Path: "src/app-usage-service",
+		},
+		{
+			Name: "apps-manager-js",
+			Path: "apps-manager-js",
 		},
 	}
 }
