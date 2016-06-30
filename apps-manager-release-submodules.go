@@ -16,8 +16,8 @@ func (c AppsManagerReleaseSubmodules) Paths() []string {
 func NewAppsManagerReleaseSubmodules() AppsManagerReleaseSubmodules {
 	return AppsManagerReleaseSubmodules{
 		{
-			Name: "apps-manager-console",
-			Path: "src/console",
+			Name: "invitations",
+			Path: "src/invitations",
 		},
 		{
 			Name: "app-usage-service",
@@ -25,7 +25,7 @@ func NewAppsManagerReleaseSubmodules() AppsManagerReleaseSubmodules {
 		},
 		{
 			Name: "apps-manager-js",
-			Path: "apps-manager-js",
+			Path: "src/apps-manager-js",
 		},
 	}
 }
