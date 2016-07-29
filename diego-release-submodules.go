@@ -28,11 +28,11 @@ func NewDiegoReleaseSubmodules() DiegoReleaseSubmodules {
 			Path: "src/code.cloudfoundry.org/bbs",
 		},
 		{
-			Name: "benchmark-bbs",
+			Name: "benchmarkbbs",
 			Path: "src/code.cloudfoundry.org/benchmarkbbs",
 		},
 		{
-			Name: "file-server",
+			Name: "fileserver",
 			Path: "src/code.cloudfoundry.org/fileserver",
 		},
 		{
@@ -44,7 +44,7 @@ func NewDiegoReleaseSubmodules() DiegoReleaseSubmodules {
 			Path: "src/code.cloudfoundry.org/rep",
 		},
 		{
-			Name: "cf-debug-server",
+			Name: "debugserver",
 			Path: "src/code.cloudfoundry.org/debugserver",
 		},
 		{
@@ -56,7 +56,7 @@ func NewDiegoReleaseSubmodules() DiegoReleaseSubmodules {
 			Path: "src/github.com/cloudfoundry-incubator/routing-info",
 		},
 		{
-			Name: "runtime-schema",
+			Name: "runtimeschema",
 			Path: "src/code.cloudfoundry.org/runtimeschema",
 		},
 		{
@@ -64,15 +64,15 @@ func NewDiegoReleaseSubmodules() DiegoReleaseSubmodules {
 			Path: "src/code.cloudfoundry.org/locket",
 		},
 		{
-			Name: "cf_http",
+			Name: "cfhttp",
 			Path: "src/code.cloudfoundry.org/cfhttp",
 		},
 		{
-			Name: "buildpack_app_lifecycle",
+			Name: "buildpackapplifecycle",
 			Path: "src/code.cloudfoundry.org/buildpackapplifecycle",
 		},
 		{
-			Name: "docker_app_lifecycle",
+			Name: "dockerapplifecycle",
 			Path: "src/code.cloudfoundry.org/dockerapplifecycle",
 		},
 		{
