@@ -17,19 +17,19 @@ func NewGardenLinuxReleaseSubmodules() GardenLinuxReleaseSubmodules {
 	return GardenLinuxReleaseSubmodules{
 		{
 			Name: "garden",
-			Path: "src/github.com/cloudfoundry-incubator/garden",
+			Path: "src/code.cloudfoundry.org/garden",
 		},
 		{
 			Name: "garden-linux",
-			Path: "src/github.com/cloudfoundry-incubator/garden-linux",
+			Path: "src/code.cloudfoundry.org/garden-linux",
 		},
 		{
 			Name: "garden-integration-tests",
-			Path: "src/github.com/cloudfoundry-incubator/garden-integration-tests",
+			Path: "src/code.cloudfoundry.org/garden-integration-tests",
 		},
 		{
 			Name: "garden-shed",
-			Path: "src/github.com/cloudfoundry-incubator/garden-shed",
+			Path: "src/code.cloudfoundry.org/garden-shed",
 		},
 	}
 }
