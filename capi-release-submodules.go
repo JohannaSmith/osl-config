@@ -61,7 +61,7 @@ func NewCapiReleaseSubmodules() CapiReleaseSubmodules {
 		},
 		{
 			Name: "locket",
-			Path: "src/github.com/cloudfoundry-incubator/locket",
+			Path: "src/code.cloudfoundry.org/locket",
 		},
 		{
 			Name: "nsync",
