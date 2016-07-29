@@ -17,43 +17,39 @@ func NewDiegoReleaseSubmodules() DiegoReleaseSubmodules {
 	return DiegoReleaseSubmodules{
 		{
 			Name: "auction",
-			Path: "src/github.com/cloudfoundry-incubator/auction",
+			Path: "src/code.cloudfoundry.org/auction",
 		},
 		{
 			Name: "auctioneer",
-			Path: "src/github.com/cloudfoundry-incubator/auctioneer",
+			Path: "src/code.cloudfoundry.org/auctioneer",
 		},
 		{
 			Name: "bbs",
-			Path: "src/github.com/cloudfoundry-incubator/bbs",
+			Path: "src/code.cloudfoundry.org/bbs",
 		},
 		{
 			Name: "benchmark-bbs",
-			Path: "src/github.com/cloudfoundry-incubator/benchmark-bbs",
+			Path: "src/code.cloudfoundry.org/benchmarkbbs",
 		},
 		{
 			Name: "file-server",
-			Path: "src/github.com/cloudfoundry-incubator/file-server",
+			Path: "src/code.cloudfoundry.org/fileserver",
 		},
 		{
 			Name: "executor",
-			Path: "src/github.com/cloudfoundry-incubator/executor",
+			Path: "src/code.cloudfoundry.org/executor",
 		},
 		{
 			Name: "rep",
-			Path: "src/github.com/cloudfoundry-incubator/rep",
+			Path: "src/code.cloudfoundry.org/rep",
 		},
 		{
 			Name: "cf-debug-server",
-			Path: "src/github.com/cloudfoundry-incubator/cf-debug-server",
-		},
-		{
-			Name: "converger",
-			Path: "src/github.com/cloudfoundry-incubator/converger",
+			Path: "src/code.cloudfoundry.org/debugserver",
 		},
 		{
 			Name: "route-emitter",
-			Path: "src/github.com/cloudfoundry-incubator/route-emitter",
+			Path: "src/code.cloudfoundry.org/route-emitter",
 		},
 		{
 			Name: "routing-info",
@@ -61,47 +57,47 @@ func NewDiegoReleaseSubmodules() DiegoReleaseSubmodules {
 		},
 		{
 			Name: "runtime-schema",
-			Path: "src/github.com/cloudfoundry-incubator/runtime-schema",
+			Path: "src/code.cloudfoundry.org/runtimeschema",
 		},
 		{
 			Name: "locket",
-			Path: "src/github.com/cloudfoundry-incubator/locket",
+			Path: "src/code.cloudfoundry.org/locket",
 		},
 		{
 			Name: "cf_http",
-			Path: "src/github.com/cloudfoundry-incubator/cf_http",
+			Path: "src/code.cloudfoundry.org/cfhttp",
 		},
 		{
 			Name: "buildpack_app_lifecycle",
-			Path: "src/github.com/cloudfoundry-incubator/buildpack_app_lifecycle",
+			Path: "src/code.cloudfoundry.org/buildpackapplifecycle",
 		},
 		{
 			Name: "docker_app_lifecycle",
-			Path: "src/github.com/cloudfoundry-incubator/docker_app_lifecycle",
+			Path: "src/code.cloudfoundry.org/dockerapplifecycle",
 		},
 		{
 			Name: "diegocanaryapp",
-			Path: "src/github.com/cloudfoundry-incubator/diegocanaryapp",
+			Path: "src/code.cloudfoundry.org/diegocanaryapp",
 		},
 		{
 			Name: "consuladapter",
-			Path: "src/github.com/cloudfoundry-incubator/consuladapter",
+			Path: "src/code.cloudfoundry.org/consuladapter",
 		},
 		{
 			Name: "diego-ssh",
-			Path: "src/github.com/cloudfoundry-incubator/diego-ssh",
+			Path: "src/code.cloudfoundry.org/diego-ssh",
 		},
 		{
 			Name: "cacheddownloader",
-			Path: "src/github.com/cloudfoundry-incubator/cacheddownloader",
+			Path: "src/code.cloudfoundry.org/cacheddownloader",
 		},
 		{
 			Name: "healthcheck",
-			Path: "src/github.com/cloudfoundry-incubator/healthcheck",
+			Path: "src/code.cloudfoundry.org/healthcheck",
 		},
 		{
 			Name: "vizzini",
-			Path: "src/github.com/cloudfoundry-incubator/vizzini",
+			Path: "src/code.cloudfoundry.org/vizzini",
 		},
 	}
 }
