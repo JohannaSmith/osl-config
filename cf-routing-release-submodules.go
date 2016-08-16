@@ -17,19 +17,19 @@ func NewCfRoutingReleaseSubmodules() CfRoutingReleaseSubmodules {
 	return CfRoutingReleaseSubmodules{
 		{
 			Name: "cf-tcp-router",
-			Path: "src/github.com/cloudfoundry-incubator/cf-tcp-router",
+			Path: "src/code.cloudfoundry.org/cf-tcp-router",
 		},
 		{
 			Name: "routing-api",
-			Path: "src/github.com/cloudfoundry-incubator/routing-api",
+			Path: "src/code.cloudfoundry.org/routing-api",
 		},
 		{
 			Name: "tcp-emitter",
-			Path: "src/github.com/cloudfoundry-incubator/tcp-emitter",
+			Path: "src/code.cloudfoundry.org/tcp-emitter",
 		},
 		{
 			Name: "gorouter",
-			Path: "src/github.com/cloudfoundry/gorouter",
+			Path: "src/code.cloudfoundry.org/gorouter",
 		},
 	}
 }
