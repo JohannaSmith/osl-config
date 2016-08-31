@@ -46,10 +46,6 @@ func NewReports() Reports {
 					Path: "src/nats",
 				},
 				{
-					Name: "route-registrar",
-					Path: "src/github.com/cloudfoundry-incubator/route-registrar",
-				},
-				{
 					Name: "consul-release",
 					Path: "src/consul-release",
 				},
