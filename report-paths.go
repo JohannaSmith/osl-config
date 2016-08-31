@@ -1,8 +1,9 @@
 package main
 
 type ReportPaths []struct {
-	Name string
-	Path string
+	Name           string
+	Path           string
+	PrepareCommand string
 }
 
 func (r ReportPaths) ToString() []string {

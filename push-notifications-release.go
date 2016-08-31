@@ -10,8 +10,9 @@ func NewReports() Reports {
 			Branch:  "dev",
 			Paths: ReportPaths{
 				{
-					Name: "push-api",
-					Path: ".",
+					Name:           "push-api",
+					Path:           "push",
+					PrepareCommand: "pushd .. && mvn clean install -Pprod -DskipTests && popd",
 				},
 			},
 		},
@@ -43,8 +44,9 @@ func NewReports() Reports {
 			Branch:  "dev",
 			Paths: ReportPaths{
 				{
-					Name: "push-analytics",
-					Path: ".",
+					Name:           "push-analytics",
+					Path:           "push-analytics",
+					PrepareCommand: "pushd .. && mvn clean install -DskipTests && popd",
 				},
 			},
 		},
