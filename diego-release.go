@@ -47,7 +47,7 @@ func NewReports() Reports {
 				},
 				{
 					Name: "routing-info",
-					Path: "src/github.com/cloudfoundry-incubator/routing-info",
+					Path: "src/code.cloudfoundry.org/routing-info",
 				},
 				{
 					Name: "runtimeschema",
