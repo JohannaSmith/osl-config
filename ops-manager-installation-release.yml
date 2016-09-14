@@ -1,3 +1,6 @@
 ---
 repo: git@github.com:pivotal-cf/installation
 branch: master
+projects:
+- path: web
+  name: ops-manager-web
