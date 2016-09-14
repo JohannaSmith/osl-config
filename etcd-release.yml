@@ -1,0 +1,3 @@
+---
+repo: git@github.com:cloudfoundry-incubator/etcd-release.git
+branch: master
