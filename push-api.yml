@@ -1,0 +1,7 @@
+---
+repo: git@github.com:cfmobile/push.git
+branch: dev
+projects:
+- name: push-api
+  path: push
+  prepare_command: bash -c "pushd .. && mvn clean install -Pprod -DskipTests && popd"
