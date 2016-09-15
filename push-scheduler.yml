@@ -1,0 +1,4 @@
+---
+repo: git@github.com:cfmobile/push-scheduler.git
+branch: dev
+scan_root: true
