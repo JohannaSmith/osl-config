@@ -1,0 +1,4 @@
+---
+repo: git@github.com:cfmobile/push-smoke-tests.git
+branch: develop
+scan_root: true
