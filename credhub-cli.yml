@@ -1,0 +1,4 @@
+---
+repo: git@github.com:pivotal-cf/credhub-cli.git
+branch: master
+scan_root: true
