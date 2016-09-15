@@ -3,4 +3,4 @@ repo: https://github.com/cloudfoundry-incubator/bosh-vcloud-cpi-release
 branch: master
 projects:
 - name: bosh-vcloud-cpi
-  path: src/bosh-vcloud-cpi
+  path: src/bosh_vcloud_cpi
