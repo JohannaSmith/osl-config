@@ -4,3 +4,5 @@ branch: master
 projects:
 - name: GardenWindowsRelease
   path: GardenWindowsRelease
+- name: Containerizer
+  path: src/github.com/cloudfoundry/garden-windows/Containerizer
