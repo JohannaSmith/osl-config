@@ -1,0 +1,3 @@
+---
+repo: git@github.com:pivotal-cf-experimental/mysql-monitoring-release.git
+branch: v3
