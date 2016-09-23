@@ -1,0 +1,3 @@
+---
+repo: git@github.com:pivotal-cf/p-rabbitmq.git
+branch: master
