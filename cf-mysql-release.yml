@@ -1,3 +1,7 @@
 ---
 repo: git@github.com:cloudfoundry/cf-mysql-release.git
 branch: develop
+projects:
+- name: cf-mysql-broker
+  path: src/cf-mysql-broker
+  prepare_command: rm .bundle/config
