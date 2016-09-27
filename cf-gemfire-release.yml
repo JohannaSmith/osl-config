@@ -1,0 +1,4 @@
+---
+repo: git@github.com:pivotal-cf/cf-gemfire-release
+branch: master
+scan_root: true
