@@ -1,7 +1,4 @@
 ---
 repo: git@github.com:pivotal-cf-experimental/service-metrics-release.git
 branch: master
-projects:
-- name: service-metrics-release
-  path: .
-  prepare_command: rm .bundle/config
+scan_root: true
