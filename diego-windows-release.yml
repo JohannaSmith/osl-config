@@ -1,8 +1,0 @@
----
-repo: https://github.com/cloudfoundry/diego-windows-release
-branch: master
-projects:
-- name: metron
-  path: loggregator/src/metron
-- name: DiegoWindowsRelease
-  path: DiegoWindowsRelease

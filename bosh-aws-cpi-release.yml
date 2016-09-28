@@ -1,6 +1,0 @@
----
-repo: https://github.com/cloudfoundry-incubator/bosh-aws-cpi-release
-branch: master
-projects:
-- name: bosh-aws-cpi
-  path: src/bosh_aws_cpi

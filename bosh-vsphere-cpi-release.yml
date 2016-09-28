@@ -1,6 +1,0 @@
----
-repo: https://github.com/cloudfoundry-incubator/bosh-vsphere-cpi-release
-branch: master
-projects:
-- name: bosh-vsphere-cpi
-  path: src/vsphere_cpi

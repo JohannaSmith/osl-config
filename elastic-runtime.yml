@@ -1,0 +1,74 @@
+---
+releases:
+- name: cf-release
+  repo: https://github.com/cloudfoundry/cf-release
+  branch: develop
+  projects:
+  - name: uaa
+    path: src/uaa-release/src/uaa
+  - name: dea_next
+    path: src/dea_next
+  - name: statsd-injector
+    path: src/loggregator/src/statsd-injector
+  - name: hm9000
+    path: src/hm9000
+  - name: nats
+    path: src/nats
+  - name: etcd
+    path: src/github.com/coreos/etcd
+  - name: etcd-metrics-server
+    path: src/etcd-metrics-server
+  - name: warden
+    path: src/warden/warden
+  - name: warden-client
+    path: src/warden/warden-client
+  - name: warden-protocol
+    path: src/warden/warden-protocol
+  - name: em-posix-spawn
+    path: src/warden/em-posix-spawn
+- name: diego-release
+  repo: https://github.com/cloudfoundry-incubator/diego-release
+  branch: develop
+- name: garden-linux-release
+  repo: https://github.com/cloudfoundry-incubator/garden-linux-release
+  branch: develop
+- name: diego-windows-release
+  repo: https://github.com/cloudfoundry/diego-windows-release
+  branch: master
+  projects:
+  - name: metron
+    path: loggregator/src/metron
+  - name: DiegoWindowsRelease
+    path: DiegoWindowsRelease
+- name: notifications-release.git
+  repo: git@github.com:cloudfoundry-incubator/notifications-release.git
+  branch: master
+- name: notifications-ui-release
+  repo: git@github.com:pivotal-cf/notifications-ui-release
+  branch: master
+- name: cf-autoscaling-release
+  repo: git@github.com:pivotal-cf/cf-autoscaling-release
+  branch: master
+- name: apps-manager-release
+  repo: git@github.com:pivotal-cf/apps-manager-release
+  branch: master
+- name: garden-windows-release
+  repo: https://github.com/cloudfoundry/garden-windows-release
+  branch: master
+  projects:
+  - name: GardenWindowsRelease
+    path: GardenWindowsRelease
+  - name: Containerizer
+    path: src/github.com/cloudfoundry/garden-windows/Containerizer
+- name: etcd-release.git
+  repo: git@github.com:cloudfoundry-incubator/etcd-release.git
+  branch: master
+- name: cf-routing-release
+  repo: https://github.com/cloudfoundry-incubator/cf-routing-release
+  branch: develop
+- name: capi-release
+  repo: https://github.com/cloudfoundry/capi-release
+  branch: master
+- name: pivotal-account-release
+  repo: git@github.com:pivotal-cf/pivotal-account-release
+  branch: master

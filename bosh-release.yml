@@ -1,4 +1,0 @@
----
-repo: https://github.com/cloudfoundry/bosh
-branch: master
-scan_root: true
