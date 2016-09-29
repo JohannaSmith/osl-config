@@ -1,0 +1,5 @@
+---
+releases:
+- name: identity-service-broker-release
+  repo: git@github.com:pivotal-cf/identity-service-broker-release.git
+  branch: master

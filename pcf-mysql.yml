@@ -1,0 +1,17 @@
+---
+releases:
+- name: p-mysql
+  repo: git@github.com:pivotal-cf/p-mysql.git
+  branch: master
+- name: cf-mysql-release
+  repo: git@github.com:cloudfoundry/cf-mysql-release.git
+  branch: develop
+- name: mysql-backup-release
+  repo: git@github.com:pivotal-cf-experimental/mysql-backup-release.git
+  branch: v1.25
+- name: mysql-monitoring-release
+  repo: git@github.com:pivotal-cf-experimental/mysql-monitoring-release.git
+  branch: v3
+- name: service-backup-release
+  repo: git@github.com:pivotal-cf-experimental/service-backup-release.git
+  branch: v14

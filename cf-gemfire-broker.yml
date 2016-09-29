@@ -1,4 +1,0 @@
----
-repo: git@github.com:pivotal-cf/cf-gemfire-broker
-branch: master
-scan_root: true

@@ -1,0 +1,8 @@
+---
+releases:
+- name: cf-redis-release
+  repo: git@github.com:pivotal-cf/cf-redis-release.git
+  branch: master
+- name: p-redis
+  repo: git@github.com:pivotal-cf/p-redis.git
+  branch: master

@@ -1,7 +1,0 @@
----
-repo: git@github.com:pivotal-cf/p-gemfire
-branch: master
-projects:
-- name: p-gemfire
-  path: .
-  prepare_command: echo '2.3.0' > .ruby-version

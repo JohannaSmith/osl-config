@@ -1,7 +1,0 @@
----
-repo: git@github.com:mjj209/TopLevelRepo.git
-branch: master
-projects:
-  - name: MikesFirstFolder
-    path: MikesFirstFolder
-    prepare_command: echo "Hello"

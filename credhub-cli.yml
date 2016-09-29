@@ -1,7 +1,0 @@
----
-repo: git@github.com:pivotal-cf/credhub-cli.git
-branch: master
-projects:
-- name: credhub-cli
-  path: .
-  prepare_command: bash -c "mkdir -p $GOPATH/src/github.com/pivotal-cf && ln -s $PWD $GOPATH/src/github.com/pivotal-cf/credhub-cli && pushd $GOPATH/src/github.com/pivotal-cf/credhub-cli && make dependencies && popd"
