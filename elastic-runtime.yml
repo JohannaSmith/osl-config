@@ -40,7 +40,7 @@ releases:
     path: loggregator/src/metron
   - name: DiegoWindowsRelease
     path: DiegoWindowsRelease
-- name: notifications-release.git
+- name: notifications-release
   repo: git@github.com:cloudfoundry-incubator/notifications-release.git
   branch: master
 - name: notifications-ui-release
@@ -60,7 +60,7 @@ releases:
     path: GardenWindowsRelease
   - name: Containerizer
     path: src/github.com/cloudfoundry/garden-windows/Containerizer
-- name: etcd-release.git
+- name: etcd-release
   repo: git@github.com:cloudfoundry-incubator/etcd-release.git
   branch: master
 - name: cf-routing-release
