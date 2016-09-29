@@ -3,47 +3,153 @@ releases:
 - name: spring-cloud-dataflow
   repo: git@github.com:spring-cloud/spring-cloud-dataflow
   branch: master
-  scan_root: true
+  prepare_command: ./mvnw clean install -DskipTests
+  projects:
+  - name: spring-cloud-dataflow-configuration-metadata
+    path: spring-cloud-dataflow-configuration-metadata
+  - name: spring-cloud-dataflow-core
+    path: spring-cloud-dataflow-core
+  - name: spring-cloud-dataflow-registry
+    path: spring-cloud-dataflow-registry
+  - name: spring-cloud-dataflow-rest-resource
+    path: spring-cloud-dataflow-rest-resource
+  - name: spring-cloud-dataflow-server-core
+    path: spring-cloud-dataflow-server-core
+  - name: spring-cloud-dataflow-server-local
+    path: spring-cloud-dataflow-server-local
+  - name: spring-cloud-dataflow-rest-client
+    path: spring-cloud-dataflow-rest-client
+  - name: spring-cloud-dataflow-shell
+    path: spring-cloud-dataflow-shell
+  - name: spring-cloud-dataflow-shell-core
+    path: spring-cloud-dataflow-shell-core
+  - name: spring-cloud-dataflow-test-support
+    path: spring-cloud-dataflow-test-support
+  - name: spring-cloud-dataflow-docs
+    path: spring-cloud-dataflow-docs
+  - name: spring-cloud-dataflow-completion
+    path: spring-cloud-dataflow-completion
+  - name: spring-cloud-dataflow-dependencies
+    path: spring-cloud-dataflow-dependencies
+  - name: spring-cloud-starter-dataflow-server-local
+    path: spring-cloud-starter-dataflow-server-local
 - name: spring-cloud-dataflow-server-cloudfoundry
   repo: git@github.com:spring-cloud/spring-cloud-dataflow-server-cloudfoundry
   branch: master
-  scan_root: true
+  prepare_command: ./mvnw clean install -DskipTests
+  projects:
+  - name: spring-cloud-dataflow-server-cloudfoundry-docs
+    path: spring-cloud-dataflow-server-cloudfoundry-docs
+  - name: spring-cloud-dataflow-server-cloudfoundry
+    path: spring-cloud-dataflow-server-cloudfoundry
+  - name: spring-cloud-starter-dataflow-server-cloudfoundry
+    path: spring-cloud-starter-dataflow-server-cloudfoundry
 - name: spring-cloud-dataflow-server-mesos
   repo: git@github.com:spring-cloud/spring-cloud-dataflow-server-mesos
   branch: master
-  scan_root: true
+  prepare_command: ./mvnw clean install -DskipTests
+  projects:
+  - name: spring-cloud-dataflow-server-mesos-docs
+    path: spring-cloud-dataflow-server-mesos-docs
+  - name: spring-cloud-dataflow-server-mesos
+    path: spring-cloud-dataflow-server-mesos
+  - name: spring-cloud-starter-dataflow-server-mesos
+    path: spring-cloud-starter-dataflow-server-mesos
 - name: spring-cloud-dataflow-server-kubernetes
   repo: https://github.com/spring-cloud/spring-cloud-dataflow-server-kubernetes
   branch: master
-  scan_root: true
+  prepare_command: ./mvnw clean install -DskipTests
+  projects:
+  - name: spring-cloud-dataflow-server-kubernetes-docs
+    path: spring-cloud-dataflow-server-kubernetes-docs
+  - name: spring-cloud-dataflow-server-kubernetes
+    path: spring-cloud-dataflow-server-kubernetes
+  - name: spring-cloud-starter-dataflow-server-kubernetes
+    path: spring-cloud-starter-dataflow-server-kubernetes
 - name: spring-cloud-dataflow-server-yarn
   repo: https://github.com/spring-cloud/spring-cloud-dataflow-server-yarn
   branch: master
-  scan_root: true
+  prepare_command: ./mvnw clean install -DskipTests
+  projects:
+  - name: spring-cloud-dataflow-server-yarn
+    path: spring-cloud-dataflow-server-yarn
+  - name: spring-cloud-dataflow-server-yarn-autoconfig
+    path: spring-cloud-dataflow-server-yarn-autoconfig
+  - name: spring-cloud-dataflow-server-yarn-client
+    path: spring-cloud-dataflow-server-yarn-client
+  - name: spring-cloud-dataflow-server-yarn-docs
+    path: spring-cloud-dataflow-server-yarn-docs
+  - name: spring-cloud-dataflow-server-yarn-h2
+    path: spring-cloud-dataflow-server-yarn-h2
+  - name: spring-cloud-dataflow-server-yarn-shell-core
+    path: spring-cloud-dataflow-server-yarn-shell-core
+  - name: spring-cloud-dataflow-server-yarn-shell
+    path: spring-cloud-dataflow-server-yarn-shell
+  - name: spring-cloud-starter-dataflow-server-yarn
+    path: spring-cloud-starter-dataflow-server-yarn
+  - name: spring-cloud-dataflow-server-yarn-dist
+    path: spring-cloud-dataflow-server-yarn-dist
 - name: spring-cloud-deployer
   repo: https://github.com/spring-cloud/spring-cloud-deployer
   branch: master
-  scan_root: true
+  prepare_command: ./mvnw clean install -DskipTests
+  projects:
+  - name: spring-cloud-deployer-spi
+    path: spring-cloud-deployer-spi
+  - name: spring-cloud-deployer-resource-docker
+    path: spring-cloud-deployer-resource-docker
+  - name: spring-cloud-deployer-resource-maven
+    path: spring-cloud-deployer-resource-maven
+  - name: spring-cloud-deployer-local
+    path: spring-cloud-deployer-local
+  - name: spring-cloud-deployer-spi-test
+    path: spring-cloud-deployer-spi-test
+  - name: spring-cloud-deployer-sample-stream
+    path: spring-cloud-deployer-sample-stream
+  - name: spring-cloud-deployer-sample-task
+    path: spring-cloud-deployer-sample-task
+  - name: spring-cloud-deployer-resource-support
+    path: spring-cloud-deployer-resource-support
+  - name: spring-cloud-deployer-spi-test-app
+    path: spring-cloud-deployer-spi-test-app
 - name: spring-cloud-deployer-cloudfoundry
   repo: https://github.com/spring-cloud/spring-cloud-deployer-cloudfoundry
   branch: master
   scan_root: true
+  prepare_command: ./mvnw clean install -DskipTests
 - name: spring-cloud-deployer-mesos
   repo: https://github.com/spring-cloud/spring-cloud-deployer-mesos
   branch: master
   scan_root: true
+  prepare_command: ./mvnw clean install -DskipTests
 - name: spring-cloud-deployer-kubernetes
   repo: https://github.com/spring-cloud/spring-cloud-deployer-kubernetes
   branch: master
+  prepare_command: ./mvnw clean install -DskipTests
   scan_root: true
 - name: spring-cloud-deployer-yarn
   repo: https://github.com/spring-cloud/spring-cloud-deployer-yarn
   branch: master
-  scan_root: true
+  prepare_command: ./mvnw clean install -DskipTests
+  projects:
+  - name: spring-cloud-deployer-yarn-appdeployerappmaster
+    path: spring-cloud-deployer-yarn-appdeployerappmaster
+  - name: spring-cloud-deployer-yarn-tasklauncherappmaster
+    path: spring-cloud-deployer-yarn-tasklauncherappmaster
+  - name: spring-cloud-deployer-yarn
+    path: spring-cloud-deployer-yarn
+  - name: spring-cloud-deployer-yarn-autoconfig
+    path: spring-cloud-deployer-yarn-autoconfig
+  - name: spring-cloud-deployer-yarn-build-tests
+    path: spring-cloud-deployer-yarn-build-tests
+  - name: spring-cloud-starter-deployer-yarn
+    path: spring-cloud-starter-deployer-yarn
 - name: spring-cloud-dataflow-ui
   repo: https://github.com/spring-cloud/spring-cloud-dataflow-ui
   branch: master
-  scan_root: true
+  projects:
+  - name: ui
+    path: ui
 - name: spring-flo
   repo: https://github.com/spring-projects/spring-flo
   branch: master
@@ -51,11 +157,36 @@ releases:
 - name: spring-cloud-stream
   repo: https://github.com/spring-cloud/spring-cloud-stream
   branch: master
-  scan_root: true
+  prepare_command: ./mvnw clean install -DskipTests
+  projects:
+  - name: spring-cloud-stream
+    path: spring-cloud-stream
+  - name: spring-cloud-stream-binder-test
+    path: spring-cloud-stream-binder-test
+  - name: spring-cloud-stream-codec
+    path: spring-cloud-stream-codec
+  - name: spring-cloud-stream-rxjava
+    path: spring-cloud-stream-rxjava
+  - name: spring-cloud-stream-test-support
+    path: spring-cloud-stream-test-support
+  - name: spring-cloud-stream-test-support-internal
+    path: spring-cloud-stream-test-support-internal
+  - name: spring-cloud-stream-integration-tests
+    path: spring-cloud-stream-integration-tests
+  - name: spring-cloud-stream-core-docs
+    path: spring-cloud-stream-core-docs
+  - name: spring-cloud-stream-reactive
+    path: spring-cloud-stream-reactive
+  - name: spring-cloud-stream-schema
+    path: spring-cloud-stream-schema
+  - name: spring-cloud-stream-schema-server
+    path: spring-cloud-stream-schema-server
+  - name: spring-cloud-stream-tools
+    path: spring-cloud-stream-tools
 - name: spring-cloud-stream-app-starters
   repo: https://github.com/spring-cloud/spring-cloud-stream-app-starters
   branch: master
-  prepare_command: ./mvnw install clean
+  prepare_command: ./mvnw clean install -DskipTests
   projects:
   - name: spring-cloud-stream-app-dependencies
     path: spring-cloud-stream-app-dependencies
@@ -136,7 +267,7 @@ releases:
 - name: spring-cloud-task
   repo: https://github.com/spring-cloud/spring-cloud-task
   branch: master
-  prepare_command: ./mvnw install clean
+  prepare_command: ./mvnw clean install -DskipTests
   projects:
   - name: spring-cloud-task-dependencies
     path: spring-cloud-task-dependencies
@@ -157,4 +288,31 @@ releases:
 - name: spring-cloud-task-app-starters
   repo: https://github.com/spring-cloud/spring-cloud-task-app-starters
   branch: master
-  scan_root: true
+  prepare_command: ./mvnw clean install -DskipTests
+  projects:
+  - name: spring-cloud-starter-task-timestamp
+    path: spring-cloud-starter-task-timestamp
+  - name: spring-cloud-starter-task-jdbchdfs-local
+    path: spring-cloud-starter-task-jdbchdfs-local
+  - name: spring-cloud-task-jdbchdfs-common
+    path: spring-cloud-task-jdbchdfs-common
+  - name: spring-cloud-starter-task-spark-client
+    path: spring-cloud-starter-task-spark-client
+  - name: spring-cloud-starter-task-spark-cluster
+    path: spring-cloud-starter-task-spark-cluster
+  - name: spring-cloud-starter-task-spark-yarn
+    path: spring-cloud-starter-task-spark-yarn
+  - name: spring-cloud-starter-task-sqoop-job
+    path: spring-cloud-starter-task-sqoop-job
+  - name: spring-cloud-starter-task-sqoop-tool
+    path: spring-cloud-starter-task-sqoop-tool
+  - name: spring-cloud-task-sqoop-common
+    path: spring-cloud-task-sqoop-common
+  - name: spring-cloud-task-app-dependencies
+    path: spring-cloud-task-app-dependencies
+  - name: spring-cloud-task-app-descriptor
+    path: spring-cloud-task-app-descriptor
+  - name: spring-cloud-task-app-generator
+    path: spring-cloud-task-app-generator
+  - name: spring-cloud-task-app-starters-docs
+    path: spring-cloud-task-app-starters-docs
