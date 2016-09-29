@@ -55,7 +55,84 @@ releases:
 - name: spring-cloud-stream-app-starters
   repo: https://github.com/spring-cloud/spring-cloud-stream-app-starters
   branch: master
-  scan_root: true
+  prepare_command: ./mvnw install clean
+  projects:
+  - name: spring-cloud-stream-app-dependencies
+    path: spring-cloud-stream-app-dependencies
+  - name: spring-cloud-stream-app-generator
+    path: spring-cloud-stream-app-generator
+  - name: spring-cloud-stream-app-starters-docs
+    path: spring-cloud-stream-app-starters-docs
+  - name: spring-cloud-stream-app-descriptor
+    path: spring-cloud-stream-app-descriptor
+  - name: app-starters-common
+    path: app-starters-common
+  - name: app-starters-test-support
+    path: app-starters-test-support
+  - name: aws-integration-tests
+    path: aws-integration-tests
+  - name: aws-s3
+    path: aws-s3
+  - name: cassandra
+    path: cassandra
+  - name: cloudfoundry
+    path: cloudfoundry
+  - name: file
+    path: file
+  - name: ftp
+    path: ftp
+  - name: gemfire
+    path: gemfire
+  - name: gpfdist
+    path: gpfdist
+  - name: hdfs
+    path: hdfs
+  - name: http
+    path: http
+  - name: jdbc
+    path: jdbc
+  - name: jms
+    path: jms
+  - name: log
+    path: log
+  - name: mail
+    path: mail
+  - name: metrics
+    path: metrics
+  - name: mongodb
+    path: mongodb
+  - name: processor
+    path: processor
+  - name: rabbit
+    path: rabbit
+  - name: redis
+    path: redis
+  - name: router
+    path: router
+  - name: sftp
+    path: sftp
+  - name: syslog
+    path: syslog
+  - name: tcp
+    path: tcp
+  - name: testing
+    path: testing
+  - name: time
+    path: time
+  - name: tasklauncher
+    path: tasklauncher
+  - name: trigger
+    path: trigger
+  - name: triggertask
+    path: triggertask
+  - name: twitter
+    path: twitter
+  - name: websocket
+    path: websocket
+  - name: starter-parent
+    path: starter-parent
+  - name: spring-cloud-stream-app-documentation-maven-plugin
+    path: spring-cloud-stream-app-documentation-maven-plugin
 - name: spring-cloud-task
   repo: https://github.com/spring-cloud/spring-cloud-task
   branch: master
