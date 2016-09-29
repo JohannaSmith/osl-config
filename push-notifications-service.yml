@@ -1,0 +1,28 @@
+---
+releases:
+- name: push-api
+  repo: git@github.com:cfmobile/push.git
+  branch: dev
+  projects:
+  - name: push-api
+    path: push
+    prepare_command: bash -c "pushd .. && mvn clean install -Pprod -DskipTests && popd"
+- name: push-dashboard
+  repo: git@github.com:cfmobile/push-dashboard.git
+  branch: dev
+  scan_root: true
+- name: push-scheduler
+  repo: git@github.com:cfmobile/push-scheduler.git
+  branch: dev
+  scan_root: true
+- name: push-analytics
+  repo: git@github.com:cfmobile/push-analytics.git
+  branch: dev
+  projects:
+  - name: push-analytics
+    path: push-analytics
+    prepare_command: bash -c "pushd .. && mvn clean install -DskipTests && popd"
+- name: push-smoke-tests
+  repo: git@github.com:cfmobile/push-smoke-tests.git
+  branch: develop
+  scan_root: true

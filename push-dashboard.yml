@@ -1,4 +1,0 @@
----
-repo: git@github.com:cfmobile/push-dashboard.git
-branch: dev
-scan_root: true

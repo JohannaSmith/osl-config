@@ -1,7 +1,0 @@
----
-repo: git@github.com:cfmobile/push-analytics.git
-branch: dev
-projects:
-- name: push-analytics
-  path: push-analytics
-  prepare_command: bash -c "pushd .. && mvn clean install -DskipTests && popd"
