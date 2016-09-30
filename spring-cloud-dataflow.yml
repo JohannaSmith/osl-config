@@ -134,16 +134,22 @@ releases:
   projects:
   - name: spring-cloud-deployer-yarn-appdeployerappmaster
     path: spring-cloud-deployer-yarn-appdeployerappmaster
+    prepare_command: cp ../.settings.xml ./
   - name: spring-cloud-deployer-yarn-tasklauncherappmaster
     path: spring-cloud-deployer-yarn-tasklauncherappmaster
+    prepare_command: cp ../.settings.xml ./
   - name: spring-cloud-deployer-yarn
     path: spring-cloud-deployer-yarn
+    prepare_command: cp ../.settings.xml ./
   - name: spring-cloud-deployer-yarn-autoconfig
     path: spring-cloud-deployer-yarn-autoconfig
+    prepare_command: cp ../.settings.xml ./
   - name: spring-cloud-deployer-yarn-build-tests
     path: spring-cloud-deployer-yarn-build-tests
+    prepare_command: cp ../.settings.xml ./
   - name: spring-cloud-starter-deployer-yarn
     path: spring-cloud-starter-deployer-yarn
+    prepare_command: cp ../.settings.xml ./
 - name: spring-cloud-dataflow-ui
   repo: https://github.com/spring-cloud/spring-cloud-dataflow-ui
   branch: master
