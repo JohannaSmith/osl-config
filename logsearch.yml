@@ -1,0 +1,8 @@
+---
+releases:
+- name: logsearch-boshrelease
+  repo: git@github.com:logsearch/logsearch-boshrelease.git
+  branch: develop
+- name: logsearch-for-cloudfoundry-operators
+  repo: git@github.com:pivotal-cf/logsearch-for-cloudfoundry-operators-boshrelease.git
+  branch: master
