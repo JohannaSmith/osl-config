@@ -1,0 +1,11 @@
+---
+releases:
+- name: apm-ui-release
+  repo: git@github.com:pivotal-cf/apm-ui-release.git
+  branch: master
+- name: metrics-release
+  repo: git@github.com:pivotal-cf/metrics-release.git
+  branch: master
+- name: apm-tile
+  repo: git@github.com:pivotal-cf/apm-tile.git
+  branch: release-v1.2
