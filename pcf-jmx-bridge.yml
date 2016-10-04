@@ -1,14 +1,14 @@
 ---
 releases:
 - name: pcf-jmxbridge-release
-  repo: git@github.com:pivotal-cf/pcf-jmxbridge-release
+  repo: git@github.com:pivotal-cf/pcf-jmxbridge-release.git
   branch: master
 - name: p-metrics
-  repo: git@github.com/pivotal-cf/p-metrics
+  repo: git@github.com:pivotal-cf/p-metrics.git
   branch: master
 - name: maximus
-  repo: git@github.com/pivotal-cf/maximus
+  repo: git@github.com:pivotal-cf/maximus.git
   branch: master
 - name: opentsdb-firehose-nozzle
-  repo: git@github.com/pivotal-cf-experimental/opentsdb-firehose-nozzle
+  repo: git@github.com:pivotal-cf-experimental/opentsdb-firehose-nozzle.git
   branch: master
