@@ -1,0 +1,7 @@
+---
+releases:
+- name: java-buildpack
+- name: java-buildpack
+  repo: git@github.com:cloudfoundry/java-buildpack.git
+  branch: master
+  scan_root: true
