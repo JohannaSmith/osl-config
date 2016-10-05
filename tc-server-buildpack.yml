@@ -1,0 +1,6 @@
+---
+releases:
+- name: tc-server-buildpack
+  repo: git@github.com:pivotal-cf/tc-server-buildpack.git
+  branch: master
+  scan_root: true
