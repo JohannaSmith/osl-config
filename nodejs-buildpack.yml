@@ -1,0 +1,6 @@
+---
+releases:
+- name: nodejs-buildpack
+  repo: git@github.com:cloudfoundry/nodejs-buildpack.git
+  branch: master
+  scan_root: true
