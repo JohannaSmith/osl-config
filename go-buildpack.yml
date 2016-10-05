@@ -1,0 +1,6 @@
+---
+releases:
+- name: go-buildpack
+  repo: git@github.com:cloudfoundry/go-buildpack.git
+  branch: master
+  scan_root: true
