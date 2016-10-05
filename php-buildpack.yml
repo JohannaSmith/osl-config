@@ -1,0 +1,5 @@
+---
+releases:
+- name: php-buildpack
+  repo: git@github.com:cloudfoundry/php-buildpack.git
+  branch: master
