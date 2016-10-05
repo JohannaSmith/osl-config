@@ -1,0 +1,6 @@
+---
+releases:
+- name: staticfile-buildpack
+  repo: git@github.com:cloudfoundry/staticfile-buildpack.git
+  branch: master
+  scan_root: true
