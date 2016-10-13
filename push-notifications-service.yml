@@ -20,8 +20,7 @@ releases:
   branch: dev
   prepare_command: mvn clean install -DskipTests
   projects:
-  - name: push-analytics
-    path: push-analytics
+  - path: push-analytics
 - name: push-smoke-tests
   repo: git@github.com:cfmobile/push-smoke-tests.git
   branch: develop

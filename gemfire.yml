@@ -15,13 +15,11 @@ releases:
   repo: git@github.com:pivotal-cf/p-gemfire
   branch: master
   projects:
-  - name: p-gemfire
-    path: .
+  - path: .
     prepare_command: echo '2.3.0' > .ruby-version
 - name: p-ssc-gemfire
   repo: git@github.com:pivotal-cf/p-ssc-gemfire
   branch: master
   projects:
-  - name: p-ssc-gemfire
-    path: .
+  - path: .
     prepare_command: echo '2.3.0' > .ruby-version

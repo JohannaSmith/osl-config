@@ -22,8 +22,8 @@ releases:
   repo: git@github.com:pivotal-cf/installation
   branch: master
   projects:
-  - path: web
-    name: ops-manager-web
+  - name: ops-manager-web
+    path: web
 - name: bosh
   repo: https://github.com/cloudfoundry/bosh
   branch: master
