@@ -14,7 +14,6 @@ releases:
   - path: spring-cloud-dataflow-rest-client
   - path: spring-cloud-dataflow-shell
   - path: spring-cloud-dataflow-shell-core
-  - path: spring-cloud-dataflow-test-support
   - path: spring-cloud-dataflow-docs
   - path: spring-cloud-dataflow-completion
   - path: spring-cloud-dataflow-dependencies
