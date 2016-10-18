@@ -181,7 +181,7 @@ releases:
   - path: spring-cloud-task-docs
   - path: spring-cloud-task-batch
   - path: spring-cloud-task-stream
-  - path: spring-cloud-task-starter
+  - path: spring-cloud-starter-task
   - path: spring-cloud-task-samples
   - path: spring-cloud-task-integration-tests
 - name: spring-cloud-task-app-starters
