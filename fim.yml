@@ -1,0 +1,6 @@
+---
+releases:
+- name: fim-release
+  repo: git@github.com:pivotal-cf/fim-release.git
+  branch: master
+  scan_root: true
