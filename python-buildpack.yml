@@ -1,6 +1,5 @@
 ---
 releases:
-- name: python-buildpack
-  repo: git@github.com:cloudfoundry/python-buildpack.git
+- repo: git@github.com:cloudfoundry/python-buildpack.git
   branch: master
   scan_root: true

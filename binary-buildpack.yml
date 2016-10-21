@@ -1,6 +1,5 @@
 ---
 releases:
-- name: binary-buildpack
-  repo: git@github.com:cloudfoundry/binary-buildpack.git
+- repo: git@github.com:cloudfoundry/binary-buildpack.git
   branch: master
   scan_root: true

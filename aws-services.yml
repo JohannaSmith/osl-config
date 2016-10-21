@@ -1,5 +1,4 @@
 ---
 releases:
-- name: aws-services-release
-  repo: git@github.com:pivotal-cf/aws-services-release.git
+- repo: git@github.com:pivotal-cf/aws-services-release.git
   branch: develop

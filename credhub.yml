@@ -1,10 +1,8 @@
 ---
 releases:
-- name: credhub-release
-  repo: git@github.com:pivotal-cf/credhub-release.git
+- repo: git@github.com:pivotal-cf/credhub-release.git
   branch: master
-- name: credhub-cli
-  repo: git@github.com:pivotal-cf/credhub-cli.git
+- repo: git@github.com:pivotal-cf/credhub-cli.git
   branch: master
   projects:
   - path: .

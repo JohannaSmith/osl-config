@@ -1,6 +1,5 @@
 ---
 releases:
-- name: ruby-buildpack
-  repo: git@github.com:cloudfoundry/ruby-buildpack.git
+- repo: git@github.com:cloudfoundry/ruby-buildpack.git
   branch: master
   scan_root: true
