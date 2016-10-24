@@ -21,3 +21,25 @@ releases:
 - repo: git@github.com:cfmobile/push-smoke-tests.git
   branch: develop
   scan_root: true
+- repo: git@github.com:cfmobile/push-service-broker.git
+  branch: dev
+  scan_root: true
+- repo: git@github.com:cfmobile/push-ios.git
+  branch: dev
+  scan_root: true
+- repo: git@github.com:cfmobile/push-android.git
+  branch: dev
+  scan_root: true
+- repo: git@github.com:cfmobile/push-ios-heartbeatmonitor.git
+  branch: dev
+  scan_root: true
+- repo: git@github.com:cfmobile/push-android-heartbeatmonitor.git
+  branch: dev
+  scan_root: true
+- repo: git@github.com:cfmobile/push-ios-samples.git
+  branch: dev
+  scan_root: true
+- repo: git@github.com:cfmobile/push-android-samples.git
+  branch: dev
+  scan_root: true
+
