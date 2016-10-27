@@ -3,6 +3,8 @@ releases:
 - repo: git@github.com:pivotal-cf/cf-gemfire-release
   branch: master
   scan_root: true
+  projects:
+    - path: src/gemfire-authentication
 - repo: git@github.com:pivotal-cf/cf-gemfire-broker
   branch: master
   scan_root: true
