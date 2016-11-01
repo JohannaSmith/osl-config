@@ -16,32 +16,21 @@ releases:
   - path: src/warden/warden-protocol
   - path: src/warden/em-posix-spawn
 - repo: https://github.com/cloudfoundry-incubator/diego-release
-  branch: develop
 - repo: https://github.com/cloudfoundry-incubator/garden-linux-release
-  branch: develop
 - repo: https://github.com/cloudfoundry/diego-windows-release
-  branch: master
   projects:
   - path: loggregator/src/metron
   - path: DiegoWindowsRelease
 - repo: git@github.com:cloudfoundry-incubator/notifications-release.git
-  branch: master
 - repo: git@github.com:pivotal-cf/notifications-ui-release
-  branch: master
 - repo: git@github.com:pivotal-cf/cf-autoscaling-release
-  branch: master
 - repo: git@github.com:pivotal-cf/apps-manager-release
-  branch: master
 - repo: https://github.com/cloudfoundry/garden-windows-release
-  branch: master
   projects:
   - path: GardenWindowsRelease
   - path: src/github.com/cloudfoundry/garden-windows/Containerizer
 - repo: git@github.com:cloudfoundry-incubator/etcd-release.git
-  branch: master
 - repo: https://github.com/cloudfoundry-incubator/cf-routing-release
-  branch: develop
 - repo: https://github.com/cloudfoundry/capi-release
-  branch: master
 - repo: git@github.com:pivotal-cf/pivotal-account-release
   branch: master

@@ -1,26 +1,21 @@
 ---
 releases:
 - repo: https://github.com/cloudfoundry-incubator/bosh-vsphere-cpi-release
-  branch: master
   projects:
   - name: bosh-vsphere-cpi
     path: src/vsphere_cpi
 - repo: https://github.com/cloudfoundry-incubator/bosh-vcloud-cpi-release
-  branch: master
   projects:
   - name: bosh-vcloud-cpi
     path: src/bosh_vcloud_cpi
 - repo: https://github.com/cloudfoundry-incubator/bosh-aws-cpi-release
-  branch: master
   projects:
   - name: bosh-aws-cpi
     path: src/bosh_aws_cpi
 - repo: git@github.com:pivotal-cf/installation
-  branch: master
   projects:
   - name: ops-manager-web
     path: web
 - repo: https://github.com/cloudfoundry/bosh
-  branch: master
   scan_root: true
 

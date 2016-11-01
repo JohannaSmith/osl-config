@@ -5,6 +5,4 @@ releases:
 - repo: git@github.com:pivotal-cf/p-metrics.git
   branch: master
 - repo: git@github.com:pivotal-cf/maximus.git
-  branch: master
 - repo: git@github.com:pivotal-cf-experimental/opentsdb-firehose-nozzle.git
-  branch: master

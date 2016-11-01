@@ -1,13 +1,8 @@
 ---
 releases:
 - repo: git@github.com:pivotal-cf/p-rabbitmq.git
-  branch: master
 - repo: git@github.com:pivotal-cf/cf-rabbitmq-release.git
-  branch: master
 - repo: git@github.com:pivotal-cf/rabbitmq-metrics-release.git
-  branch: master
 - repo: git@github.com:pivotal-cf-experimental/service-metrics-release.git
-  branch: master
   scan_root: true
 - repo: git@github.com:cloudfoundry/loggregator.git
-  branch: develop

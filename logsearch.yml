@@ -1,6 +1,4 @@
 ---
 releases:
 - repo: git@github.com:logsearch/logsearch-boshrelease.git
-  branch: develop
 - repo: git@github.com:pivotal-cf/logsearch-for-cloudfoundry-operators-boshrelease.git
-  branch: master

@@ -1,7 +1,6 @@
 ---
 releases:
 - repo: git@github.com:spring-cloud/spring-cloud-dataflow
-  branch: master
   prepare_command: ./mvnw clean install -DskipTests
   projects:
   - path: spring-cloud-dataflow-configuration-metadata
@@ -18,28 +17,24 @@ releases:
   - path: spring-cloud-dataflow-dependencies
   - path: spring-cloud-starter-dataflow-server-local
 - repo: git@github.com:spring-cloud/spring-cloud-dataflow-server-cloudfoundry
-  branch: master
   prepare_command: ./mvnw clean install -DskipTests
   projects:
   - path: spring-cloud-dataflow-server-cloudfoundry-docs
   - path: spring-cloud-dataflow-server-cloudfoundry
   - path: spring-cloud-starter-dataflow-server-cloudfoundry
 - repo: git@github.com:spring-cloud/spring-cloud-dataflow-server-mesos
-  branch: master
   prepare_command: ./mvnw clean install -DskipTests
   projects:
   - path: spring-cloud-dataflow-server-mesos-docs
   - path: spring-cloud-dataflow-server-mesos
   - path: spring-cloud-starter-dataflow-server-mesos
 - repo: https://github.com/spring-cloud/spring-cloud-dataflow-server-kubernetes
-  branch: master
   prepare_command: ./mvnw clean install -DskipTests
   projects:
   - path: spring-cloud-dataflow-server-kubernetes-docs
   - path: spring-cloud-dataflow-server-kubernetes
   - path: spring-cloud-starter-dataflow-server-kubernetes
 - repo: https://github.com/spring-cloud/spring-cloud-dataflow-server-yarn
-  branch: master
   prepare_command: ./mvnw clean install -DskipTests
   projects:
   - path: spring-cloud-dataflow-server-yarn
@@ -52,7 +47,6 @@ releases:
   - path: spring-cloud-starter-dataflow-server-yarn
   - path: spring-cloud-dataflow-server-yarn-dist
 - repo: https://github.com/spring-cloud/spring-cloud-deployer
-  branch: master
   prepare_command: ./mvnw clean install -DskipTests
   projects:
   - path: spring-cloud-deployer-spi
@@ -65,19 +59,15 @@ releases:
   - path: spring-cloud-deployer-resource-support
   - path: spring-cloud-deployer-spi-test-app
 - repo: https://github.com/spring-cloud/spring-cloud-deployer-cloudfoundry
-  branch: master
   scan_root: true
   prepare_command: ./mvnw clean install -DskipTests
 - repo: https://github.com/spring-cloud/spring-cloud-deployer-mesos
-  branch: master
   scan_root: true
   prepare_command: ./mvnw clean install -DskipTests
 - repo: https://github.com/spring-cloud/spring-cloud-deployer-kubernetes
-  branch: master
   prepare_command: ./mvnw clean install -DskipTests
   scan_root: true
 - repo: https://github.com/spring-cloud/spring-cloud-deployer-yarn
-  branch: master
   prepare_command: ./mvnw clean install -DskipTests
   projects:
   - path: spring-cloud-deployer-yarn-appdeployerappmaster
@@ -93,14 +83,11 @@ releases:
   - path: spring-cloud-starter-deployer-yarn
     prepare_command: cp ../.settings.xml ./
 - repo: https://github.com/spring-cloud/spring-cloud-dataflow-ui
-  branch: master
   projects:
   - path: ui
 - repo: https://github.com/spring-projects/spring-flo
-  branch: master
   scan_root: true
 - repo: https://github.com/spring-cloud/spring-cloud-stream
-  branch: master
   prepare_command: ./mvnw clean install -DskipTests
   projects:
   - path: spring-cloud-stream
@@ -116,7 +103,6 @@ releases:
   - path: spring-cloud-stream-schema-server
   - path: spring-cloud-stream-tools
 - repo: https://github.com/spring-cloud/spring-cloud-stream-app-starters
-  branch: master
   prepare_command: ./mvnw clean install -DskipTests
   projects:
   - path: spring-cloud-stream-app-dependencies
@@ -158,7 +144,6 @@ releases:
   - path: starter-parent
   - path: spring-cloud-stream-app-documentation-maven-plugin
 - repo: https://github.com/spring-cloud/spring-cloud-task
-  branch: master
   prepare_command: ./mvnw clean install -DskipTests
   projects:
   - path: spring-cloud-task-dependencies
@@ -170,7 +155,6 @@ releases:
   - path: spring-cloud-task-samples
   - path: spring-cloud-task-integration-tests
 - repo: https://github.com/spring-cloud/spring-cloud-task-app-starters
-  branch: master
   prepare_command: ./mvnw clean install -DskipTests
   projects:
   - path: spring-cloud-starter-task-timestamp

@@ -1,4 +1,3 @@
 ---
 releases:
 - repo: git@github.com:cloudfoundry/php-buildpack.git
-  branch: master

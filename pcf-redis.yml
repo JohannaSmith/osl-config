@@ -1,6 +1,4 @@
 ---
 releases:
 - repo: git@github.com:pivotal-cf/cf-redis-release.git
-  branch: master
 - repo: git@github.com:pivotal-cf/p-redis.git
-  branch: master

@@ -1,8 +1,5 @@
 ---
 releases:
 - repo: git@github.com:pivotal-cf/apm-ui-release.git
-  branch: master
 - repo: git@github.com:pivotal-cf/metrics-release.git
-  branch: master
 - repo: git@github.com:pivotal-cf/apm-tile.git
-  branch: release-v1.2
