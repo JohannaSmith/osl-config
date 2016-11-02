@@ -3,6 +3,7 @@ releases:
 - repo: https://github.com/cloudfoundry/cf-release
   branch: develop
   projects:
+  - path: src/uaa-release/src/uaa
   - name: dea_next
     path: src/dea_next
   - path: src/loggregator/src/statsd-injector
