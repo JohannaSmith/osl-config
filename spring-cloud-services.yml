@@ -1,4 +1,4 @@
 ---
 releases:
-- repo: https://github.com/pivotal-cf/spring-cloud-service-broker.git
+- repo: git@github.com:pivotal-cf/spring-cloud-service-broker.git
   scan_root: true
