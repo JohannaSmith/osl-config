@@ -18,10 +18,10 @@ releases:
 - repo: https://github.com/cloudfoundry-incubator/diego-release
 - repo: https://github.com/cloudfoundry-incubator/garden-linux-release
 - repo: https://github.com/cloudfoundry/diego-windows-release
-- repo: https://github.com/cloudfoundry-incubator/netman-release
   projects:
   - path: loggregator/src/metron
   - path: DiegoWindowsRelease
+- repo: https://github.com/cloudfoundry-incubator/netman-release
 - repo: git@github.com:cloudfoundry-incubator/notifications-release.git
 - repo: git@github.com:pivotal-cf/notifications-ui-release
 - repo: git@github.com:pivotal-cf/cf-autoscaling-release
