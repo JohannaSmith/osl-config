@@ -16,7 +16,7 @@ releases:
   - path: src/warden/warden-protocol
   - path: src/warden/em-posix-spawn
 - repo: https://github.com/cloudfoundry-incubator/diego-release
-- repo: https://github.com/cloudfoundry-incubator/garden-linux-release
+- repo: https://github.com/cloudfoundry/garden-runc-release
 - repo: https://github.com/cloudfoundry/diego-windows-release
   projects:
   - path: loggregator/src/metron
