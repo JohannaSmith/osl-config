@@ -9,7 +9,6 @@ releases:
   - name: hm9000
     path: src/hm9000
   - path: src/nats
-  - path: src/github.com/coreos/etcd
   - path: src/etcd-metrics-server
   - path: src/warden/warden
   - path: src/warden/warden-client
