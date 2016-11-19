@@ -15,7 +15,7 @@ releases:
 - repo: https://github.com/cloudfoundry-incubator/bosh-google-cpi-release
   projects:
   - name: bosh-google-cpi
-    path: src/bosh_google_cpi
+    path: src/bosh-google-cpi
 - repo: https://github.com/cloudfoundry-incubator/bosh-azure-cpi-release.git
   projects:
   - name: bosh-azure-cpi
