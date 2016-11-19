@@ -8,6 +8,18 @@ releases:
   projects:
   - name: bosh-vcloud-cpi
     path: src/bosh_vcloud_cpi
+- repo: https://github.com/cloudfoundry-incubator/bosh-openstack-cpi-release
+  projects:
+  - name: bosh-openstack-cpi
+    path: src/bosh_openstack_cpi
+- repo: https://github.com/cloudfoundry-incubator/bosh-google-cpi-release
+  projects:
+  - name: bosh-google-cpi
+    path: src/bosh_google_cpi
+- repo: https://github.com/cloudfoundry-incubator/bosh-azure-cpi-release.git
+  projects:
+  - name: bosh-azure-cpi
+    path: src/bosh_azure_cpi
 - repo: https://github.com/cloudfoundry-incubator/bosh-aws-cpi-release
   projects:
   - name: bosh-aws-cpi
