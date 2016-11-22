@@ -29,12 +29,6 @@ releases:
 - repo: git@github.com:cfmobile/push-android.git
   branch: release_v1.7.0
   scan_root: true
-- repo: git@github.com:cfmobile/push-android-heartbeatmonitor.git
-  branch: release_v1.7.0
-  scan_root: true
-- repo: git@github.com:cfmobile/push-android-samples.git
-  branch: release_v1.7.0
-  scan_root: true
 
 # iOS - NOT YET IMPLEMENTED
 - repo: git@github.com:cfmobile/push-ios.git
@@ -42,4 +36,8 @@ releases:
 - repo: git@github.com:cfmobile/push-ios-heartbeatmonitor.git
   branch: release_v1.7.0
 - repo: git@github.com:cfmobile/push-ios-samples.git
+  branch: release_v1.7.0
+- repo: git@github.com:cfmobile/push-android-samples.git
+  branch: release_v1.7.0
+- repo: git@github.com:cfmobile/push-android-heartbeatmonitor.git
   branch: release_v1.7.0
