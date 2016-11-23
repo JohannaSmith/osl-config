@@ -29,11 +29,7 @@ releases:
   - path: spring-cloud-dataflow-server-mesos
   - path: spring-cloud-starter-dataflow-server-mesos
 - repo: https://github.com/spring-cloud/spring-cloud-dataflow-server-kubernetes
-  prepare_command: ./mvnw clean install -DskipTests
-  projects:
-  - path: spring-cloud-dataflow-server-kubernetes-docs
-  - path: spring-cloud-dataflow-server-kubernetes
-  - path: spring-cloud-starter-dataflow-server-kubernetes
+  scan_root: true
 - repo: https://github.com/spring-cloud/spring-cloud-dataflow-server-yarn
   prepare_command: ./mvnw clean install -DskipTests
   projects:
