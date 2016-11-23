@@ -31,17 +31,7 @@ releases:
 - repo: https://github.com/spring-cloud/spring-cloud-dataflow-server-kubernetes
   scan_root: true
 - repo: https://github.com/spring-cloud/spring-cloud-dataflow-server-yarn
-  prepare_command: ./mvnw clean install -DskipTests
-  projects:
-  - path: spring-cloud-dataflow-server-yarn
-  - path: spring-cloud-dataflow-server-yarn-autoconfig
-  - path: spring-cloud-dataflow-server-yarn-client
-  - path: spring-cloud-dataflow-server-yarn-docs
-  - path: spring-cloud-dataflow-server-yarn-h2
-  - path: spring-cloud-dataflow-server-yarn-shell-core
-  - path: spring-cloud-dataflow-server-yarn-shell
-  - path: spring-cloud-starter-dataflow-server-yarn
-  - path: spring-cloud-dataflow-server-yarn-dist
+  scan_root: true
 - repo: https://github.com/spring-cloud/spring-cloud-deployer
   prepare_command: ./mvnw clean install -DskipTests
   projects:
