@@ -1,0 +1,5 @@
+---
+releases:
+- repo: git@github.com:pivotal-cf-experimental/cve-brain.git
+  projects:
+  - path: server
