@@ -21,13 +21,13 @@ releases:
   projects:
   - path: spring-cloud-dataflow-server-cloudfoundry-docs
   - path: spring-cloud-dataflow-server-cloudfoundry
-  - path: spring-cloud-starter-dataflow-server-cloudfoundry
+  - path: spring-cloud-dataflow-server-cloudfoundry-autoconfig
 - repo: git@github.com:spring-cloud/spring-cloud-dataflow-server-mesos
   prepare_command: ./mvnw clean install -DskipTests
   projects:
   - path: spring-cloud-dataflow-server-mesos-docs
   - path: spring-cloud-dataflow-server-mesos
-  - path: spring-cloud-starter-dataflow-server-mesos
+  - path: spring-cloud-dataflow-server-mesos-autoconfig
 - repo: https://github.com/spring-cloud/spring-cloud-dataflow-server-kubernetes
   scan_root: true
 - repo: https://github.com/spring-cloud/spring-cloud-dataflow-server-yarn
