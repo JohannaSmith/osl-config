@@ -6,3 +6,5 @@ releases:
     path: maven
   - name: osl-ci-pm-acceptance-gradle
     path: gradle
+  - name: osl-ci-pm-acceptance-gradle-multiproject
+    path: gradle-multiproject
