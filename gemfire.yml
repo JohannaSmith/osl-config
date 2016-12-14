@@ -8,10 +8,8 @@ releases:
   scan_root: true
 - repo: git@github.com:pivotal-cf/cf-gemfire-broker-registrar
 - repo: git@github.com:pivotal-cf/p-gemfire
-  projects:
-  - path: .
-    prepare_command: echo '2.3.0' > .ruby-version
+  prepare_command: echo '2.3.0' > .ruby-version
+  scan_root: true
 - repo: git@github.com:pivotal-cf/p-ssc-gemfire
-  projects:
-  - path: .
-    prepare_command: echo '2.3.0' > .ruby-version
+  prepare_command: echo '2.3.0' > .ruby-version
+  scan_root: true
