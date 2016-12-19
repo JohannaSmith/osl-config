@@ -12,3 +12,5 @@ releases:
     path: gradle-multiproject
   - name: osl-ci-pm-acceptance-bower
     path: bower
+  - name: osl-ci-pm-acceptance-bundler
+    path: bundler
