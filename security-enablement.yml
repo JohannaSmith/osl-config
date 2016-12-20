@@ -1,0 +1,5 @@
+---
+releases:
+- repo: git@github.com:pivotal-cf/cred-alert.git
+- repo: git@github.com:pivotal-cf/scantron.git
+- repo: git@github.com:pivotal-cf/reconfigure-pipeline.git
