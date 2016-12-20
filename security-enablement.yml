@@ -1,5 +1,8 @@
 ---
 releases:
 - repo: git@github.com:pivotal-cf/cred-alert.git
+  scan_root: true
 - repo: git@github.com:pivotal-cf/scantron.git
+  scan_root: true
 - repo: git@github.com:pivotal-cf/reconfigure-pipeline.git
+  scan_root: true
