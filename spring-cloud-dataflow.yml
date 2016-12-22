@@ -2,43 +2,31 @@
 releases:
 - repo: git@github.com:spring-cloud/spring-cloud-dataflow
   prepare_command: ./mvnw clean install -DskipTests
-  scan_root: true
 - repo: git@github.com:spring-cloud/spring-cloud-dataflow-server-cloudfoundry
   prepare_command: ./mvnw clean install -DskipTests
-  scan_root: true
 - repo: git@github.com:spring-cloud/spring-cloud-dataflow-server-mesos
   prepare_command: ./mvnw clean install -DskipTests
-  scan_root: true
 - repo: https://github.com/spring-cloud/spring-cloud-dataflow-server-kubernetes
-  scan_root: true
 - repo: https://github.com/spring-cloud/spring-cloud-dataflow-server-yarn
-  scan_root: true
 - repo: https://github.com/spring-cloud/spring-cloud-deployer
   prepare_command: ./mvnw clean install -DskipTests
-  scan_root: true
 - repo: https://github.com/spring-cloud/spring-cloud-deployer-cloudfoundry
-  scan_root: true
   prepare_command: ./mvnw clean install -DskipTests
 - repo: https://github.com/spring-cloud/spring-cloud-deployer-mesos
-  scan_root: true
   prepare_command: ./mvnw clean install -DskipTests
 - repo: https://github.com/spring-cloud/spring-cloud-deployer-kubernetes
   prepare_command: ./mvnw clean install -DskipTests
-  scan_root: true
 - repo: https://github.com/spring-cloud/spring-cloud-deployer-yarn
   prepare_command: ./mvnw clean install -DskipTests
-  scan_root: true
 - repo: https://github.com/spring-cloud/spring-cloud-dataflow-ui
   prepare_command: mvn clean install -DskipTests
-  scan_root: true
   projects:
   - path: ui
 - repo: https://github.com/spring-projects/spring-flo
-  scan_root: true
 - repo: https://github.com/spring-cloud/spring-cloud-stream
   prepare_command: ./mvnw clean install -DskipTests
-  scan_root: true
 - repo: https://github.com/spring-cloud/spring-cloud-stream-app-starters
+  scan_root: false
   prepare_command: ./mvnw clean install -DskipTests
   projects:
   - path: spring-cloud-stream-app-dependencies
@@ -81,7 +69,5 @@ releases:
   - path: spring-cloud-stream-app-documentation-maven-plugin
 - repo: https://github.com/spring-cloud/spring-cloud-task
   prepare_command: ./mvnw clean install -DskipTests
-  scan_root: true
 - repo: https://github.com/spring-cloud/spring-cloud-task-app-starters
   prepare_command: ./mvnw clean install -DskipTests
-  scan_root: true

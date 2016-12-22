@@ -4,36 +4,34 @@ releases:
   repo: git@github.com:cfmobile/push.git
   branch: dev
   prepare_command: mvn clean install -Pprod -DskipTests
-  scan_root: true
 - repo: git@github.com:cfmobile/push-dashboard.git
   branch: dev
-  scan_root: true
 - repo: git@github.com:cfmobile/push-scheduler.git
   branch: dev
-  scan_root: true
 - repo: git@github.com:cfmobile/push-analytics.git
   branch: dev
   prepare_command: mvn clean install -DskipTests
-  scan_root: true
 - repo: git@github.com:cfmobile/push-smoke-tests.git
   branch: develop
-  scan_root: true
 - repo: git@github.com:cfmobile/push-service-broker.git
   branch: dev
-  scan_root: true
 - repo: git@github.com:cfmobile/push-android.git
   branch: dev
-  scan_root: true
 
 # iOS - NOT YET IMPLEMENTED
 - repo: git@github.com:cfmobile/push-ios.git
+  scan_root: false
   branch: dev
 - repo: git@github.com:cfmobile/push-ios-heartbeatmonitor.git
+  scan_root: false
   branch: dev
 - repo: git@github.com:cfmobile/push-ios-samples.git
+  scan_root: false
   branch: dev
 - repo: git@github.com:cfmobile/push-android-samples.git
+  scan_root: false
   branch: dev
 - repo: git@github.com:cfmobile/push-android-heartbeatmonitor.git
+  scan_root: false
   branch: dev
 

@@ -1,10 +1,15 @@
 ---
 releases:
 - repo: git@github.com:pivotal-cf/p-mysql.git
+  scan_root: false
 - repo: git@github.com:cloudfoundry/cf-mysql-release.git
+  scan_root: false
 - repo: git@github.com:pivotal-cf-experimental/mysql-backup-release.git
+  scan_root: false
   branch: v1.25
 - repo: git@github.com:pivotal-cf-experimental/mysql-monitoring-release.git
+  scan_root: false
   branch: v3
 - repo: git@github.com:pivotal-cf-experimental/service-backup-release.git
+  scan_root: false
   branch: v14

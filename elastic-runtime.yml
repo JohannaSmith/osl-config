@@ -16,21 +16,33 @@ releases:
   - path: src/warden/em-posix-spawn
   - path: src/smoke-tests/assets/ruby_simple
 - repo: https://github.com/cloudfoundry-incubator/diego-release
+  scan_root: false
 - repo: https://github.com/cloudfoundry/garden-runc-release
+  scan_root: false
 - repo: https://github.com/cloudfoundry/diego-windows-release
+  scan_root: false
   projects:
   - path: loggregator/src/metron
   - path: DiegoWindowsRelease
 - repo: https://github.com/cloudfoundry-incubator/netman-release
+  scan_root: false
 - repo: git@github.com:cloudfoundry-incubator/notifications-release.git
+  scan_root: false
 - repo: git@github.com:pivotal-cf/notifications-ui-release
 - repo: git@github.com:pivotal-cf/cf-autoscaling-release
+  scan_root: false
 - repo: git@github.com:pivotal-cf/apps-manager-release
+  scan_root: false
 - repo: https://github.com/cloudfoundry/garden-windows-release
+  scan_root: false
   projects:
   - path: GardenWindowsRelease
 - repo: git@github.com:cloudfoundry-incubator/etcd-release.git
+  scan_root: false
 - repo: https://github.com/cloudfoundry-incubator/cf-routing-release
+  scan_root: false
 - repo: https://github.com/cloudfoundry/capi-release
+  scan_root: false
 - repo: git@github.com:pivotal-cf/pivotal-account-release
+  scan_root: false
   branch: master

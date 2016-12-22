@@ -1,4 +1,5 @@
 ---
 releases:
 - repo: git@github.com:pivotal-cf/identity-service-broker-release.git
+  scan_root: false
   branch: master

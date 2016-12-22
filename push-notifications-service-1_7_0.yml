@@ -1,6 +1,7 @@
 ---
 releases:
 - name: push-api
+  scan_root: false
   repo: git@github.com:cfmobile/push.git
   branch: release_v1.7.0
   prepare_command: mvn clean install -Pprod -DskipTests
@@ -9,35 +10,36 @@ releases:
     path: push
 - repo: git@github.com:cfmobile/push-dashboard.git
   branch: release_v1.7.0
-  scan_root: true
 - repo: git@github.com:cfmobile/push-scheduler.git
   branch: release_v1.7.0
-  scan_root: true
 - repo: git@github.com:cfmobile/push-analytics.git
+  scan_root: false
   branch: release_v1.7.0
   prepare_command: mvn clean install -DskipTests
   projects:
   - path: push-analytics
 - repo: git@github.com:cfmobile/push-smoke-tests.git
   branch: release_v1.7.0
-  scan_root: true
 - repo: git@github.com:cfmobile/push-service-broker.git
   branch: release_v1.7.0
-  scan_root: true
 
 # Android
 - repo: git@github.com:cfmobile/push-android.git
   branch: release_v1.7.0
-  scan_root: true
 
 # iOS - NOT YET IMPLEMENTED
 - repo: git@github.com:cfmobile/push-ios.git
+  scan_root: false
   branch: release_v1.7.0
 - repo: git@github.com:cfmobile/push-ios-heartbeatmonitor.git
+  scan_root: false
   branch: release_v1.7.0
 - repo: git@github.com:cfmobile/push-ios-samples.git
+  scan_root: false
   branch: release_v1.7.0
 - repo: git@github.com:cfmobile/push-android-samples.git
+  scan_root: fals@e
   branch: release_v1.7.0
 - repo: git@github.com:cfmobile/push-android-heartbeatmonitor.git
+  scan_root: false
   branch: release_v1.7.0

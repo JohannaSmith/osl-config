@@ -1,8 +1,12 @@
 ---
 releases:
 - repo: git@github.com:pivotal-cf/pcf-jmxbridge-release.git
+  scan_root: false
   branch: master
 - repo: git@github.com:pivotal-cf/p-metrics.git
+  scan_root: false
   branch: master
 - repo: git@github.com:pivotal-cf/maximus.git
+  scan_root: false
 - repo: git@github.com:pivotal-cf-experimental/opentsdb-firehose-nozzle.git
+  scan_root: false

@@ -1,3 +1,4 @@
 ---
 releases:
 - repo: git@github.com:cloudfoundry/php-buildpack.git
+  scan_root: false

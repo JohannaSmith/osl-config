@@ -1,4 +1,3 @@
 ---
 releases:
 - repo: git@github.com:pivotal-cf/spring-cloud-service-broker.git
-  scan_root: true

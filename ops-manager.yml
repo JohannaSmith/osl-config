@@ -1,33 +1,39 @@
 ---
 releases:
 - repo: https://github.com/cloudfoundry-incubator/bosh-vsphere-cpi-release
+  scan_root: false
   projects:
   - name: bosh-vsphere-cpi
     path: src/vsphere_cpi
 - repo: https://github.com/cloudfoundry-incubator/bosh-vcloud-cpi-release
+  scan_root: false
   projects:
   - name: bosh-vcloud-cpi
     path: src/bosh_vcloud_cpi
 - repo: https://github.com/cloudfoundry-incubator/bosh-openstack-cpi-release
+  scan_root: false
   projects:
   - name: bosh-openstack-cpi
     path: src/bosh_openstack_cpi
 - repo: https://github.com/cloudfoundry-incubator/bosh-google-cpi-release
+  scan_root: false
   projects:
   - name: bosh-google-cpi
     path: src/bosh-google-cpi
 - repo: https://github.com/cloudfoundry-incubator/bosh-azure-cpi-release.git
+  scan_root: false
   projects:
   - name: bosh-azure-cpi
     path: src/bosh_azure_cpi
 - repo: https://github.com/cloudfoundry-incubator/bosh-aws-cpi-release
+  scan_root: false
   projects:
   - name: bosh-aws-cpi
     path: src/bosh_aws_cpi
 - repo: git@github.com:pivotal-cf/installation
+  scan_root: false
   projects:
   - name: ops-manager-web
     path: web
 - repo: https://github.com/cloudfoundry/bosh
-  scan_root: true
 

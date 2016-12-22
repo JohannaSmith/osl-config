@@ -1,4 +1,6 @@
 ---
 releases:
 - repo: git@github.com:logsearch/logsearch-boshrelease.git
+  scan_root: false
 - repo: git@github.com:pivotal-cf/logsearch-for-cloudfoundry-operators-boshrelease.git
+  scan_root: false

@@ -1,6 +1,7 @@
 ---
 releases:
 - repo: git@github.com:pivotal-cf/osl-ci-pm-acceptance.git
+  scan_root: false
   projects:
   - name: osl-ci-pm-acceptance-maven
     path: maven

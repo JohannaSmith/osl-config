@@ -1,5 +1,8 @@
 ---
 releases:
 - repo: git@github.com:pivotal-cf/apm-ui-release.git
+  scan_root: false
 - repo: git@github.com:pivotal-cf/metrics-release.git
+  scan_root: false
 - repo: git@github.com:pivotal-cf/apm-tile.git
+  scan_root: false
