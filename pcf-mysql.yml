@@ -4,12 +4,114 @@ releases:
   scan_root: false
 - repo: git@github.com:cloudfoundry/cf-mysql-release.git
   scan_root: false
+  blobs:
+  - name: boost/boost_1_55_0.tar.gz
+    skip: true
+  - name: scons/scons-2.3.1.tar.gz
+    skip: true
+  - name: check/check-0.9.13.tar.gz
+    skip: true
+  - name: pcre-8.35.tar.gz
+    skip: true
+  - name: python/Python-2.7.8.tgz
+    skip: true
+  - name: xtrabackup/autoconf-2.65.tar.gz
+    skip: true
+  - name: xtrabackup/automake-1.14.1.tar.gz
+    skip: true
+  - name: xtrabackup/libaio_0.3.110.orig.tar.gz
+    skip: true
+  - name: xtrabackup/libdbd-mysql-perl_4.025.orig.tar.gz
+    skip: true
+  - name: xtrabackup/libdbi-perl_1.630.orig.tar.gz
+    skip: true
+  - name: xtrabackup/libtool-2.4.2.tar.gz
+    skip: true
+  - name: xtrabackup/socat-1.7.2.4.tar.gz
+    skip: true
+  - name: xtrabackup/percona-xtrabackup-percona-xtrabackup-2.2.10.tar.gz
+    skip: true
+  - name: mysqlclient/mariadb-connector-c-2.1.0-src.tar.gz
+    skip: true
+  - name: golang/go1.7.linux-amd64.tar.gz
+    skip: true
+  - name: ruby/ruby-2.3.1.tar.gz
+    skip: true
+  - name: ruby/bundler-1.12.5.gem
+    skip: true
+  - name: ruby/rubygems-2.6.6.tgz
+    skip: true
+  - name: ruby/yaml-0.1.6.tar.gz
+    skip: true
+  - name: galera/galera-25.3.17.tar.gz
+    skip: true
+  - name: cli/cf-cli_6.22.2_linux_x86-64.tgz
+    skip: true
+  - name: mariadb/mariadb-10.1.20.tar.gz
+    skip: true
 - repo: git@github.com:pivotal-cf-experimental/mysql-backup-release.git
   scan_root: false
   branch: v1.25
+  blobs:
+  - name: xtrabackup/autoconf-2.65.tar.gz
+    skip: true
+  - name: xtrabackup/automake-1.14.1.tar.gz
+    skip: true
+  - name: xtrabackup/libaio_0.3.110.orig.tar.gz
+    skip: true
+  - name: xtrabackup/libdbd-mysql-perl_4.025.orig.tar.gz
+    skip: true
+  - name: xtrabackup/libdbi-perl_1.630.orig.tar.gz
+    skip: true
+  - name: xtrabackup/libtool-2.4.2.tar.gz
+    skip: true
+  - name: xtrabackup/percona-xtrabackup-percona-xtrabackup-2.2.10.tar.gz
+    skip: true
+  - name: xtrabackup/socat-1.7.2.4.tar.gz
+    skip: true
+  - name: awscli/awscli-bundle.zip
+    skip: true
+  - name: python/Python-2.7.8.tgz
+    skip: true
+  - name: ruby/bundler-1.10.6.gem
+    skip: true
+  - name: ruby/ruby-2.2.3.tar.gz
+    skip: true
+  - name: ruby/rubygems-2.4.8.tgz
+    skip: true
+  - name: ruby/yaml-0.1.5.tar.gz
+    skip: true
+  - name: golang/go1.6.1.linux-amd64.tar.gz
+    skip: true
+  - name: mariadb/mariadb-10.0.23.tar.gz
+    skip: true
 - repo: git@github.com:pivotal-cf-experimental/mysql-monitoring-release.git
   scan_root: false
   branch: v3
+  blobs:
+  - name: golang/go1.6.1.linux-amd64.tar.gz
+    skip: true
 - repo: git@github.com:pivotal-cf-experimental/service-backup-release.git
   scan_root: false
   branch: v14
+  blobs:
+  - name: aws-cli/awscli-bundle.zip
+    skip: true
+  - name: python/Python-2.7.11.tgz
+    skip: true
+  - name: blobxfer/azure-common-1.1.1.zip
+    skip: true
+  - name: blobxfer/azure-storage-0.30.0.zip
+    skip: true
+  - name: blobxfer/blobxfer-0.10.0.tar.gz
+    skip: true
+  - name: blobxfer/python-dateutil-2.4.2.tar.gz
+    skip: true
+  - name: blobxfer/requests-2.9.1.tar.gz
+    skip: true
+  - name: blobxfer/setuptools-20.6.7.tar.gz
+    skip: true
+  - name: golang/go1.6.2.linux-amd64.tar.gz
+    skip: true
+  - name: blobxfer/six-1.10.0.tar.gz
+    skip: true

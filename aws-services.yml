@@ -1,3 +1,16 @@
 ---
 releases:
 - repo: git@github.com:pivotal-cf/aws-services-release.git
+  blobs:
+  - name: jq/jq
+    skip: true
+  - name: cf/autopilot
+    skip: true
+  - name: cf/cf
+    skip: true
+  - name: aws-cli/awscli-bundle.zip
+    skip: true
+  - name: python/Python-2.7.8.tgz
+    skip: true
+  - name: migrate/migrate
+    skip: true

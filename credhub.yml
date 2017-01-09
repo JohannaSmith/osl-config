@@ -1,5 +1,14 @@
 ---
 releases:
 - repo: git@github.com:pivotal-cf/credhub-release.git
+  blobs:
+  - name: lunaclient_5.3.0-11/lunaclient_5.3.0-11.tar.gz
+    skip: true
+  - name: openjdk_1.8.0/openjdk-1.8.0_111-x86_64-trusty.tar.gz
+    skip: true
+  - name: dsm-client_1.2.10136.1262/dsm-client_1.2.10136.1262.DEBIAN_amd64.deb
+    skip: true
+  - name: libapr1_1.5.0-1/libapr1_1.5.0-1_amd64.deb
+    skip: true
 - repo: git@github.com:pivotal-cf/credhub-cli.git
   prepare_command: bash -c "mkdir -p $GOPATH/src/github.com/pivotal-cf && ln -s $PWD $GOPATH/src/github.com/pivotal-cf/credhub-cli && pushd $GOPATH/src/github.com/pivotal-cf/credhub-cli && make dependencies && popd"

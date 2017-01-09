@@ -15,10 +15,122 @@ releases:
   - path: src/warden/warden-protocol
   - path: src/warden/em-posix-spawn
   - path: src/smoke-tests/assets/ruby_simple
+  blobs:
+  - name: debian_nfs_server/nfs-kernel-server_1%3a1.2.0-4ubuntu4.1_amd64.deb
+    skip: true
+  - name: uaa/cloudfoundry-identity-varz-1.0.2.war
+    skip: true
+  - name: nginx/nginx-upload-module-2.2.tar.gz
+    skip: true
+  - name: uaa/newrelic.jar
+    skip: true
+  - name: haproxy/haproxy-1.5.14.tar.gz
+    skip: true
+  - name: uaa/cloudfoundry-identity-statsd-1.0.0.war
+    skip: true
+  - name: ruby-2.1.8/bundler-1.9.4.gem
+    skip: true
+  - name: ruby-2.1.8/ruby-2.1.8.tar.gz
+    skip: true
+  - name: ruby-2.1.8/yaml-0.1.6.tar.gz
+    skip: true
+  - name: libmariadb/libmariadb-5.5.36.tar.xz
+    skip: true
+  - name: nginx/newrelic_nginx_agent-1.2.1.tar.gz
+    skip: true
+  - name: ruby-2.2.5/ruby-2.2.5.tar.gz
+    skip: true
+  - name: ruby-2.2.5/bundler-1.11.2.gem
+    skip: true
+  - name: ruby-2.2.5/yaml-0.1.6.tar.gz
+    skip: true
+  - name: ruby-2.3/bundler-1.11.2.gem
+    skip: true
+  - name: ruby-2.3/ruby-2.3.1.tar.gz
+    skip: true
+  - name: ruby-2.3/rubygems-2.6.4.tgz
+    skip: true
+  - name: consul/consul-template_0.14.0_linux_amd64.zip
+    skip: true
+  - name: nginx/nginx-1.11.1.tar.gz
+    skip: true
+  - name: nginx/headers-more-nginx-module-0.30.tar.gz
+    skip: true
+  - name: nginx/pcre-8.39.tar.gz
+    skip: true
+  - name: golang/go1.6.3.linux-amd64.tar.gz
+    skip: true
+  - name: postgres/postgresql-9.4.9.tar.gz
+    skip: true
+  - name: openjdk/openjdk-1.8.0_101-x86_64-trusty.tar.gz
+    skip: true
+  - name: openjdk/openjdk-1.8.0_101-x86_64-mountainlion.tar.gz
+    skip: true
+  - name: uaa/apache-tomcat-8.0.36.tar.gz
+    skip: true
+  - name: golang/go1.7.linux-amd64.tar.gz
+    skip: true
+  - name: cli/cf-cli_6.21.1_linux_x86-64.tgz
+    skip: true
+  - name: consul/consul_0.7.0_linux_amd64.zip
+    skip: true
+  - name: haproxy/pcre-8.39.tar.gz
+    skip: true
+  - name: binary-buildpack/binary_buildpack-cached-v1.0.5.zip
+    skip: true
+  - name: java-buildpack/java-buildpack-v3.10.zip
+    skip: true
+  - name: java-buildpack/java-buildpack-offline-v3.10.zip
+    skip: true
+  - name: etcd/etcd-v2.1.1-linux-amd64.tar.gz
+    skip: true
+  - name: consul-windows/consul_0.7.0_windows_amd64.zip
+    skip: true
+  - name: golang/go1.7.3.windows-amd64.zip
+    skip: true
+  - name: go-buildpack/go_buildpack-cached-v1.7.15.zip
+    skip: true
+  - name: php-buildpack/php_buildpack-cached-v4.3.22.zip
+    skip: true
+  - name: ruby-buildpack/ruby_buildpack-cached-v1.6.28.zip
+    skip: true
+  - name: nodejs-buildpack/nodejs_buildpack-cached-v1.5.23.zip
+    skip: true
+  - name: python-buildpack/python_buildpack-cached-v1.5.12.zip
+    skip: true
+  - name: staticfile-buildpack/staticfile_buildpack-cached-v1.3.13.zip
+    skip: true
+  - name: dotnet-core-buildpack/dotnet-core_buildpack-cached-v1.0.5.zip
+    skip: true
+  - name: rootfs/cflinuxfs2-1.91.0.tar.gz
+    skip: true
 - repo: https://github.com/cloudfoundry-incubator/diego-release
-  scan_root: false
+  blobs:
+  - name: jq/jq-linux64
+    skip: true
+  - name: golang/go1.7.4.linux-amd64.tar.gz
+    skip: true
+  - name: golang/go1.7.4.windows-amd64.zip
+    skip: true
+  - name: lifecycles/windows_app_lifecycle-1f3b617.tgz
+    skip: true
 - repo: https://github.com/cloudfoundry/garden-runc-release
   scan_root: false
+  blobs:
+  - name: iptables/iptables-1.4.21.tar.bz2
+    skip: true
+  - name: shadow/shadow-4.2.1.tar.gz
+    skip: true
+  - name: busybox/busybox.tar.gz
+    skip: true
+  - name: tar/tar-1.28.tar.gz
+    skip: true
+  - name: libseccomp/libseccomp-2.3.1.tar.gz
+    skip: true
+  - name: apparmor/apparmor-2.10.1.tar.gz
+    skip: true
+  - name: golang/go1.7.1.linux-amd64.tar.gz
+    skip: true
 - repo: https://github.com/cloudfoundry/diego-windows-release
   scan_root: false
   projects:
@@ -26,23 +138,128 @@ releases:
   - path: DiegoWindowsRelease
 - repo: https://github.com/cloudfoundry-incubator/netman-release
   scan_root: false
+  blobs:
+  - name: cli/cf-linux-amd64.tgz
+    skip: true
+  - name: golang/go1.7.4.linux-amd64.tar.gz
+    skip: true
 - repo: git@github.com:cloudfoundry-incubator/notifications-release.git
   scan_root: false
+  blobs:
+  - name: cf_cli/cf-linux-amd64.tgz
+    skip: true
+  - name: cf_cli/autopilot-plugin.tgz
+    skip: true
+  - name: jq/jq.tar.gz
+    skip: true
+  - name: go/go1.7.3.linux-amd64.tar.gz
+    skip: true
 - repo: git@github.com:pivotal-cf/notifications-ui-release
+  blobs:
+  - name: cf_cli/autopilot-plugin.tgz
+    skip: true
+  - name: cf_cli/cf-linux-amd64.tgz
+    skip: true
+  - name: phantomjs/phantom-deps.tgz
+    skip: true
+  - name: phantomjs/phantomjs-2.0.0-ubuntu-14.04.gz
+    skip: true
+  - name: jq/jq.tgz
+    skip: true
+  - name: go/go1.7.3.linux-amd64.tar.gz
+    skip: true
 - repo: git@github.com:pivotal-cf/cf-autoscaling-release
   scan_root: false
+  blobs:
+  - name: cf_cli/cf-linux-amd64.tgz
+    skip: true
+  - name: cf_cli/autopilot-plugin.tgz
+    skip: true
+  - name: jq/jq.tar.gz
+    skip: true
+  - name: go/go1.7.1.linux-amd64.tar.gz
+    skip: true
+  - name: sql-migrate/sql-migrate
+    skip: true
+  - name: app-autoscaler/cf-autoscaling
+    skip: true
 - repo: git@github.com:pivotal-cf/apps-manager-release
   scan_root: false
+  blobs:
+  - name: node/node-v6.2.2-linux-x64.tar.xz
+    skip: true
+  - name: java/jre-8u102-linux-x64.tar.gz
+    skip: true
+  - name: phantomjs/phantomjs-2.1.1-linux-x86_64.tar.bz2
+    skip: true
+  - name: libfontconfig/fontconfig-2.12.1.tar.bz2
+    skip: true
+  - name: freetype/freetype-2.7.tar.bz2
+    skip: true
+  - name: cf-cli/cf-cli_6.22.2_linux_x86-64.tgz
+    skip: true
+  - name: jq/jq-linux64
+    skip: true
 - repo: https://github.com/cloudfoundry/garden-windows-release
   scan_root: false
   projects:
   - path: GardenWindowsRelease
 - repo: git@github.com:cloudfoundry-incubator/etcd-release.git
   scan_root: false
+  blobs:
+  - name: etcd/etcd-v2.1.1-linux-amd64.tar.gz
+    skip: true
+  - name: golang/go1.7.3.linux-amd64.tar.gz
+    skip: true
 - repo: https://github.com/cloudfoundry-incubator/cf-routing-release
   scan_root: false
+  blobs:
+  - name: haproxy/haproxy-1.5.12.tar.gz
+    skip: true
+  - name: rtr/rtr-linux-amd64.tgz
+    skip: true
+  - name: cf-cli/cf-linux-amd64.tgz
+    skip: true
+  - name: golang/go1.6.3.linux-amd64.tar.gz
+    skip: true
+  - name: haproxy/pcre-8.39.tar.gz
+    skip: true
+  - name: golang/go1.7.4.linux-amd64.tar.gz
+    skip: true
+  - name: cf-cli/cf-cli_6.23.0_linux_x86-64.tgz
+    skip: true
 - repo: https://github.com/cloudfoundry/capi-release
   scan_root: false
+  blobs:
+  - name: debian_nfs_server/nfs-kernel-server_1%3a1.2.0-4ubuntu4.1_amd64.deb
+    skip: true
+  - name: nginx/nginx-upload-module-2.2.tar.gz
+    skip: true
+  - name: libmariadb/libmariadb-5.5.36.tar.xz
+    skip: true
+  - name: nginx/newrelic_nginx_agent-1.2.1.tar.gz
+    skip: true
+  - name: nginx/nginx-1.11.1.tar.gz
+    skip: true
+  - name: nginx/headers-more-nginx-module-0.30.tar.gz
+    skip: true
+  - name: nginx/pcre-8.39.tar.gz
+    skip: true
+  - name: postgres/postgresql-9.4.9.tar.gz
+    skip: true
+  - name: golang/go1.7.3.linux-amd64.tar.gz
+    skip: true
+  - name: ruby-2.3/bundler-1.13.6.gem
+    skip: true
+  - name: ruby-2.3/ruby-2.3.3.tar.gz
+    skip: true
+  - name: ruby-2.3/rubygems-2.6.8.tgz
+    skip: true
 - repo: git@github.com:pivotal-cf/pivotal-account-release
   scan_root: false
   branch: master
+  blobs:
+  - name: cf-cli/cf-linux-amd64.tgz
+    skip: true
+  - name: cf-cli/diego-enabler.linux64
+    skip: true

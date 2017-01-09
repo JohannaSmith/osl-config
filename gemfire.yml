@@ -3,9 +3,98 @@ releases:
 - repo: git@github.com:pivotal-cf/cf-gemfire-release
   projects:
     - path: src/gemfire-authentication
+  blobs:
+  - name: cli/cf-linux-amd64.tgz
+    skip: true
+  - name: session_replication/session-replication-jars.tar.gz
+    skip: true
+  - name: patched_gemfire_modules/gemfire-modules-8.1.0.jar
+    skip: true
+  - name: test_app/petclinic.war
+    skip: true
+  - name: jq/jq
+    skip: true
+  - name: pulse/WEB-INF/lib/aopalliance-1.0.jar
+    skip: true
+  - name: pulse/WEB-INF/lib/cloudfoundry-identity-common-1.9.1.jar
+    skip: true
+  - name: pulse/WEB-INF/lib/cloudfoundry-identity-scim-1.9.1.jar
+    skip: true
+  - name: pulse/WEB-INF/lib/jackson-core-asl-1.9.13.jar
+    skip: true
+  - name: pulse/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar
+    skip: true
+  - name: pulse/WEB-INF/lib/spring-security-oauth2-2.0.4.RELEASE.jar
+    skip: true
+  - name: patched_spring_data_gemfire/spring-data-gemfire-1.6.1.RELEASE.jar
+    skip: true
+  - name: jdk8/jdk-8u60-linux-x64.gz
+    skip: true
+  - name: gemfire_authentication/replication-authenticator-1.2-all.jar
+    skip: true
+  - name: gemfire/Pivotal_GemFire_821_b18207_Linux.zip
+    skip: true
+  - name: golang/go1.6.3.linux-amd64.tar.gz
+    skip: true
+  - name: golang/go1.7.linux-amd64.tar.gz
+    skip: true
+  - name: gemfire/Pivotal_GemFire_8213_b18302_Linux.zip
+    skip: true
 - repo: git@github.com:pivotal-cf/cf-gemfire-broker
+  blobs:
+  - name: golang/go1.6.3.linux-amd64.tar.gz
+    skip: true
+  - name: golang/go1.7.linux-amd64.tar.gz
+    skip: true
 - repo: git@github.com:pivotal-cf/cf-gemfire-broker-registrar
   scan_root: false
+  blobs:
+  - name: cf-cli/cf-cli-linux64-binary
+    skip: true
+  - name: cf-uaac/cf-uaac-3.1.0.gem
+    skip: true
+  - name: cf-uaac/Gemfile
+    skip: true
+  - name: cf-uaac/Gemfile.lock
+    skip: true
+  - name: cf-uaac/vendor/cache/addressable-2.3.6.gem
+    skip: true
+  - name: cf-uaac/vendor/cache/cf-uaa-lib-3.1.0.gem
+    skip: true
+  - name: cf-uaac/vendor/cache/cf-uaac-3.1.0.gem
+    skip: true
+  - name: cf-uaac/vendor/cache/cookiejar-0.3.2.gem
+    skip: true
+  - name: cf-uaac/vendor/cache/em-http-request-1.1.2.gem
+    skip: true
+  - name: cf-uaac/vendor/cache/em-socksify-0.3.0.gem
+    skip: true
+  - name: cf-uaac/vendor/cache/eventmachine-1.0.4.gem
+    skip: true
+  - name: cf-uaac/vendor/cache/highline-1.6.21.gem
+    skip: true
+  - name: cf-uaac/vendor/cache/http_parser.rb-0.6.0.gem
+    skip: true
+  - name: cf-uaac/vendor/cache/json_pure-1.8.1.gem
+    skip: true
+  - name: cf-uaac/vendor/cache/launchy-2.4.3.gem
+    skip: true
+  - name: cf-uaac/vendor/cache/multi_json-1.10.1.gem
+    skip: true
+  - name: cf-uaac/vendor/cache/rack-1.5.2.gem
+    skip: true
+  - name: ruby/bundler-1.3.5.gem
+    skip: true
+  - name: ruby/ruby-2.0.0-p353.tar.gz
+    skip: true
+  - name: ruby/rubygems-2.1.11.tgz
+    skip: true
+  - name: ruby/yaml-0.1.6.tar.gz
+    skip: true
+  - name: jq/jq
+    skip: true
+  - name: ruby/ruby-2.0.0-p481.tar.gz
+    skip: true
 - repo: git@github.com:pivotal-cf/p-gemfire
   prepare_command: echo '2.3.0' > .ruby-version
 - repo: git@github.com:pivotal-cf/p-ssc-gemfire

@@ -2,5 +2,37 @@
 releases:
 - repo: git@github.com:logsearch/logsearch-boshrelease.git
   scan_root: false
+  blobs:
+  - name: java8/openjdk-1.8.0_40.tar.gz
+    skip: true
+  - name: curator/click-3.3.tar.gz
+    skip: true
+  - name: curator/urllib3-1.8.3.tar.gz
+    skip: true
+  - name: python/Python-3.4.3.tgz
+    skip: true
+  - name: curator/elasticsearch-curator-3.4.0-dev1.tar.gz
+    skip: true
+  - name: curator/elasticsearch-1.7.0.tar.gz
+    skip: true
+  - name: haproxy/pcre-8.38.tar.gz
+    skip: true
+  - name: haproxy/haproxy-1.6.5.tar.gz
+    skip: true
+  - name: java8/openjdk-1.8.0_91.tar.gz
+    skip: true
+  - name: redis/redis-3.2.0.tar.gz
+    skip: true
+  - name: logstash/logstash-all-plugins-2.3.3-patched.tar.gz
+    skip: true
+  - name: kibana/kibana-4.5.4-linux-x64.tar.gz
+    skip: true
+  - name: elasticsearch/elasticsearch-2.3.5.tar.gz
+    skip: true
+  - name: nats_to_syslog/nats_to_syslog_linux_amd64.tar.gz
+    skip: true
 - repo: git@github.com:pivotal-cf/logsearch-for-cloudfoundry-operators-boshrelease.git
   scan_root: false
+  blobs:
+  - name: route-registrar/route-registrar-go-1.7.3.tar.gz
+    skip: true
