@@ -3,3 +3,8 @@ releases:
 - repo: git@github.com:pivotal-cf/identity-service-broker-release.git
   scan_root: false
   branch: master
+  blobs:
+  - name: cf_cli/cf-linux-amd64.tgz
+    skip: true
+  - name: cf_cli/diego-enabler.linux64
+    skip: true

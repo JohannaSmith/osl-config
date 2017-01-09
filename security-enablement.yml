@@ -1,5 +1,16 @@
 ---
 releases:
 - repo: git@github.com:pivotal-cf/cred-alert.git
+  blobs:
+  - name: git/git-2.10.1.tar.gz
+    skip: true
+  - name: golang/golang-linux-amd64.tar.gz
+    skip: true
+  - name: libgit2/libgit2-0.24.1.tar.gz
+    skip: true
+  - name: libssh2/libssh2-1.7.0.tar.gz
+    skip: true
+  - name: zlib/zlib-1.2.8.tar.gz
+    skip: true
 - repo: git@github.com:pivotal-cf/scantron.git
 - repo: git@github.com:pivotal-cf/reconfigure-pipeline.git

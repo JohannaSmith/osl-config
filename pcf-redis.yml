@@ -2,5 +2,26 @@
 releases:
 - repo: git@github.com:pivotal-cf/cf-redis-release.git
   scan_root: false
+  blobs:
+  - name: ruby/rubygems-2.1.11.tgz
+    skip: true
+  - name: ruby/yaml-0.1.5.tar.gz
+    skip: true
+  - name: ruby/bundler-1.3.5.gem
+    skip: true
+  - name: aws-cli/awscli-bundle.zip
+    skip: true
+  - name: nginx/nginx-1.8.0.tar.gz
+    skip: true
+  - name: nginx/pcre-8.37-patch-CVE2015-3210.tar.gz
+    skip: true
+  - name: ruby/ruby-2.1.5.tar.gz
+    skip: true
+  - name: redis/redis-3.2.1.tar.gz
+    skip: true
+  - name: cf-cli/cf-cli_6.21.1_linux_x86-64.tgz
+    skip: true
+  - name: go/go1.7.3.linux-amd64.tar.gz
+    skip: true
 - repo: git@github.com:pivotal-cf/p-redis.git
   scan_root: false

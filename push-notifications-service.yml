@@ -4,6 +4,39 @@ releases:
   repo: git@github.com:cfmobile/push.git
   branch: dev
   prepare_command: mvn clean install -Pprod -DskipTests
+- repo: git@github.com:cfmobile/push-release.git
+  branch: dev
+  blobs:
+  - name: mysql-client/mysql-client-5.6.20-linux-glibc2.5-x86_64.tar.gz
+    skip: true
+  - name: phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2
+    skip: true
+  - name: debs/fontconfig-config_2.11.0-0ubuntu4_all.deb
+    skip: true
+  - name: debs/fontconfig_2.11.0-0ubuntu4_amd64.deb
+    skip: true
+  - name: debs/fonts-dejavu-core_2.34-1ubuntu1_all.deb
+    skip: true
+  - name: debs/libfontconfig1_2.11.0-0ubuntu4_amd64.deb
+    skip: true
+  - name: debs/libfreetype6_2.5.2-1ubuntu2_amd64.deb
+    skip: true
+  - name: traveling-ruby/yaml-20150826-linux-x86_64.tgz
+    skip: true
+  - name: traveling-ruby/nokogiri-1.6.6.2.tar.gz
+    skip: true
+  - name: traveling-ruby/traveling-ruby-20150715-2.2.2-linux-x86_64.tar.gz
+    skip: true
+  - name: ruby-2.1/bundler-1.7.2.gem
+    skip: true
+  - name: ruby-2.1/ruby-2.1.2.tar.gz
+    skip: true
+  - name: ruby-2.1/rubygems-2.4.1.tgz
+    skip: true
+  - name: ruby-2.1/yaml-0.1.5.tar.gz
+    skip: true
+  - name: cf/cf
+    skip: true
 - repo: git@github.com:cfmobile/push-dashboard.git
   branch: dev
 - repo: git@github.com:cfmobile/push-scheduler.git

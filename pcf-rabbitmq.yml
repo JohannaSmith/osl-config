@@ -4,8 +4,50 @@ releases:
   scan_root: false
 - repo: git@github.com:pivotal-cf/cf-rabbitmq-release.git
   scan_root: false
+  blobs:
+  - name: haproxy/haproxy-1.6.4.tar.gz
+    skip: true
+  - name: java/jre-1.8.0_77.tar.gz
+    skip: true
+  - name: cf-cli/cf-cli_6.19.0_linux_x86-64.tgz
+    skip: true
+  - name: golang/go1.7.3.linux-amd64.tar.gz
+    skip: true
+  - name: erlang/otp_src_oss_18.3.4.4.tgz
+    skip: true
+  - name: rabbitmq-server/rabbitmq-server-generic-unix-3.6.6.902.tar.xz
+    skip: true
+  - name: rabbitmq-server/rabbitmq_clusterer-3.6.7.custom-compiled-bug-fix.ez
+    skip: true
 - repo: git@github.com:pivotal-cf/rabbitmq-metrics-release.git
   scan_root: false
+  blobs:
+  - name: golang/go1.6.1.linux-amd64.tar.gz
+    skip: true
+  - name: golang/go1.7.3.linux-amd64.tar.gz
+    skip: true
 - repo: git@github.com:pivotal-cf-experimental/service-metrics-release.git
+  blobs:
+  - name: go/go1.7.4.linux-amd64.tar.gz
+    skip: true
 - repo: git@github.com:cloudfoundry/loggregator.git
   scan_root: false
+  blobs:
+  - name: loggregator-blobs/boshhmforwarder.xz
+    skip: true
+  - name: loggregator-blobs/deaagent.xz
+    skip: true
+  - name: loggregator-blobs/doppler.xz
+    skip: true
+  - name: loggregator-blobs/lats.xz
+    skip: true
+  - name: loggregator-blobs/metron.exe
+    skip: true
+  - name: loggregator-blobs/metron.xz
+    skip: true
+  - name: loggregator-blobs/statsd-injector.xz
+    skip: true
+  - name: loggregator-blobs/syslog_drain_binder.xz
+    skip: true
+  - name: loggregator-blobs/trafficcontroller.xz
+    skip: true
