@@ -123,13 +123,13 @@ releases:
     skip: true
   - name: busybox/busybox.tar.gz
     skip: true
-  - name: tar/tar-1.28.tar.gz
-    skip: true
   - name: libseccomp/libseccomp-2.3.1.tar.gz
     skip: true
   - name: apparmor/apparmor-2.10.1.tar.gz
     skip: true
   - name: golang/go1.7.1.linux-amd64.tar.gz
+    skip: true
+  - name: tar/tar-1.29.tar.gz
     skip: true
 - repo: https://github.com/cloudfoundry/diego-windows-release
   scan_root: false
