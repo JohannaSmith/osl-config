@@ -44,12 +44,6 @@ releases:
     skip: true
   - name: ruby-2.2.5/yaml-0.1.6.tar.gz
     skip: true
-  - name: ruby-2.3/bundler-1.11.2.gem
-    skip: true
-  - name: ruby-2.3/ruby-2.3.1.tar.gz
-    skip: true
-  - name: ruby-2.3/rubygems-2.6.4.tgz
-    skip: true
   - name: consul/consul-template_0.14.0_linux_amd64.zip
     skip: true
   - name: nginx/nginx-1.11.1.tar.gz
@@ -66,43 +60,63 @@ releases:
     skip: true
   - name: openjdk/openjdk-1.8.0_101-x86_64-mountainlion.tar.gz
     skip: true
-  - name: uaa/apache-tomcat-8.0.36.tar.gz
-    skip: true
-  - name: golang/go1.7.linux-amd64.tar.gz
-    skip: true
   - name: cli/cf-cli_6.21.1_linux_x86-64.tgz
-    skip: true
-  - name: consul/consul_0.7.0_linux_amd64.zip
     skip: true
   - name: haproxy/pcre-8.39.tar.gz
     skip: true
   - name: binary-buildpack/binary_buildpack-cached-v1.0.5.zip
     skip: true
-  - name: java-buildpack/java-buildpack-v3.10.zip
-    skip: true
-  - name: java-buildpack/java-buildpack-offline-v3.10.zip
-    skip: true
   - name: etcd/etcd-v2.1.1-linux-amd64.tar.gz
     skip: true
-  - name: consul-windows/consul_0.7.0_windows_amd64.zip
+  - name: uaa/apache-tomcat-8.0.39.tar.gz
     skip: true
-  - name: golang/go1.7.3.windows-amd64.zip
+  - name: ruby-2.3/bundler-1.13.6.gem
     skip: true
-  - name: go-buildpack/go_buildpack-cached-v1.7.15.zip
+  - name: ruby-2.3/ruby-2.3.3.tar.gz
     skip: true
-  - name: php-buildpack/php_buildpack-cached-v4.3.22.zip
+  - name: ruby-2.3/rubygems-2.6.8.tgz
     skip: true
-  - name: ruby-buildpack/ruby_buildpack-cached-v1.6.28.zip
+  - name: golang/go1.7.4.linux-amd64.tar.gz
     skip: true
-  - name: nodejs-buildpack/nodejs_buildpack-cached-v1.5.23.zip
+  - name: golang/go1.7.4.windows-amd64.zip
     skip: true
-  - name: python-buildpack/python_buildpack-cached-v1.5.12.zip
+  - name: consul/consul_0.7.1_linux_amd64.zip
     skip: true
-  - name: staticfile-buildpack/staticfile_buildpack-cached-v1.3.13.zip
+  - name: consul-windows/consul_0.7.1_windows_amd64.zip
     skip: true
-  - name: dotnet-core-buildpack/dotnet-core_buildpack-cached-v1.0.5.zip
+  - name: go-buildpack/go_buildpack-cached-v1.7.16.zip
     skip: true
-  - name: rootfs/cflinuxfs2-1.91.0.tar.gz
+  - name: staticfile-buildpack/staticfile_buildpack-cached-v1.3.14.zip
+    skip: true
+  - name: python-buildpack/python_buildpack-cached-v1.5.13.zip
+    skip: true
+  - name: rootfs/cflinuxfs2-1.95.0.tar.gz
+    skip: true
+  - name: dotnet-core-buildpack/dotnet-core_buildpack-cached-v1.0.8.zip
+    skip: true
+  - name: nodejs-buildpack/nodejs_buildpack-cached-v1.5.25.zip
+    skip: true
+  - name: ruby-buildpack/ruby_buildpack-cached-v1.6.30.zip
+    skip: true
+  - name: php-buildpack/php_buildpack-cached-v4.3.24.zip
+    skip: true
+  - name: loggregator-blobs/doppler.xz
+    skip: true
+  - name: loggregator-blobs/syslog_drain_binder.xz
+    skip: true
+  - name: loggregator-blobs/deaagent.xz
+    skip: true
+  - name: loggregator-blobs/trafficcontroller.xz
+    skip: true
+  - name: loggregator-blobs/statsd-injector.xz
+    skip: true
+  - name: loggregator-blobs/metron.exe
+    skip: true
+  - name: loggregator-blobs/metron.xz
+    skip: true
+  - name: java-buildpack/java-buildpack-v3.11.zip
+    skip: true
+  - name: java-buildpack/java-buildpack-offline-v3.11.zip
     skip: true
 - repo: https://github.com/cloudfoundry-incubator/diego-release
   blobs:
