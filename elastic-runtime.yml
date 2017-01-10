@@ -21,85 +21,85 @@ releases:
   - name: uaa/cloudfoundry-identity-varz-1.0.2.war
     skip: true
   - name: nginx/nginx-upload-module-2.2.tar.gz
-    skip: true
+    url: https://github.com/vkholodkov/nginx-upload-module/archive/2.2.0.tar.gz
   - name: uaa/newrelic.jar
     skip: true
   - name: haproxy/haproxy-1.5.14.tar.gz
-    skip: true
+    url: http://git.haproxy.org/?p=haproxy-1.5.git;a=snapshot;h=16f863fbc9fbd6535971eb1f55d33f0efc2ac5e1;sf=tgz
   - name: uaa/cloudfoundry-identity-statsd-1.0.0.war
     skip: true
   - name: ruby-2.1.8/bundler-1.9.4.gem
-    skip: true
+    url: https://github.com/bundler/bundler/archive/v1.9.4.tar.gz
   - name: ruby-2.1.8/ruby-2.1.8.tar.gz
-    skip: true
+    url: https://github.com/ruby/ruby/archive/v2_1_8.tar.gz
   - name: ruby-2.1.8/yaml-0.1.6.tar.gz
-    skip: true
+    url: http://pyyaml.org/download/libyaml/yaml-0.1.6.tar.gz
   - name: libmariadb/libmariadb-5.5.36.tar.xz
     skip: true
   - name: nginx/newrelic_nginx_agent-1.2.1.tar.gz
     skip: true
   - name: ruby-2.2.5/ruby-2.2.5.tar.gz
-    skip: true
+    url: https://github.com/ruby/ruby/archive/v2_2_5.tar.gz
   - name: ruby-2.2.5/bundler-1.11.2.gem
-    skip: true
+    url: https://github.com/bundler/bundler/archive/v1.11.2.tar.gz
   - name: ruby-2.2.5/yaml-0.1.6.tar.gz
-    skip: true
+    url: http://pyyaml.org/download/libyaml/yaml-0.1.6.tar.gz
   - name: consul/consul-template_0.14.0_linux_amd64.zip
-    skip: true
+    url: https://github.com/hashicorp/consul-template/archive/v0.14.0.tar.gz
   - name: nginx/nginx-1.11.1.tar.gz
-    skip: true
+    url: https://github.com/nginx/nginx/archive/release-1.11.1.tar.gz
   - name: nginx/headers-more-nginx-module-0.30.tar.gz
-    skip: true
+    url: https://github.com/openresty/headers-more-nginx-module/archive/v0.30.tar.gz
   - name: nginx/pcre-8.39.tar.gz
-    skip: true
+    url: http://ftp.cs.stanford.edu/mirrors/exim/pcre/pcre-8.39.tar.gz
   - name: golang/go1.6.3.linux-amd64.tar.gz
-    skip: true
+    url: https://github.com/golang/go/archive/go1.6.3.tar.gz
   - name: postgres/postgresql-9.4.9.tar.gz
-    skip: true
+    url: https://github.com/postgres/postgres/archive/REL9_4_9.tar.gz
   - name: openjdk/openjdk-1.8.0_101-x86_64-trusty.tar.gz
     skip: true
   - name: openjdk/openjdk-1.8.0_101-x86_64-mountainlion.tar.gz
     skip: true
   - name: cli/cf-cli_6.21.1_linux_x86-64.tgz
-    skip: true
+    url: https://github.com/cloudfoundry/cli/archive/v6.21.1.tar.gz
   - name: haproxy/pcre-8.39.tar.gz
-    skip: true
+    url: http://ftp.cs.stanford.edu/mirrors/exim/pcre/pcre-8.39.tar.gz
   - name: binary-buildpack/binary_buildpack-cached-v1.0.5.zip
-    skip: true
+    url: https://github.com/cloudfoundry/binary-buildpack/archive/v1.0.5.tar.gz
   - name: etcd/etcd-v2.1.1-linux-amd64.tar.gz
-    skip: true
+    url: https://github.com/coreos/etcd/archive/v2.1.1.tar.gz
   - name: uaa/apache-tomcat-8.0.39.tar.gz
-    skip: true
+    url: https://github.com/apache/tomcat80/archive/TOMCAT_8_0_39.tar.gz
   - name: ruby-2.3/bundler-1.13.6.gem
-    skip: true
+    url: https://github.com/bundler/bundler/archive/v1.13.6.tar.gz
   - name: ruby-2.3/ruby-2.3.3.tar.gz
-    skip: true
+    url: https://github.com/ruby/ruby/archive/v2_3_3.tar.gz
   - name: ruby-2.3/rubygems-2.6.8.tgz
-    skip: true
+    url: https://github.com/rubygems/rubygems/archive/v2.6.8.tar.gz
   - name: golang/go1.7.4.linux-amd64.tar.gz
-    skip: true
+    url: https://github.com/golang/go/archive/go1.7.4.tar.gz
   - name: golang/go1.7.4.windows-amd64.zip
-    skip: true
+    url: https://github.com/golang/go/archive/go1.7.4.tar.gz
   - name: consul/consul_0.7.1_linux_amd64.zip
-    skip: true
+    url: https://github.com/hashicorp/consul/archive/v0.7.1.tar.gz
   - name: consul-windows/consul_0.7.1_windows_amd64.zip
-    skip: true
+    url: https://github.com/hashicorp/consul/archive/v0.7.1.tar.gz
   - name: go-buildpack/go_buildpack-cached-v1.7.16.zip
-    skip: true
+    url: https://github.com/cloudfoundry/go-buildpack/archive/v1.7.16.tar.gz
   - name: staticfile-buildpack/staticfile_buildpack-cached-v1.3.14.zip
-    skip: true
+    url: https://github.com/cloudfoundry/staticfile-buildpack/archive/v1.3.14.tar.gz
   - name: python-buildpack/python_buildpack-cached-v1.5.13.zip
-    skip: true
+    url: https://github.com/cloudfoundry/python-buildpack/archive/v1.5.13.tar.gz
   - name: rootfs/cflinuxfs2-1.95.0.tar.gz
     skip: true
   - name: dotnet-core-buildpack/dotnet-core_buildpack-cached-v1.0.8.zip
-    skip: true
+    url: https://github.com/cloudfoundry/dotnet-core-buildpack/archive/v1.0.8.tar.gz
   - name: nodejs-buildpack/nodejs_buildpack-cached-v1.5.25.zip
-    skip: true
+    url: https://github.com/cloudfoundry/nodejs-buildpack/archive/v1.5.25.tar.gz
   - name: ruby-buildpack/ruby_buildpack-cached-v1.6.30.zip
-    skip: true
+    url: https://github.com/cloudfoundry/ruby-buildpack/archive/v1.6.30.tar.gz
   - name: php-buildpack/php_buildpack-cached-v4.3.24.zip
-    skip: true
+    url:  https://github.com/cloudfoundry/php-buildpack/archive/v4.3.24.tar.gz
   - name: loggregator-blobs/doppler.xz
     skip: true
   - name: loggregator-blobs/syslog_drain_binder.xz
@@ -115,9 +115,9 @@ releases:
   - name: loggregator-blobs/metron.xz
     skip: true
   - name: java-buildpack/java-buildpack-v3.11.zip
-    skip: true
+    url: https://github.com/cloudfoundry/java-buildpack/archive/v3.11.tar.gz
   - name: java-buildpack/java-buildpack-offline-v3.11.zip
-    skip: true
+    url: https://github.com/cloudfoundry/java-buildpack/archive/v3.11.tar.gz
 - repo: https://github.com/cloudfoundry-incubator/diego-release
   blobs:
   - name: jq/jq-linux64
