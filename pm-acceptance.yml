@@ -18,4 +18,5 @@ releases:
   blobs:
   - name: aws-cli/awscli-bundle.zip
     skip: true
-  - name: golang/go1.7.4.linux-amd64.tar.gz
+  - name: nginx/nginx-upload-module-2.2.tar.gz
+    url: https://github.com/vkholodkov/nginx-upload-module/archive/2.2.0.tar.gz
