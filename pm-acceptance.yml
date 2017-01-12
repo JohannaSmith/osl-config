@@ -15,3 +15,7 @@ releases:
     path: bower
   - name: osl-ci-pm-acceptance-bundler
     path: bundler
+  blobs:
+  - name: aws-cli/awscli-bundle.zip
+    skip: true
+  - name: golang/go1.7.4.linux-amd64.tar.gz
