@@ -1,0 +1,10 @@
+blobs:
+- name: aws-cli/awscli-bundle.zip
+  sha: db33b4740a670c9fb3bc5515cd7f9861fa1b1b13
+  skip: true
+- name: nginx/nginx-upload-module-2.2.tar.gz
+  url: https://github.com/vkholodkov/nginx-upload-module/archive/2.2.0.tar.gz
+- name: python/Python-2.7.8.tgz
+  skip: true
+- name: migrate/migrate
+  skip: true
