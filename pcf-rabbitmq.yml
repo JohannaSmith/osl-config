@@ -15,9 +15,9 @@ releases:
     skip: true
   - name: erlang/otp_src_oss_18.3.4.4.tgz
     skip: true
-  - name: rabbitmq-server/rabbitmq-server-generic-unix-3.6.6.902.tar.xz
+  - name: rabbitmq-server/rabbitmq-server-generic-unix-3.6.6.903.tar.xz
     skip: true
-  - name: rabbitmq-server/rabbitmq_clusterer-3.6.7.custom-compiled-bug-fix.ez
+  - name: rabbitmq-server/rabbitmq_clusterer-3.6.5.ez
     skip: true
 - repo: git@github.com:pivotal-cf/rabbitmq-metrics-release.git
   scan_root: false

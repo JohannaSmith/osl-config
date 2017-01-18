@@ -21,7 +21,7 @@ releases:
     skip: true
   - name: cf-cli/cf-cli_6.21.1_linux_x86-64.tgz
     skip: true
-  - name: go/go1.7.3.linux-amd64.tar.gz
+  - name: go/go1.7.4.linux-amd64.tar.gz
     skip: true
 - repo: git@github.com:pivotal-cf/p-redis.git
   scan_root: false

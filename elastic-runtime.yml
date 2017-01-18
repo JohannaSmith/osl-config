@@ -46,10 +46,10 @@ releases:
     url: http://pyyaml.org/download/libyaml/yaml-0.1.6.tar.gz
   - name: consul/consul-template_0.14.0_linux_amd64.zip
     url: https://github.com/hashicorp/consul-template/archive/v0.14.0.tar.gz
-  - name: nginx/nginx-1.11.1.tar.gz
-    url: https://github.com/nginx/nginx/archive/release-1.11.1.tar.gz
-  - name: nginx/headers-more-nginx-module-0.30.tar.gz
-    url: https://github.com/openresty/headers-more-nginx-module/archive/v0.30.tar.gz
+  - name: nginx/nginx-1.11.8.tar.gz
+    url: https://github.com/nginx/nginx/archive/release-1.11.8.tar.gz
+  - name: nginx/headers-more-nginx-module-0.32.tar.gz
+    url: https://github.com/openresty/headers-more-nginx-module/archive/v0.32.tar.gz
   - name: nginx/pcre-8.39.tar.gz
     url: http://ftp.cs.stanford.edu/mirrors/exim/pcre/pcre-8.39.tar.gz
   - name: golang/go1.6.3.linux-amd64.tar.gz
@@ -60,14 +60,14 @@ releases:
     skip: true
   - name: openjdk/openjdk-1.8.0_101-x86_64-mountainlion.tar.gz
     skip: true
-  - name: cli/cf-cli_6.21.1_linux_x86-64.tgz
-    url: https://github.com/cloudfoundry/cli/archive/v6.21.1.tar.gz
+  - name: cli/cf-cli_6.23.1_linux_x86-64.tgz
+    url: https://github.com/cloudfoundry/cli/archive/v6.23.1.tar.gz
   - name: haproxy/pcre-8.39.tar.gz
     url: http://ftp.cs.stanford.edu/mirrors/exim/pcre/pcre-8.39.tar.gz
-  - name: binary-buildpack/binary_buildpack-cached-v1.0.5.zip
-    url: https://github.com/cloudfoundry/binary-buildpack/archive/v1.0.5.tar.gz
-  - name: etcd/etcd-v2.1.1-linux-amd64.tar.gz
-    url: https://github.com/coreos/etcd/archive/v2.1.1.tar.gz
+  - name: binary-buildpack/binary_buildpack-cached-v1.0.7.zip
+    url: https://github.com/cloudfoundry/binary-buildpack/archive/v1.0.7.tar.gz
+  - name: etcd/etcd-v2.2.0-linux-amd64.tar.gz
+    url: https://github.com/coreos/etcd/archive/v2.2.0.tar.gz
   - name: uaa/apache-tomcat-8.0.39.tar.gz
     url: https://github.com/apache/tomcat80/archive/TOMCAT_8_0_39.tar.gz
   - name: ruby-2.3/bundler-1.13.6.gem
@@ -84,22 +84,22 @@ releases:
     url: https://github.com/hashicorp/consul/archive/v0.7.1.tar.gz
   - name: consul-windows/consul_0.7.1_windows_amd64.zip
     url: https://github.com/hashicorp/consul/archive/v0.7.1.tar.gz
-  - name: go-buildpack/go_buildpack-cached-v1.7.16.zip
-    url: https://github.com/cloudfoundry/go-buildpack/archive/v1.7.16.tar.gz
-  - name: staticfile-buildpack/staticfile_buildpack-cached-v1.3.14.zip
-    url: https://github.com/cloudfoundry/staticfile-buildpack/archive/v1.3.14.tar.gz
-  - name: python-buildpack/python_buildpack-cached-v1.5.13.zip
-    url: https://github.com/cloudfoundry/python-buildpack/archive/v1.5.13.tar.gz
-  - name: rootfs/cflinuxfs2-1.95.0.tar.gz
+  - name: go-buildpack/go_buildpack-cached-v1.7.17.zip
+    url: https://github.com/cloudfoundry/go-buildpack/archive/v1.7.17.tar.gz
+  - name: staticfile-buildpack/staticfile_buildpack-cached-v1.3.16.zip
+    url: https://github.com/cloudfoundry/staticfile-buildpack/archive/v1.3.16.tar.gz
+  - name: python-buildpack/python_buildpack-cached-v1.5.14.zip
+    url: https://github.com/cloudfoundry/python-buildpack/archive/v1.5.14.tar.gz
+  - name: rootfs/cflinuxfs2-1.96.0.tar.gz
     skip: true
-  - name: dotnet-core-buildpack/dotnet-core_buildpack-cached-v1.0.8.zip
-    url: https://github.com/cloudfoundry/dotnet-core-buildpack/archive/v1.0.8.tar.gz
-  - name: nodejs-buildpack/nodejs_buildpack-cached-v1.5.25.zip
-    url: https://github.com/cloudfoundry/nodejs-buildpack/archive/v1.5.25.tar.gz
-  - name: ruby-buildpack/ruby_buildpack-cached-v1.6.30.zip
-    url: https://github.com/cloudfoundry/ruby-buildpack/archive/v1.6.30.tar.gz
-  - name: php-buildpack/php_buildpack-cached-v4.3.24.zip
-    url:  https://github.com/cloudfoundry/php-buildpack/archive/v4.3.24.tar.gz
+  - name: dotnet-core-buildpack/dotnet-core_buildpack-cached-v1.0.9.zip
+    url: https://github.com/cloudfoundry/dotnet-core-buildpack/archive/v1.0.9.tar.gz
+  - name: nodejs-buildpack/nodejs_buildpack-cached-v1.5.27.zip
+    url: https://github.com/cloudfoundry/nodejs-buildpack/archive/v1.5.27.tar.gz
+  - name: ruby-buildpack/ruby_buildpack-cached-v1.6.32.zip
+    url: https://github.com/cloudfoundry/ruby-buildpack/archive/v1.6.32.tar.gz
+  - name: php-buildpack/php_buildpack-cached-v4.3.25.zip
+    url:  https://github.com/cloudfoundry/php-buildpack/archive/v4.3.25.tar.gz
   - name: loggregator-blobs/doppler.xz
     skip: true
   - name: loggregator-blobs/syslog_drain_binder.xz
@@ -157,6 +157,8 @@ releases:
     skip: true
   - name: golang/go1.7.4.linux-amd64.tar.gz
     skip: true
+  - name: cli/cf-cli_6.23.0_linux_x86-64.tgz
+    url: https://github.com/cloudfoundry/cli/archive/v6.23.0.tar.gz
 - repo: git@github.com:cloudfoundry-incubator/notifications-release.git
   scan_root: false
   blobs:
@@ -221,7 +223,7 @@ releases:
 - repo: git@github.com:cloudfoundry-incubator/etcd-release.git
   scan_root: false
   blobs:
-  - name: etcd/etcd-v2.1.1-linux-amd64.tar.gz
+  - name: etcd/etcd-v2.2.0-linux-amd64.tar.gz
     skip: true
   - name: golang/go1.7.3.linux-amd64.tar.gz
     skip: true
@@ -253,15 +255,15 @@ releases:
     skip: true
   - name: nginx/newrelic_nginx_agent-1.2.1.tar.gz
     skip: true
-  - name: nginx/nginx-1.11.1.tar.gz
+  - name: nginx/nginx-1.11.8.tar.gz
     skip: true
-  - name: nginx/headers-more-nginx-module-0.30.tar.gz
+  - name: nginx/headers-more-nginx-module-0.32.tar.gz
     skip: true
   - name: nginx/pcre-8.39.tar.gz
     skip: true
   - name: postgres/postgresql-9.4.9.tar.gz
     skip: true
-  - name: golang/go1.7.3.linux-amd64.tar.gz
+  - name: golang/go1.7.4.linux-amd64.tar.gz
     skip: true
   - name: ruby-2.3/bundler-1.13.6.gem
     skip: true
