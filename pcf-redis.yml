@@ -21,15 +21,15 @@ releases:
     skip: true
 - repo: git@github.com:pivotal-cf/p-redis.git
   scan_root: false
-  blobs:
-  - name: service-metrics-1.5.4.tgz
-    skip: true
-  - name: loggregator-65.tgz
-    skip: true
-  - name: cf-routing-release-0.143.0.tgz
-    skip: true
-  - name: service-backup-18.0.3.tgz
-    skip: true
+#  blobs:
+#  - name: service-metrics-1.5.4.tgz
+#    skip: true
+#  - name: loggregator-65.tgz
+#    skip: true
+#  - name: cf-routing-release-0.143.0.tgz
+#    skip: true
+#  - name: service-backup-18.0.3.tgz
+#    skip: true
 - repo: git@github.com:pivotal-cf/redis-metrics-release.git
   scan_root: false
 - repo: git@github.com:pivotal-cf/redis-backups-release.git
