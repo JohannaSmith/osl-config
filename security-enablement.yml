@@ -6,7 +6,7 @@ releases:
     skip: true
   - name: golang/golang-linux-amd64.tar.gz
     skip: true
-  - name: libgit2/libgit2-0.24.1.tar.gz
+  - name: libgit2/libgit2.tar.gz
     skip: true
   - name: libssh2/libssh2-1.7.0.tar.gz
     skip: true
