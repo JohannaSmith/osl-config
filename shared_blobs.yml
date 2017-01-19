@@ -8,3 +8,6 @@ blobs:
   skip: true
 - name: migrate/migrate
   skip: true
+- name_pattern: golang/go\d+\.\d+\.\d+\.lang-linux-amd64.tar.gz
+  skip: true
+
