@@ -1,5 +1,16 @@
 ---
 releases:
+- repo: git@github.com:pivotal-cf/apm-tile.git
+  scan_root: false
+#  blobs:
+#  - name: cf-mysql-32.1.tgz
+#    skip: true
+#  - name: mysql-monitoring-6.tgz
+#    skip: true
+#  - name: logsearch-boshrelease-204.0.0.tgz
+#    skip: true
+#  - name: loggregator-62.tgz
+#    skip: true
 - repo: git@github.com:pivotal-cf/apm-ui-release.git
   scan_root: false
   blobs:
@@ -28,5 +39,33 @@ releases:
     skip: true
   - name: cf-cli_6.19.0_linux_x86-64.tgz
     skip: true
-- repo: git@github.com:pivotal-cf/apm-tile.git
-  scan_root: false
+- repo: git@github.com:pivotal-cf/metrics-app-dev-release.git
+  blobs:
+  - name: node-v4.2.1-linux-x64.tar.gz
+    skip: true
+  - name: Python-2.7.10.tgz
+    skip: true
+  - name: git-2.6.2.tar.gz
+    skip: true
+  - name: autoconf-2.69.tar.gz
+    skip: true
+  - name: flyway-commandline-4.0.3-linux-x64.tar.gz
+    skip: true
+  - name: mysql
+    skip: true
+  - name: apps/ingestor.gz
+    skip: true
+  - name: apps/mysql_logqueue.gz
+    skip: true
+  - name: apps/es_logqueue.gz
+    skip: true
+  - name: apps/aggregator.gz
+    skip: true
+  - name: metron_forwarder.gz
+    skip: true
+  - name: migrate/db_migrations.tar.gz
+    skip: true
+  - name: smoke_tests.test
+    skip: true
+  - name: cf-cli_6.23.1_linux_x86-64.tgz
+    skip: true
