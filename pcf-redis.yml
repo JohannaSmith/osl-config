@@ -15,13 +15,9 @@ releases:
     skip: true
   - name: nginx/pcre-8.37-patch-CVE2015-3210.tar.gz
     skip: true
-  - name: ruby/ruby-2.1.5.tar.gz
-    skip: true
   - name: redis/redis-3.2.1.tar.gz
     skip: true
   - name: cf-cli/cf-cli_6.21.1_linux_x86-64.tgz
-    skip: true
-  - name: go/go1.7.4.linux-amd64.tar.gz
     skip: true
 - repo: git@github.com:pivotal-cf/p-redis.git
   scan_root: false
