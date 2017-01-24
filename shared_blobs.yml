@@ -20,3 +20,5 @@ blobs:
   url_template: https://github.com/coreos/etcd/archive/v((version)).tar.gz
 - name_pattern: (.*)/bundler-(?<version>\d+\.\d+\.\d+)\.gem
   url_template: https://github.com/bundler/bundler/archive/v((version)).tar.gz
+- name_pattern: nginx/headers-more-nginx-module-(?<version>\d+\.\d+)\.tar\.gz
+  url_template: https://github.com/openresty/headers-more-nginx-module/archive/v((version)).tar.gz

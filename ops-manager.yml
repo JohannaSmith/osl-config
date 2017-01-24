@@ -115,8 +115,6 @@ releases:
     skip: true
   - name: nats/vendor/cache/yajl-ruby-1.1.0.gem
     skip: true
-  - name: nginx/headers-more-nginx-module-0.30.tar.gz
-    skip: true
   - name: nginx/nginx-upload-module-2.2.tar.gz
     skip: true
   - name: nginx/pcre-8.38.tar.gz

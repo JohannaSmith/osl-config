@@ -44,8 +44,6 @@ releases:
     url: http://pyyaml.org/download/libyaml/yaml-0.1.6.tar.gz
   - name: consul/consul-template_0.14.0_linux_amd64.zip
     url: https://github.com/hashicorp/consul-template/archive/v0.14.0.tar.gz
-  - name: nginx/headers-more-nginx-module-0.32.tar.gz
-    url: https://github.com/openresty/headers-more-nginx-module/archive/v0.32.tar.gz
   - name: nginx/pcre-8.39.tar.gz
     url: http://ftp.cs.stanford.edu/mirrors/exim/pcre/pcre-8.39.tar.gz
   - name: golang/go1.6.3.linux-amd64.tar.gz
@@ -82,8 +80,6 @@ releases:
     url: https://github.com/cloudfoundry/staticfile-buildpack/archive/v1.3.16.tar.gz
   - name: python-buildpack/python_buildpack-cached-v1.5.14.zip
     url: https://github.com/cloudfoundry/python-buildpack/archive/v1.5.14.tar.gz
-  - name: rootfs/cflinuxfs2-1.96.0.tar.gz
-    skip: true
   - name: dotnet-core-buildpack/dotnet-core_buildpack-cached-v1.0.9.zip
     url: https://github.com/cloudfoundry/dotnet-core-buildpack/archive/v1.0.9.tar.gz
   - name: nodejs-buildpack/nodejs_buildpack-cached-v1.5.27.zip
@@ -110,6 +106,8 @@ releases:
     url: https://github.com/cloudfoundry/java-buildpack/archive/v3.11.tar.gz
   - name: java-buildpack/java-buildpack-offline-v3.11.zip
     url: https://github.com/cloudfoundry/java-buildpack/archive/v3.11.tar.gz
+  - name_pattern: rootfs/cflinuxfs2-(?<version>\d+\.\d+\.\d+)\.tar\.gz
+    skip: true
 - repo: https://github.com/cloudfoundry-incubator/diego-release
   blobs:
   - name: jq/jq-linux64
