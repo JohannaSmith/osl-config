@@ -194,8 +194,6 @@ releases:
 - repo: git@github.com:pivotal-cf/apps-manager-release
   scan_root: false
   blobs:
-  - name: node/node-v6.2.2-linux-x64.tar.xz
-    skip: true
   - name: java/jre-8u102-linux-x64.tar.gz
     skip: true
   - name: phantomjs/phantomjs-2.1.1-linux-x86_64.tar.bz2
