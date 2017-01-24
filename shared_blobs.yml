@@ -4,8 +4,6 @@ blobs:
   skip: true
 - name: nginx/nginx-upload-module-2.2.tar.gz
   url: https://github.com/vkholodkov/nginx-upload-module/archive/2.2.0.tar.gz
-- name: python/Python-2.7.8.tgz
-  skip: true
 - name: migrate/migrate
   skip: true
 - name_pattern: go(?<version>\d+\.\d+(\.\d+)?)\.(windows|linux|darwin)-amd64\.(tar\.gz|zip)
@@ -26,3 +24,5 @@ blobs:
   url_template: https://github.com/bundler/bundler/archive/v((version)).tar.gz
 - name_pattern: nginx/headers-more-nginx-module-(?<version>\d+\.\d+)\.tar\.gz
   url_template: https://github.com/openresty/headers-more-nginx-module/archive/v((version)).tar.gz
+- name_pattern: Python-(?<version>\d+\.\d+\.\d+)\.tgz
+  skip: true

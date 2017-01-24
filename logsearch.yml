@@ -9,8 +9,6 @@ releases:
     skip: true
   - name: curator/urllib3-1.8.3.tar.gz
     skip: true
-  - name: python/Python-3.4.3.tgz
-    skip: true
   - name: curator/elasticsearch-curator-3.4.0-dev1.tar.gz
     skip: true
   - name: curator/elasticsearch-1.7.0.tar.gz

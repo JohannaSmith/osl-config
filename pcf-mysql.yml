@@ -11,8 +11,6 @@ releases:
     skip: true
   - name: pcre-8.35.tar.gz
     skip: true
-  - name: python/Python-2.7.8.tgz
-    skip: true
   - name: xtrabackup/autoconf-2.65.tar.gz
     skip: true
   - name: xtrabackup/automake-1.14.1.tar.gz
@@ -63,8 +61,6 @@ releases:
     skip: true
   - name: awscli/awscli-bundle.zip
     skip: true
-  - name: python/Python-2.7.8.tgz
-    skip: true
   - name: mariadb/mariadb-10.0.23.tar.gz
     skip: true
 - repo: git@github.com:pivotal-cf-experimental/mysql-monitoring-release.git
@@ -75,8 +71,6 @@ releases:
   branch: v14
   blobs:
   - name: aws-cli/awscli-bundle.zip
-    skip: true
-  - name: python/Python-2.7.11.tgz
     skip: true
   - name: blobxfer/azure-common-1.1.1.zip
     skip: true

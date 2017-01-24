@@ -14,8 +14,6 @@ releases:
 - repo: git@github.com:pivotal-cf/apm-ui-release.git
   scan_root: false
   blobs:
-  - name: Python-2.7.10.tgz
-    skip: true
   - name: git-2.6.2.tar.gz
     skip: true
   - name: autoconf-2.69.tar.gz
@@ -29,14 +27,10 @@ releases:
     skip: true
   - name: git-2.6.2.tar.gz
     skip: true
-  - name: Python-2.7.10.tgz
-    skip: true
   - name: cf-cli_6.19.0_linux_x86-64.tgz
     skip: true
 - repo: git@github.com:pivotal-cf/metrics-app-dev-release.git
   blobs:
-  - name: Python-2.7.10.tgz
-    skip: true
   - name: git-2.6.2.tar.gz
     skip: true
   - name: autoconf-2.69.tar.gz

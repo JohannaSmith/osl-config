@@ -10,7 +10,5 @@ releases:
     skip: true
   - name: aws-cli/awscli-bundle.zip
     skip: true
-  - name: python/Python-2.7.8.tgz
-    skip: true
   - name: migrate/migrate
     skip: true
