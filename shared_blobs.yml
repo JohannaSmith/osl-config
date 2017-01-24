@@ -8,7 +8,7 @@ blobs:
   skip: true
 - name: migrate/migrate
   skip: true
-- name_pattern: go(?<version>\d+\.\d+\.\d+)\.(windows|linux|darwin)-amd64\.(tar\.gz|zip)
+- name_pattern: go(?<version>\d+\.\d+\.\d+)\.?(windows|linux|darwin)-amd64\.(tar\.gz|zip)
   skip: true
 - name_pattern: ruby-(?<version>\d+\.\d+\.\d+)\.tar\.gz
   skip: true
