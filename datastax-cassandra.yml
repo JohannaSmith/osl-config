@@ -2,8 +2,6 @@
 releases:
 - repo: git@github.com:pivotal-cf/cf-dse-cassandra-service-release.git
   blobs:
-  - name: go1.7.linux-amd64.tar.gz
-    skip: true
   - name: jdk-8u102-linux-x64.tar.gz
     skip: true
   - name: datastax-agent-6.0.2.tar.gz
@@ -13,16 +11,11 @@ releases:
   - name: opscenter-6.0.2.tar.gz
     skip: true
 - repo: git@github.com:pivotal-cf/cf-dse-cassandra-service-adapter-release.git
-  blobs:
-  - name: go1.7.3.linux-amd64.tar.gz
-    skip: true
 - repo: git@github.com:pivotal-cf/on-demand-service-broker-release.git
   blobs:
   - name: curl/curl-7.50.1.tar.gz
     skip: true
   - name: cf-cli/cf-cli_6.21.1_linux_x86-64.tgz
-    skip: true
-  - name: go/go1.7.4.linux-amd64.tar.gz
     skip: true
 - repo: git@github.com:pivotal-cf/cf-dse-cassandra-utilities.git
 - repo: git@github.com:pivotal-cf/cf-dse-cassandra-service-broker.git

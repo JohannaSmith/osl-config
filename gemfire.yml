@@ -34,18 +34,9 @@ releases:
     skip: true
   - name: gemfire/Pivotal_GemFire_821_b18207_Linux.zip
     skip: true
-  - name: golang/go1.6.3.linux-amd64.tar.gz
-    skip: true
-  - name: golang/go1.7.linux-amd64.tar.gz
-    skip: true
   - name: gemfire/Pivotal_GemFire_8213_b18302_Linux.zip
     skip: true
 - repo: git@github.com:pivotal-cf/cf-gemfire-broker
-  blobs:
-  - name: golang/go1.6.3.linux-amd64.tar.gz
-    skip: true
-  - name: golang/go1.7.linux-amd64.tar.gz
-    skip: true
 - repo: git@github.com:pivotal-cf/cf-gemfire-broker-registrar
   scan_root: false
   blobs:

@@ -34,11 +34,6 @@ releases:
   projects:
   - name: bosh-google-cpi
     path: src/bosh-google-cpi
-  blobs:
-  - name: golang/go1.7.1.darwin-amd64.tar.gz
-    skip: true
-  - name: golang/go1.7.1.linux-amd64.tar.gz
-    skip: true
 - repo: https://github.com/cloudfoundry-incubator/bosh-azure-cpi-release.git
   scan_root: false
   projects:

@@ -36,8 +36,6 @@ releases:
     url: https://github.com/hashicorp/consul-template/archive/v0.14.0.tar.gz
   - name: nginx/pcre-8.39.tar.gz
     url: http://ftp.cs.stanford.edu/mirrors/exim/pcre/pcre-8.39.tar.gz
-  - name: golang/go1.6.3.linux-amd64.tar.gz
-    url: https://github.com/golang/go/archive/go1.6.3.tar.gz
   - name: postgres/postgresql-9.4.9.tar.gz
     url: https://github.com/postgres/postgres/archive/REL9_4_9.tar.gz
   - name: openjdk/openjdk-1.8.0_101-x86_64-trusty.tar.gz
@@ -52,10 +50,6 @@ releases:
     url: https://github.com/cloudfoundry/binary-buildpack/archive/v1.0.7.tar.gz
   - name: uaa/apache-tomcat-8.0.39.tar.gz
     url: https://github.com/apache/tomcat80/archive/TOMCAT_8_0_39.tar.gz
-  - name: golang/go1.7.4.linux-amd64.tar.gz
-    url: https://github.com/golang/go/archive/go1.7.4.tar.gz
-  - name: golang/go1.7.4.windows-amd64.zip
-    url: https://github.com/golang/go/archive/go1.7.4.tar.gz
   - name: consul/consul_0.7.1_linux_amd64.zip
     url: https://github.com/hashicorp/consul/archive/v0.7.1.tar.gz
   - name: consul-windows/consul_0.7.1_windows_amd64.zip
@@ -98,10 +92,6 @@ releases:
   blobs:
   - name: jq/jq-linux64
     skip: true
-  - name: golang/go1.7.4.linux-amd64.tar.gz
-    skip: true
-  - name: golang/go1.7.4.windows-amd64.zip
-    skip: true
   - name: lifecycles/windows_app_lifecycle-1f3b617.tgz
     skip: true
 - repo: https://github.com/cloudfoundry/garden-runc-release
@@ -117,8 +107,6 @@ releases:
     skip: true
   - name: apparmor/apparmor-2.10.1.tar.gz
     skip: true
-  - name: golang/go1.7.1.linux-amd64.tar.gz
-    skip: true
   - name: tar/tar-1.29.tar.gz
     skip: true
 - repo: https://github.com/cloudfoundry/diego-windows-release
@@ -131,8 +119,6 @@ releases:
   blobs:
   - name: cli/cf-linux-amd64.tgz
     skip: true
-  - name: golang/go1.7.4.linux-amd64.tar.gz
-    skip: true
   - name: cli/cf-cli_6.23.0_linux_x86-64.tgz
     url: https://github.com/cloudfoundry/cli/archive/v6.23.0.tar.gz
 - repo: git@github.com:cloudfoundry-incubator/notifications-release.git
@@ -143,8 +129,6 @@ releases:
   - name: cf_cli/autopilot-plugin.tgz
     skip: true
   - name: jq/jq.tar.gz
-    skip: true
-  - name: go/go1.7.3.linux-amd64.tar.gz
     skip: true
 - repo: git@github.com:pivotal-cf/notifications-ui-release
   blobs:
@@ -158,8 +142,6 @@ releases:
     skip: true
   - name: jq/jq.tgz
     skip: true
-  - name: go/go1.7.3.linux-amd64.tar.gz
-    skip: true
 - repo: git@github.com:pivotal-cf/cf-autoscaling-release
   scan_root: false
   blobs:
@@ -168,8 +150,6 @@ releases:
   - name: cf_cli/autopilot-plugin.tgz
     skip: true
   - name: jq/jq.tar.gz
-    skip: true
-  - name: go/go1.7.1.linux-amd64.tar.gz
     skip: true
   - name: sql-migrate/sql-migrate
     skip: true
@@ -196,9 +176,6 @@ releases:
   - path: GardenWindowsRelease
 - repo: git@github.com:cloudfoundry-incubator/etcd-release.git
   scan_root: false
-  blobs:
-  - name: golang/go1.7.3.linux-amd64.tar.gz
-    skip: true
 - repo: https://github.com/cloudfoundry-incubator/cf-routing-release
   scan_root: false
   blobs:
@@ -208,11 +185,7 @@ releases:
     skip: true
   - name: cf-cli/cf-linux-amd64.tgz
     skip: true
-  - name: golang/go1.6.3.linux-amd64.tar.gz
-    skip: true
   - name: haproxy/pcre-8.39.tar.gz
-    skip: true
-  - name: golang/go1.7.4.linux-amd64.tar.gz
     skip: true
   - name: cf-cli/cf-cli_6.23.0_linux_x86-64.tgz
     skip: true
@@ -232,8 +205,6 @@ releases:
   - name: nginx/pcre-8.39.tar.gz
     skip: true
   - name: postgres/postgresql-9.4.9.tar.gz
-    skip: true
-  - name: golang/go1.7.4.linux-amd64.tar.gz
     skip: true
 - repo: git@github.com:pivotal-cf/pivotal-account-release
   scan_root: false

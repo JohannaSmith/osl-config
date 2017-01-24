@@ -29,8 +29,6 @@ releases:
     skip: true
   - name: mysqlclient/mariadb-connector-c-2.1.0-src.tar.gz
     skip: true
-  - name: golang/go1.7.linux-amd64.tar.gz
-    skip: true
   - name: galera/galera-25.3.17.tar.gz
     skip: true
   - name: cli/cf-cli_6.22.2_linux_x86-64.tgz
@@ -67,16 +65,11 @@ releases:
     skip: true
   - name: python/Python-2.7.8.tgz
     skip: true
-  - name: golang/go1.6.1.linux-amd64.tar.gz
-    skip: true
   - name: mariadb/mariadb-10.0.23.tar.gz
     skip: true
 - repo: git@github.com:pivotal-cf-experimental/mysql-monitoring-release.git
   scan_root: false
   branch: v3
-  blobs:
-  - name: golang/go1.6.1.linux-amd64.tar.gz
-    skip: true
 - repo: git@github.com:pivotal-cf-experimental/service-backup-release.git
   scan_root: false
   branch: v14
@@ -96,8 +89,6 @@ releases:
   - name: blobxfer/requests-2.9.1.tar.gz
     skip: true
   - name: blobxfer/setuptools-20.6.7.tar.gz
-    skip: true
-  - name: golang/go1.6.2.linux-amd64.tar.gz
     skip: true
   - name: blobxfer/six-1.10.0.tar.gz
     skip: true

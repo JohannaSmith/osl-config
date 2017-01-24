@@ -11,8 +11,6 @@ releases:
     skip: true
   - name: cf-cli/cf-cli_6.19.0_linux_x86-64.tgz
     skip: true
-  - name: golang/go1.7.3.linux-amd64.tar.gz
-    skip: true
   - name: erlang/otp_src_oss_18.3.4.4.tgz
     skip: true
   - name: rabbitmq-server/rabbitmq-server-generic-unix-3.6.6.903.tar.xz
@@ -21,15 +19,7 @@ releases:
     skip: true
 - repo: git@github.com:pivotal-cf/rabbitmq-metrics-release.git
   scan_root: false
-  blobs:
-  - name: golang/go1.6.1.linux-amd64.tar.gz
-    skip: true
-  - name: golang/go1.7.3.linux-amd64.tar.gz
-    skip: true
 - repo: git@github.com:pivotal-cf-experimental/service-metrics-release.git
-  blobs:
-  - name: go/go1.7.4.linux-amd64.tar.gz
-    skip: true
 - repo: git@github.com:cloudfoundry/loggregator.git
   scan_root: false
   blobs:
