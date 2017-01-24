@@ -12,3 +12,7 @@ blobs:
   skip: true
 - name_pattern: ruby/ruby-(.*)\.tar\.gz
   skip: true
+- name_pattern: nginx/nginx-(?<version>\d+\.\d+\.\d+)\.tar\.gz
+  url_template: https://github.com/nginx/nginx/archive/release-((version)).tar.gz
+- name_pattern: etcd/etcd-v(?<version>\d+\.\d+\.\d+)-linux-amd64\.tar\.gz
+  url_template: https://github.com/coreos/etcd/archive/v((version)).tar.gz

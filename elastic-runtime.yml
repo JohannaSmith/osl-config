@@ -46,8 +46,6 @@ releases:
     url: http://pyyaml.org/download/libyaml/yaml-0.1.6.tar.gz
   - name: consul/consul-template_0.14.0_linux_amd64.zip
     url: https://github.com/hashicorp/consul-template/archive/v0.14.0.tar.gz
-  - name: nginx/nginx-1.11.8.tar.gz
-    url: https://github.com/nginx/nginx/archive/release-1.11.8.tar.gz
   - name: nginx/headers-more-nginx-module-0.32.tar.gz
     url: https://github.com/openresty/headers-more-nginx-module/archive/v0.32.tar.gz
   - name: nginx/pcre-8.39.tar.gz
@@ -66,8 +64,6 @@ releases:
     url: http://ftp.cs.stanford.edu/mirrors/exim/pcre/pcre-8.39.tar.gz
   - name: binary-buildpack/binary_buildpack-cached-v1.0.7.zip
     url: https://github.com/cloudfoundry/binary-buildpack/archive/v1.0.7.tar.gz
-  - name: etcd/etcd-v2.2.0-linux-amd64.tar.gz
-    url: https://github.com/coreos/etcd/archive/v2.2.0.tar.gz
   - name: uaa/apache-tomcat-8.0.39.tar.gz
     url: https://github.com/apache/tomcat80/archive/TOMCAT_8_0_39.tar.gz
   - name: ruby-2.3/bundler-1.13.6.gem
@@ -223,8 +219,6 @@ releases:
 - repo: git@github.com:cloudfoundry-incubator/etcd-release.git
   scan_root: false
   blobs:
-  - name: etcd/etcd-v2.2.0-linux-amd64.tar.gz
-    skip: true
   - name: golang/go1.7.3.linux-amd64.tar.gz
     skip: true
 - repo: https://github.com/cloudfoundry-incubator/cf-routing-release
@@ -254,8 +248,6 @@ releases:
   - name: libmariadb/libmariadb-5.5.36.tar.xz
     skip: true
   - name: nginx/newrelic_nginx_agent-1.2.1.tar.gz
-    skip: true
-  - name: nginx/nginx-1.11.8.tar.gz
     skip: true
   - name: nginx/headers-more-nginx-module-0.32.tar.gz
     skip: true

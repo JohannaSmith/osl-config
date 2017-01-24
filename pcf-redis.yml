@@ -11,8 +11,6 @@ releases:
     skip: true
   - name: aws-cli/awscli-bundle.zip
     skip: true
-  - name: nginx/nginx-1.8.0.tar.gz
-    skip: true
   - name: nginx/pcre-8.37-patch-CVE2015-3210.tar.gz
     skip: true
   - name: redis/redis-3.2.1.tar.gz
