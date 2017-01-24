@@ -83,8 +83,6 @@ releases:
     skip: true
   - name: cf-uaac/vendor/cache/rack-1.5.2.gem
     skip: true
-  - name: ruby/bundler-1.3.5.gem
-    skip: true
   - name: ruby/ruby-2.0.0-p353.tar.gz
     skip: true
   - name: ruby/rubygems-2.1.11.tgz

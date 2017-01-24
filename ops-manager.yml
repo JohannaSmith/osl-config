@@ -14,8 +14,6 @@ releases:
     skip: true
   - name: vsphere_cpi_ruby/yaml-0.1.5.tar.gz
     skip: true
-  - name: vsphere_cpi_ruby/bundler-1.11.2.gem
-    skip: true
   - name: vsphere_cpi_ruby/ruby-2.2.4.tar.gz
     skip: true
   - name: vsphere_cpi_ruby/rubygems-2.6.2.tgz
@@ -52,8 +50,6 @@ releases:
     skip: true
   - name: ruby_openstack_cpi/ruby-2.1.7.tar.gz
     skip: true
-  - name: ruby_openstack_cpi/bundler-1.11.2.gem
-    skip: true
 - repo: https://github.com/cloudfoundry-incubator/bosh-google-cpi-release
   scan_root: false
   projects:
@@ -70,8 +66,6 @@ releases:
   - name: bosh-azure-cpi
     path: src/bosh_azure_cpi
   blobs:
-  - name: ruby_azure_cpi/bundler-1.11.2.gem
-    skip: true
   - name: ruby_azure_cpi/yaml-0.1.5.tar.gz
     skip: true
   - name: ruby_azure_cpi/ruby-2.2.4.tar.gz
@@ -132,8 +126,6 @@ releases:
   - name: postgres/postgresql-9.4.9.tar.gz
     skip: true
   - name: powerdns/pdns-static_3.3.1-1_amd64.deb
-    skip: true
-  - name: ruby/bundler-1.11.2.gem
     skip: true
   - name: ruby/ruby-2.3.1.tar.gz
     skip: true

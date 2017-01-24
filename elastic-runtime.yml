@@ -28,8 +28,6 @@ releases:
     url: http://git.haproxy.org/?p=haproxy-1.5.git;a=snapshot;h=16f863fbc9fbd6535971eb1f55d33f0efc2ac5e1;sf=tgz
   - name: uaa/cloudfoundry-identity-statsd-1.0.0.war
     skip: true
-  - name: ruby-2.1.8/bundler-1.9.4.gem
-    url: https://github.com/bundler/bundler/archive/v1.9.4.tar.gz
   - name: ruby-2.1.8/ruby-2.1.8.tar.gz
     url: https://github.com/ruby/ruby/archive/v2_1_8.tar.gz
   - name: ruby-2.1.8/yaml-0.1.6.tar.gz
@@ -66,8 +64,6 @@ releases:
     url: https://github.com/cloudfoundry/binary-buildpack/archive/v1.0.7.tar.gz
   - name: uaa/apache-tomcat-8.0.39.tar.gz
     url: https://github.com/apache/tomcat80/archive/TOMCAT_8_0_39.tar.gz
-  - name: ruby-2.3/bundler-1.13.6.gem
-    url: https://github.com/bundler/bundler/archive/v1.13.6.tar.gz
   - name: ruby-2.3/ruby-2.3.3.tar.gz
     url: https://github.com/ruby/ruby/archive/v2_3_3.tar.gz
   - name: ruby-2.3/rubygems-2.6.8.tgz

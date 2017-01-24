@@ -31,8 +31,6 @@ releases:
     skip: true
   - name: traveling-ruby/traveling-ruby-20150715-2.2.2-linux-x86_64.tar.gz
     skip: true
-  - name: ruby-2.1/bundler-1.7.2.gem
-    skip: true
   - name: ruby-2.1/ruby-2.1.2.tar.gz
     skip: true
   - name: ruby-2.1/rubygems-2.4.1.tgz

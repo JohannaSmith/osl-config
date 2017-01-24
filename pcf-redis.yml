@@ -7,8 +7,6 @@ releases:
     skip: true
   - name: ruby/yaml-0.1.5.tar.gz
     skip: true
-  - name: ruby/bundler-1.3.5.gem
-    skip: true
   - name: aws-cli/awscli-bundle.zip
     skip: true
   - name: nginx/pcre-8.37-patch-CVE2015-3210.tar.gz
