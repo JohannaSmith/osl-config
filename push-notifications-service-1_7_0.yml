@@ -31,12 +31,6 @@ releases:
     skip: true
   - name: traveling-ruby/traveling-ruby-20150715-2.2.2-linux-x86_64.tar.gz
     skip: true
-  - name: ruby-2.1/ruby-2.1.2.tar.gz
-    skip: true
-  - name: ruby-2.1/rubygems-2.4.1.tgz
-    skip: true
-  - name: ruby-2.1/yaml-0.1.5.tar.gz
-    skip: true
   - name: cf/cf
     skip: true
 - repo: git@github.com:cfmobile/push-dashboard.git

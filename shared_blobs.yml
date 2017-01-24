@@ -10,7 +10,11 @@ blobs:
   skip: true
 - name_pattern: go(lang)?/go(.*)?(windows|linux)-amd64\.(tar\.gz|zip)
   skip: true
-- name_pattern: ruby/ruby-(.*)\.tar\.gz
+- name_pattern: ruby-(?<version>\d+\.\d+\.\d+)\.tar\.gz
+  skip: true
+- name_pattern: rubygems-(?<version>\d+\.\d+\.\d+)\.tgz
+  skip: true
+- name_pattern: (.*)ruby(.*)/yaml-(?<version>\d+\.\d+\.\d+).tar.gz
   skip: true
 - name_pattern: node-v(\d+\.\d+\.\d+)-linux-x64.tar\.(gz|xz)
   skip: true

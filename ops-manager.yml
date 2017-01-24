@@ -12,44 +12,23 @@ releases:
     skip: true
   - name: vsphere_cpi_mkisofs/smake-1.2.4.tar.bz2
     skip: true
-  - name: vsphere_cpi_ruby/yaml-0.1.5.tar.gz
-    skip: true
-  - name: vsphere_cpi_ruby/ruby-2.2.4.tar.gz
-    skip: true
-  - name: vsphere_cpi_ruby/rubygems-2.6.2.tgz
-    skip: true
 - repo: https://github.com/cloudfoundry-incubator/bosh-vcloud-cpi-release
   scan_root: false
   projects:
   - name: bosh-vcloud-cpi
     path: src/bosh_vcloud_cpi
   blobs:
-  - name: ruby_vcloud_cpi/yaml-0.1.5.tar.gz
-    skip: true
   - name: bosh_vcloud_cpi_mkisofs/cdrtools-3.00.tar.bz2
     skip: true
   - name: bosh_vcloud_cpi_mkisofs/patch-include_schily_sha2.h
     skip: true
   - name: bosh_vcloud_cpi_mkisofs/smake-1.2.4.tar.bz2
     skip: true
-  - name: ruby_vcloud_cpi/bundler-1.12.4.gem
-    skip: true
-  - name: ruby_vcloud_cpi/ruby-2.3.1.tar.gz
-    skip: true
-  - name: ruby_vcloud_cpi/rubygems-2.6.4.tgz
-    skip: true
 - repo: https://github.com/cloudfoundry-incubator/bosh-openstack-cpi-release
   scan_root: false
   projects:
   - name: bosh-openstack-cpi
     path: src/bosh_openstack_cpi
-  blobs:
-  - name: ruby_openstack_cpi/rubygems-2.1.11.tgz
-    skip: true
-  - name: ruby_openstack_cpi/yaml-0.1.5.tar.gz
-    skip: true
-  - name: ruby_openstack_cpi/ruby-2.1.7.tar.gz
-    skip: true
 - repo: https://github.com/cloudfoundry-incubator/bosh-google-cpi-release
   scan_root: false
   projects:
@@ -68,24 +47,11 @@ releases:
   blobs:
   - name: ruby_azure_cpi/yaml-0.1.5.tar.gz
     skip: true
-  - name: ruby_azure_cpi/ruby-2.2.4.tar.gz
-    skip: true
-  - name: ruby_azure_cpi/rubygems-2.6.2.tgz
-    skip: true
 - repo: https://github.com/cloudfoundry-incubator/bosh-aws-cpi-release
   scan_root: false
   projects:
   - name: bosh-aws-cpi
     path: src/bosh_aws_cpi
-  blobs:
-  - name: ruby_aws_cpi/yaml-0.1.5.tar.gz
-    skip: true
-  - name: ruby_aws_cpi/ruby-2.2.4.tar.gz
-    skip: true
-  - name: ruby_aws_cpi/rubygems-2.6.2.tgz
-    skip: true
-  - name: ruby_aws_cpi/bundler-1.11.2.gem
-    skip: true
 - repo: git@github.com:pivotal-cf/installation
   scan_root: false
   projects:
@@ -124,10 +90,6 @@ releases:
   - name: postgres/postgresql-9.4.9.tar.gz
     skip: true
   - name: powerdns/pdns-static_3.3.1-1_amd64.deb
-    skip: true
-  - name: ruby/ruby-2.3.1.tar.gz
-    skip: true
-  - name: ruby/rubygems-2.6.4.tgz
     skip: true
   - name: ruby/yaml-0.1.5.tar.gz
     skip: true

@@ -85,10 +85,6 @@ releases:
     skip: true
   - name: ruby/ruby-2.0.0-p353.tar.gz
     skip: true
-  - name: ruby/rubygems-2.1.11.tgz
-    skip: true
-  - name: ruby/yaml-0.1.6.tar.gz
-    skip: true
   - name: jq/jq
     skip: true
   - name: ruby/ruby-2.0.0-p481.tar.gz

@@ -31,12 +31,6 @@ releases:
     skip: true
   - name: golang/go1.7.linux-amd64.tar.gz
     skip: true
-  - name: ruby/ruby-2.3.1.tar.gz
-    skip: true
-  - name: ruby/rubygems-2.6.6.tgz
-    skip: true
-  - name: ruby/yaml-0.1.6.tar.gz
-    skip: true
   - name: galera/galera-25.3.17.tar.gz
     skip: true
   - name: cli/cf-cli_6.22.2_linux_x86-64.tgz
@@ -72,14 +66,6 @@ releases:
   - name: awscli/awscli-bundle.zip
     skip: true
   - name: python/Python-2.7.8.tgz
-    skip: true
-  - name: ruby/bundler-1.10.6.gem
-    skip: true
-  - name: ruby/ruby-2.2.3.tar.gz
-    skip: true
-  - name: ruby/rubygems-2.4.8.tgz
-    skip: true
-  - name: ruby/yaml-0.1.5.tar.gz
     skip: true
   - name: golang/go1.6.1.linux-amd64.tar.gz
     skip: true
