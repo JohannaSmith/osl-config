@@ -20,8 +20,6 @@ releases:
     skip: true
   - name: nginx/nginx-upload-module-2.2.tar.gz
     url: https://github.com/vkholodkov/nginx-upload-module/archive/2.2.0.tar.gz
-  - name: pm-acceptance-credhub-release-blob
-    repo: git@github.com:pivotal-cf/credhub-release.git
   - name: pm-acceptance-scantron-blob
     repo: git@github.com:pivotal-cf/scantron.git
-    commit_sha: 8c9667417aab3312123243ac19ce98306fc7141b
+    commit: 8c9667417aab3312123243ac19ce98306fc7141b
