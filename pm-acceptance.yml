@@ -21,3 +21,5 @@ releases:
   - name: pm-acceptance-scantron-blob
     repo: git@github.com:pivotal-cf/scantron.git
     commit: 8c9667417aab3312123243ac19ce98306fc7141b
+  - name_pattern: cf-cli/cf-cli_(?<version>\d+\.\d+\.\d+)_linux_x86-64\.tgz
+    url: https://github.com/cloudfoundry/cli/archive/v\k<version>.tar.gz
