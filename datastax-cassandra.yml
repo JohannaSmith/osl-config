@@ -1,6 +1,13 @@
 ---
 releases:
 - repo: git@github.com:pivotal-cf/cf-dse-cassandra-service-release.git
+  projects:
+  - name: dse_cassandra_service_release_test
+    path: src/github.com/pivotal-cf/dse_cassandra_service_release_test
+  - name: dse_cassandra_superuser_updater
+    path: src/github.com/pivotal-cf/dse_cassandra_superuser_updater
+  - name: dse_opscenter_superuser_updater
+    path: src/github.com/pivotal-cf/dse_opscenter_superuser_updater
   blobs:
   - name: jdk-8u102-linux-x64.tar.gz
     skip: true
@@ -11,6 +18,11 @@ releases:
   - name: opscenter-6.0.2.tar.gz
     skip: true
 - repo: git@github.com:pivotal-cf/cf-dse-cassandra-service-adapter-release.git
+  projects:
+  - name: cf-dse-cassandra-on-demand-broker-tests
+    path: src/github.com/pivotal-cf/cf-dse-cassandra-on-demand-broker-tests
+  - name: cf-dse-cassandra-service-adapter
+    path: src/github.com/pivotal-cf/cf-dse-cassandra-service-adapter
 - repo: git@github.com:pivotal-cf/on-demand-service-broker-release.git
   blobs:
   - name: curl/curl-7.50.1.tar.gz
