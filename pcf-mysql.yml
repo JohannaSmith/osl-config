@@ -29,8 +29,6 @@ releases:
     skip: true
   - name: galera/galera-25.3.17.tar.gz
     skip: true
-  - name: cli/cf-cli_6.22.2_linux_x86-64.tgz
-    skip: true
   - name: mariadb/mariadb-10.1.20.tar.gz
     skip: true
   - name_pattern: xtrabackup/libev-(?<version>\d+\.\d+)\.tar\.gz

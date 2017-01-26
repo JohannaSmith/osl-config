@@ -26,3 +26,6 @@ blobs:
   url: https://github.com/openresty/headers-more-nginx-module/archive/v\k<version>.tar.gz
 - name_pattern: Python-(?<version>\d+\.\d+\.\d+)\.tgz
   skip: true
+- name_pattern: (.*)cf-cli_(?<version>\d+\.\d+\.\d+)_linux_x86-64.tgz
+  repo: https://github.com/cloudfoundry/cli
+  commit: v\k<version>

@@ -42,8 +42,6 @@ releases:
     skip: true
   - name: openjdk/openjdk-1.8.0_101-x86_64-mountainlion.tar.gz
     skip: true
-  - name: cli/cf-cli_6.23.1_linux_x86-64.tgz
-    url: https://github.com/cloudfoundry/cli/archive/v6.23.1.tar.gz
   - name: haproxy/pcre-8.39.tar.gz
     url: http://ftp.cs.stanford.edu/mirrors/exim/pcre/pcre-8.39.tar.gz
   - name: binary-buildpack/binary_buildpack-cached-v1.0.7.zip
@@ -119,8 +117,6 @@ releases:
   blobs:
   - name: cli/cf-linux-amd64.tgz
     skip: true
-  - name: cli/cf-cli_6.23.0_linux_x86-64.tgz
-    url: https://github.com/cloudfoundry/cli/archive/v6.23.0.tar.gz
 - repo: git@github.com:cloudfoundry-incubator/notifications-release.git
   scan_root: false
   blobs:
@@ -166,8 +162,6 @@ releases:
     skip: true
   - name: freetype/freetype-2.7.tar.bz2
     skip: true
-  - name: cf-cli/cf-cli_6.22.2_linux_x86-64.tgz
-    skip: true
   - name: jq/jq-linux64
     skip: true
 - repo: https://github.com/cloudfoundry/garden-windows-release
@@ -186,8 +180,6 @@ releases:
   - name: cf-cli/cf-linux-amd64.tgz
     skip: true
   - name: haproxy/pcre-8.39.tar.gz
-    skip: true
-  - name: cf-cli/cf-cli_6.23.0_linux_x86-64.tgz
     skip: true
 - repo: https://github.com/cloudfoundry/capi-release
   scan_root: false

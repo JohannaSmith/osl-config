@@ -18,16 +18,12 @@ releases:
     skip: true
   - name: autoconf-2.69.tar.gz
     skip: true
-  - name: cf-cli_6.16.1_linux_x86-64.tgz
-    skip: true
 - repo: git@github.com:pivotal-cf/metrics-release.git
   scan_root: false
   blobs:
   - name: autoconf-2.69.tar.gz
     skip: true
   - name: git-2.6.2.tar.gz
-    skip: true
-  - name: cf-cli_6.19.0_linux_x86-64.tgz
     skip: true
 - repo: git@github.com:pivotal-cf/metrics-app-dev-release.git
   blobs:
@@ -52,6 +48,4 @@ releases:
   - name: migrate/db_migrations.tar.gz
     skip: true
   - name: smoke_tests.test
-    skip: true
-  - name: cf-cli_6.23.1_linux_x86-64.tgz
     skip: true

@@ -9,8 +9,6 @@ releases:
     skip: true
   - name: java/jre-1.8.0_77.tar.gz
     skip: true
-  - name: cf-cli/cf-cli_6.19.0_linux_x86-64.tgz
-    skip: true
   - name: erlang/otp_src_oss_18.3.4.4.tgz
     skip: true
   - name: rabbitmq-server/rabbitmq-server-generic-unix-3.6.6.903.tar.xz

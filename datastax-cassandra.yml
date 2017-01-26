@@ -27,7 +27,5 @@ releases:
   blobs:
   - name: curl/curl-7.50.1.tar.gz
     skip: true
-  - name: cf-cli/cf-cli_6.21.1_linux_x86-64.tgz
-    skip: true
 - repo: git@github.com:pivotal-cf/cf-dse-cassandra-utilities.git
 - repo: git@github.com:pivotal-cf/cf-dse-cassandra-service-broker.git
