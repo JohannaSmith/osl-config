@@ -24,8 +24,6 @@ releases:
     url: https://github.com/vkholodkov/nginx-upload-module/archive/2.2.0.tar.gz
   - name: uaa/newrelic.jar
     skip: true
-  - name: haproxy/haproxy-1.5.14.tar.gz
-    url: http://git.haproxy.org/?p=haproxy-1.5.git;a=snapshot;h=16f863fbc9fbd6535971eb1f55d33f0efc2ac5e1;sf=tgz
   - name: uaa/cloudfoundry-identity-statsd-1.0.0.war
     skip: true
   - name: libmariadb/libmariadb-5.5.36.tar.xz
@@ -42,8 +40,6 @@ releases:
     skip: true
   - name: openjdk/openjdk-1.8.0_101-x86_64-mountainlion.tar.gz
     skip: true
-  - name: haproxy/pcre-8.39.tar.gz
-    url: http://ftp.cs.stanford.edu/mirrors/exim/pcre/pcre-8.39.tar.gz
   - name: binary-buildpack/binary_buildpack-cached-v1.0.7.zip
     url: https://github.com/cloudfoundry/binary-buildpack/archive/v1.0.7.tar.gz
   - name: uaa/apache-tomcat-8.0.39.tar.gz
