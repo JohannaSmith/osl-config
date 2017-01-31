@@ -2,8 +2,6 @@ blobs:
 - name: aws-cli/awscli-bundle.zip
   sha: db33b4740a670c9fb3bc5515cd7f9861fa1b1b13
   skip: true
-- name: nginx/nginx-upload-module-2.2.tar.gz
-  url: https://github.com/vkholodkov/nginx-upload-module/archive/2.2.0.tar.gz
 - name: migrate/migrate
   skip: true
 - name_pattern: go(?<version>\d+\.\d+(\.\d+)?)\.(windows|linux|darwin)-amd64\.(tar\.gz|zip)
@@ -21,6 +19,10 @@ blobs:
   skip: true
 - name_pattern: node-v(\d+\.\d+\.\d+)-linux-x64.tar\.(gz|xz)
   skip: true
+- name: nginx/nginx-upload-module-2.2.tar.gz
+  url: https://github.com/vkholodkov/nginx-upload-module/archive/2.2.0.tar.gz
+- name_pattern: nginx/pcre-(?<version>[\d\.]+).tar.gz
+  url: http://ftp.cs.stanford.edu/mirrors/exim/pcre/pcre-\k<version>.tar.gz
 - name_pattern: nginx/nginx-(?<version>\d+\.\d+\.\d+)\.tar\.gz
   url: https://github.com/nginx/nginx/archive/release-\k<version>.tar.gz
 - name_pattern: etcd/etcd-v(?<version>\d+\.\d+\.\d+)-linux-amd64\.tar\.gz

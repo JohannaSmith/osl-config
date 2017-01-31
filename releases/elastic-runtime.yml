@@ -32,8 +32,6 @@ releases:
     skip: true
   - name: consul/consul-template_0.14.0_linux_amd64.zip
     url: https://github.com/hashicorp/consul-template/archive/v0.14.0.tar.gz
-  - name: nginx/pcre-8.39.tar.gz
-    url: http://ftp.cs.stanford.edu/mirrors/exim/pcre/pcre-8.39.tar.gz
   - name: postgres/postgresql-9.4.9.tar.gz
     url: https://github.com/postgres/postgres/archive/REL9_4_9.tar.gz
   - name: openjdk/openjdk-1.8.0_101-x86_64-trusty.tar.gz
