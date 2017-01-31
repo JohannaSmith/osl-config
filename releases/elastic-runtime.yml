@@ -82,8 +82,9 @@ releases:
   blobs:
   - name: jq/jq-linux64
     skip: true
-  - name: lifecycles/windows_app_lifecycle-1f3b617.tgz
-    skip: true
+  - name_pattern: lifecycles\/windows_app_lifecycle-(?<commit>[0-9a-f]+).tgz
+    repo: https://github.com/cloudfoundry/windows_app_lifecycle
+    commit: \k<commit>
 - repo: https://github.com/cloudfoundry/garden-runc-release
   scan_root: false
   blobs:
