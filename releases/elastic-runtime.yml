@@ -20,8 +20,6 @@ releases:
     skip: true
   - name: uaa/cloudfoundry-identity-varz-1.0.2.war
     skip: true
-  - name: nginx/nginx-upload-module-2.2.tar.gz
-    url: https://github.com/vkholodkov/nginx-upload-module/archive/2.2.0.tar.gz
   - name: uaa/newrelic.jar
     skip: true
   - name: uaa/cloudfoundry-identity-statsd-1.0.0.war
@@ -187,8 +185,6 @@ releases:
   - name: nginx/newrelic_nginx_agent-1.2.1.tar.gz
     skip: true
   - name: nginx/headers-more-nginx-module-0.32.tar.gz
-    skip: true
-  - name: nginx/pcre-8.39.tar.gz
     skip: true
   - name: postgres/postgresql-9.4.9.tar.gz
     skip: true
