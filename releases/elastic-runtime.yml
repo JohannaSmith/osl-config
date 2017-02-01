@@ -101,17 +101,17 @@ releases:
 - repo: https://github.com/cloudfoundry/garden-runc-release
   scan_root: false
   blobs:
-  - name: iptables/iptables-1.4.21.tar.bz2
+  - name_pattern: iptables/iptables-(?<version>[\d\.]+).tar.bz2
     skip: true
-  - name: shadow/shadow-4.2.1.tar.gz
+  - name_pattern: shadow/shadow-(?<version>[\d\.]+).tar.gz
     skip: true
-  - name: busybox/busybox.tar.gz
+  - name_pattern: busybox/busybox.tar.gz
     skip: true
-  - name: libseccomp/libseccomp-2.3.1.tar.gz
+  - name_pattern: libseccomp/libseccomp-(?<version>[\d\.]+).tar.gz
     skip: true
-  - name: apparmor/apparmor-2.10.1.tar.gz
+  - name_pattern: apparmor/apparmor-(?<version>[\d\.]+).tar.gz
     skip: true
-  - name: tar/tar-1.29.tar.gz
+  - name_pattern: tar/tar-(?<version>[\d\.]+).tar.gz
     skip: true
 - repo: https://github.com/cloudfoundry/diego-windows-release
   scan_root: false
