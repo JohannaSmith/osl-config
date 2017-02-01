@@ -28,36 +28,47 @@ releases:
     skip: true
   - name: nginx/newrelic_nginx_agent-1.2.1.tar.gz
     skip: true
-  - name: consul/consul-template_0.14.0_linux_amd64.zip
-    url: https://github.com/hashicorp/consul-template/archive/v0.14.0.tar.gz
+  - name_pattern: consul/consul-template_(?<version>[\d\.]+)_linux_amd64.zip
+    repo: https://github.com/hashicorp/consul-template
+    commit: v\k<version>
   - name: postgres/postgresql-9.4.9.tar.gz
     url: https://github.com/postgres/postgres/archive/REL9_4_9.tar.gz
   - name: openjdk/openjdk-1.8.0_101-x86_64-trusty.tar.gz
     skip: true
   - name: openjdk/openjdk-1.8.0_101-x86_64-mountainlion.tar.gz
     skip: true
-  - name: binary-buildpack/binary_buildpack-cached-v1.0.7.zip
-    url: https://github.com/cloudfoundry/binary-buildpack/archive/v1.0.7.tar.gz
+  - name_pattern: binary-buildpack/binary_buildpack-cached-v(?<version>[\d\.]+).zip
+    repo: https://github.com/cloudfoundry/binary-buildpack
+    commit: v\k<version>
   - name: uaa/apache-tomcat-8.0.39.tar.gz
     url: https://github.com/apache/tomcat80/archive/TOMCAT_8_0_39.tar.gz
-  - name: consul/consul_0.7.1_linux_amd64.zip
-    url: https://github.com/hashicorp/consul/archive/v0.7.1.tar.gz
-  - name: consul-windows/consul_0.7.1_windows_amd64.zip
-    url: https://github.com/hashicorp/consul/archive/v0.7.1.tar.gz
-  - name: go-buildpack/go_buildpack-cached-v1.7.17.zip
-    url: https://github.com/cloudfoundry/go-buildpack/archive/v1.7.17.tar.gz
-  - name: staticfile-buildpack/staticfile_buildpack-cached-v1.3.16.zip
-    url: https://github.com/cloudfoundry/staticfile-buildpack/archive/v1.3.16.tar.gz
-  - name: python-buildpack/python_buildpack-cached-v1.5.14.zip
-    url: https://github.com/cloudfoundry/python-buildpack/archive/v1.5.14.tar.gz
-  - name: dotnet-core-buildpack/dotnet-core_buildpack-cached-v1.0.9.zip
-    url: https://github.com/cloudfoundry/dotnet-core-buildpack/archive/v1.0.9.tar.gz
-  - name: nodejs-buildpack/nodejs_buildpack-cached-v1.5.27.zip
-    url: https://github.com/cloudfoundry/nodejs-buildpack/archive/v1.5.27.tar.gz
-  - name: ruby-buildpack/ruby_buildpack-cached-v1.6.32.zip
-    url: https://github.com/cloudfoundry/ruby-buildpack/archive/v1.6.32.tar.gz
-  - name: php-buildpack/php_buildpack-cached-v4.3.25.zip
-    url:  https://github.com/cloudfoundry/php-buildpack/archive/v4.3.25.tar.gz
+  - name_pattern: consul/consul_(?<version>[\d\.]+)_linux_amd64.zip
+    repo: https://github.com/hashicorp/consul
+    commit: v\k<version>
+  - name_pattern: consul-windows/consul_(?<version>[\d\.]+)_windows_amd64.zip
+    repo: https://github.com/hashicorp/consul
+    commit: v\k<version>
+  - name_pattern: go-buildpack/go_buildpack-cached-v(?<version>[\d\.]+).zip
+    repo: https://github.com/cloudfoundry/go-buildpack
+    commit: v\k<version>
+  - name_pattern: staticfile-buildpack/staticfile_buildpack-cached-v(?<version>[\d\.]+).zip
+    repo: https://github.com/cloudfoundry/staticfile-buildpack/
+    commit: v\k<version>
+  - name_pattern: python-buildpack/python_buildpack-cached-v(?<version>[\d\.]+).zip
+    repo: https://github.com/cloudfoundry/python-buildpack/
+    commit: v\k<version>
+  - name_pattern: dotnet-core-buildpack/dotnet-core_buildpack-cached-v(?<version>[\d\.]+).zip
+    repo: https://github.com/cloudfoundry/dotnet-core-buildpack/
+    commit: v\k<version>
+  - name_pattern: nodejs-buildpack/nodejs_buildpack-cached-v(?<version>[\d\.]+).zip
+    repo: https://github.com/cloudfoundry/nodejs-buildpack/
+    commit: v\k<version>
+  - name_pattern: ruby-buildpack/ruby_buildpack-cached-v(?<version>[\d\.]+).zip
+    repo: https://github.com/cloudfoundry/ruby-buildpack/
+    commit: v\k<version>
+  - name_pattern: php-buildpack/php_buildpack-cached-v(?<version>[\d\.]+).zip
+    repo: https://github.com/cloudfoundry/php-buildpack/
+    commit: v\k<version>
   - name: loggregator-blobs/doppler.xz
     skip: true
   - name: loggregator-blobs/syslog_drain_binder.xz
@@ -72,10 +83,12 @@ releases:
     skip: true
   - name: loggregator-blobs/metron.xz
     skip: true
-  - name: java-buildpack/java-buildpack-v3.11.zip
-    url: https://github.com/cloudfoundry/java-buildpack/archive/v3.11.tar.gz
-  - name: java-buildpack/java-buildpack-offline-v3.11.zip
-    url: https://github.com/cloudfoundry/java-buildpack/archive/v3.11.tar.gz
+  - name_pattern: java-buildpack/java-buildpack-v(?<version>[\d\.]+).zip
+    repo: https://github.com/cloudfoundry/java-buildpack/
+    commit: v\k<version>
+  - name_pattern: java-buildpack/java-buildpack-offline-v(?<version>[\d\.]+).zip
+    repo: https://github.com/cloudfoundry/java-buildpack/
+    commit: v\k<version>
   - name_pattern: rootfs/cflinuxfs2-(?<version>\d+\.\d+\.\d+)\.tar\.gz
     skip: true
 - repo: https://github.com/cloudfoundry-incubator/diego-release
