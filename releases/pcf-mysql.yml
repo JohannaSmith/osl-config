@@ -41,25 +41,25 @@ releases:
   scan_root: false
   branch: v1.25
   blobs:
-  - name: xtrabackup/autoconf-2.65.tar.gz
+  - name_pattern: xtrabackup/autoconf-(?<version>[\d\.]+).tar.gz
     skip: true
-  - name: xtrabackup/automake-1.14.1.tar.gz
+  - name_pattern: xtrabackup/automake-(?<version>[\d\.]+).tar.gz
     skip: true
-  - name: xtrabackup/libaio_0.3.110.orig.tar.gz
+  - name_pattern: xtrabackup/libaio_(?<version>[\d\.]+).orig.tar.gz
     skip: true
-  - name: xtrabackup/libdbd-mysql-perl_4.025.orig.tar.gz
+  - name_pattern: xtrabackup/libdbd-mysql-perl_(?<version>[\d\.]+).orig.tar.gz
     skip: true
-  - name: xtrabackup/libdbi-perl_1.630.orig.tar.gz
+  - name_pattern: xtrabackup/libdbi-perl_(?<version>[\d\.]+).orig.tar.gz
     skip: true
-  - name: xtrabackup/libtool-2.4.2.tar.gz
+  - name_pattern: xtrabackup/libtool-(?<version>[\d\.]+).tar.gz
     skip: true
-  - name: xtrabackup/percona-xtrabackup-percona-xtrabackup-2.2.10.tar.gz
+  - name_pattern: xtrabackup/percona-xtrabackup-percona-xtrabackup-(?<version>[\d\.]+).tar.gz
     skip: true
-  - name: xtrabackup/socat-1.7.2.4.tar.gz
+  - name_pattern: xtrabackup/socat-(?<version>[\d\.]+).tar.gz
     skip: true
   - name: awscli/awscli-bundle.zip
     skip: true
-  - name: mariadb/mariadb-10.0.23.tar.gz
+  - name_pattern: mariadb/mariadb-(?<version>[\d\.]+).tar.gz
     skip: true
 - repo: git@github.com:pivotal-cf-experimental/mysql-monitoring-release.git
   scan_root: false
@@ -70,17 +70,17 @@ releases:
   blobs:
   - name: aws-cli/awscli-bundle.zip
     skip: true
-  - name: blobxfer/azure-common-1.1.1.zip
+  - name_pattern: blobxfer/azure-common-(?<version>[\d\.]+).zip
     skip: true
-  - name: blobxfer/azure-storage-0.30.0.zip
+  - name_pattern: blobxfer/azure-storage-(?<version>[\d\.]+).zip
     skip: true
-  - name: blobxfer/blobxfer-0.10.0.tar.gz
+  - name_pattern: blobxfer/blobxfer-(?<version>[\d\.]+).tar.gz
     skip: true
-  - name: blobxfer/python-dateutil-2.4.2.tar.gz
+  - name_pattern: blobxfer/python-dateutil-(?<version>[\d\.]+).tar.gz
     skip: true
-  - name: blobxfer/requests-2.9.1.tar.gz
+  - name_pattern: blobxfer/requests-(?<version>[\d\.]+).tar.gz
     skip: true
-  - name: blobxfer/setuptools-20.6.7.tar.gz
+  - name_pattern: blobxfer/setuptools-(?<version>[\d\.]+).tar.gz
     skip: true
-  - name: blobxfer/six-1.10.0.tar.gz
+  - name_pattern: blobxfer/six-(?<version>[\d\.]+).tar.gz
     skip: true
