@@ -43,8 +43,9 @@ blobs:
 - name_pattern: (.*)cf-cli_(?<version>\d+\.\d+\.\d+)_linux_x86-64.tgz
   repo: https://github.com/cloudfoundry/cli
   commit: v\k<version>
-- name: postgres/postgresql-9.4.9.tar.gz
-  url: https://github.com/postgres/postgres/archive/REL9_4_9.tar.gz
+- name_pattern: postgres/postgresql-(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)\.tar\.gz
+  repo: https://github.com/postgres/postgres
+  commit: REL\k<major>_\k<minor>_\k<patch>
 - name_pattern: libmariadb/libmariadb-(?<version>[\d\.]+).tar.xz
   skip: true
 - name_pattern: nginx/newrelic_nginx_agent-(?<version>[\d\.]+).tar.gz
