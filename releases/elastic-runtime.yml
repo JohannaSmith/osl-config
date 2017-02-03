@@ -103,6 +103,10 @@ releases:
     skip: true
   - name_pattern: tar/tar-(?<version>[\d\.]+).tar.gz
     skip: true
+  - name_pattern: iptables/libmnl-(?<version>[\d\.]+).tar.bz2
+    skip: true
+  - name_pattern: iptables/libnftnl-(?<version>[\d\.]+).tar.bz2
+    skip: true
 - repo: https://github.com/cloudfoundry/diego-windows-release
   scan_root: false
   projects:
