@@ -36,7 +36,8 @@ releases:
   - name_pattern: xtrabackup/percona-xtrabackup-percona-xtrabackup-(?<version>\d+\.\d+\.\d+)\.tar\.gz
     skip: true
   - name_pattern: boost_(?<major>\d+)_(?<minor>\d+)_(?<patch>\d+)\.tar\.gz
-    skip: true
+    repo: https://github.com/boostorg/boost.git
+    commit: boost-\k<major>.\k<minor>.\k<patch>
 - repo: git@github.com:pivotal-cf-experimental/mysql-backup-release.git
   scan_root: false
   branch: v1.25
