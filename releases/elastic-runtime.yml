@@ -59,6 +59,7 @@ releases:
   - name_pattern: php-buildpack/php_buildpack-cached-v(?<version>[\d\.]+).zip
     repo: https://github.com/cloudfoundry/php-buildpack/
     commit: v\k<version>
+    prepare_command: pip install -r requirements.txt
   - name: loggregator-blobs/doppler.xz
     skip: true
   - name: loggregator-blobs/syslog_drain_binder.xz
