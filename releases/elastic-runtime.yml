@@ -82,6 +82,9 @@ releases:
     commit: v\k<version>
   - name_pattern: rootfs/cflinuxfs2-(?<version>\d+\.\d+\.\d+)\.tar\.gz
     skip: true
+  - name: etcd/etcd-v2.2.0-tls1.2-patch-linux-amd64.tar.gz
+    repo: https://github.com/cloudfoundry-incubator/etcd/
+    commit: v2.2.0-tls-v1.2-patch-0
 - repo: https://github.com/cloudfoundry-incubator/diego-release
   blobs:
   - name: jq/jq-linux64
