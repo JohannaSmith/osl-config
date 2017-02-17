@@ -6,8 +6,6 @@ releases:
   blobs:
   - name: maven/apache-maven-3.3.3-bin.tar.gz
     skip: true
-  - name: openjdk/openjdk-1.8.0_111.tar.gz
-    skip: true
 - repo: git@github.com:pivotal-cf/p-metrics.git
   scan_root: false
   branch: master

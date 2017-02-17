@@ -56,3 +56,5 @@ blobs:
   skip: true
 - name_pattern: nginx/newrelic_nginx_agent-(?<version>[\d\.]+).tar.gz
   skip: true
+- name_pattern: openjdk-(?<version>\d+\.\d+\.\d+_\d+).*\.tar\.gz
+  skip: true

@@ -25,8 +25,6 @@ releases:
   - name_pattern: consul/consul-template_(?<version>[\d\.]+)_linux_amd64.zip
     repo: https://github.com/hashicorp/consul-template
     commit: v\k<version>
-  - name_pattern: openjdk/openjdk-(?<version>[\d\.\_]+)-(?<platform>.*).tar.gz
-    skip: true
   - name_pattern: binary-buildpack/binary_buildpack-cached-v(?<version>[\d\.]+).zip
     repo: https://github.com/cloudfoundry/binary-buildpack
     commit: v\k<version>
