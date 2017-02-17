@@ -1,0 +1,3 @@
+---
+releases:
+  - stemcell_name: bosh-aws-xen-ubuntu-trusty-go_agent
