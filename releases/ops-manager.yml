@@ -88,3 +88,5 @@ releases:
     skip: true
   - name: s3cli/s3cli-0.0.53-linux-amd64
     skip: true
+  - name: verify-multidigest/verify-multidigest-0.0.29-linux-amd64
+    skip: true
