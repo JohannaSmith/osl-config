@@ -168,10 +168,6 @@ releases:
   - path: GardenWindowsRelease
 - repo: git@github.com:cloudfoundry-incubator/etcd-release.git
   scan_root: false
-  blobs:
-  - name: etcd/etcd-v2.2.0-tls1.2-patch-linux-amd64.tar.gz
-    repo: https://github.com/cloudfoundry-incubator/etcd/
-    commit: v2.2.0-tls-v1.2-patch-0
 - repo: https://github.com/cloudfoundry-incubator/cf-routing-release
   scan_root: false
   blobs:

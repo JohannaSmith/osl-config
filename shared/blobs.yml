@@ -34,6 +34,9 @@ blobs:
   url: https://github.com/nginx/nginx/archive/release-\k<version>.tar.gz
 - name_pattern: etcd/etcd-v(?<version>\d+\.\d+\.\d+)-linux-amd64\.tar\.gz
   url: https://github.com/coreos/etcd/archive/v\k<version>.tar.gz
+- name: etcd/etcd-v2.2.0-tls1.2-patch-linux-amd64.tar.gz
+  repo: https://github.com/cloudfoundry-incubator/etcd/
+  commit: v2.2.0-tls-v1.2-patch-0
 - name_pattern: (.*)/bundler-(?<version>\d+\.\d+\.\d+)\.gem
   url: https://github.com/bundler/bundler/archive/v\k<version>.tar.gz
 - name_pattern: nginx/headers-more-nginx-module-(?<version>\d+\.\d+)\.tar\.gz
