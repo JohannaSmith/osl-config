@@ -20,6 +20,9 @@ blobs:
   skip: true
 - name_pattern: (.*)ruby(.*)/yaml-(?<version>\d+\.\d+\.\d+).tar.gz
   skip: true
+- name_pattern: rack-(?<version>\d+\.\d+\.\d+).gem
+  repo: https://github.com/rack/rack
+  commit: \k<version>
 - name_pattern: node-v(\d+\.\d+\.\d+)-linux-x64.tar\.(gz|xz)
   skip: true
 - name_pattern: phantomjs/phantomjs-(?<version>[\d\.]+)-(?<platform>.+).(gz|zip|bz2)

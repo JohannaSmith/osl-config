@@ -70,8 +70,6 @@ releases:
     skip: true
   - name: nats/vendor/cache/nats-0.5.0.beta.12.gem
     skip: true
-  - name: nats/vendor/cache/rack-1.5.2.gem
-    skip: true
   - name: nats/vendor/cache/thin-1.5.1.gem
     skip: true
   - name: nats/vendor/cache/yajl-ruby-1.1.0.gem
