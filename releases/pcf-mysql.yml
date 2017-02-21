@@ -19,6 +19,7 @@ releases:
     commit: v\k<version>
   - name: xtrabackup/libaio_0.3.110.orig.tar.gz
     url: https://launchpad.net/ubuntu/+archive/primary/+files/libaio_0.3.110.orig.tar.gz
+  - name: xtrabackup/libdbd-mysql-perl_4.025.orig.tar.gz
     url: http://archive.ubuntu.com/ubuntu/pool/main/libd/libdbd-mysql-perl/libdbd-mysql-perl_4.025.orig.tar.gz
   - name: xtrabackup/libdbi-perl_1.630.orig.tar.gz
     url: http://archive.ubuntu.com/ubuntu/pool/main/libd/libdbi-perl/libdbi-perl_1.630.orig.tar.gz
