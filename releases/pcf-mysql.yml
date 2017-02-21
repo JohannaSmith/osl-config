@@ -5,36 +5,40 @@ releases:
 - repo: git@github.com:cloudfoundry/cf-mysql-release.git
   scan_root: false
   blobs:
-  - name_pattern: scons/scons-(?<version>[\d\.]+).tar.gz
-    skip: true
-  - name_pattern: check/check-(?<version>[\d\.]+).tar.gz
-    skip: true
-  - name_pattern: pcre-(?<version>[\d\.]+).tar.gz
-    skip: true
+  - name: scons/scons-2.3.1.tar.gz
+    url: https://launchpad.net/ubuntu/+archive/primary/+files/scons_2.3.1.orig.tar.gz
+  - name: check/check-0.9.13.tar.gz
+    url: http://download.openpkg.org/components/cache/check/check-0.9.13.tar.gz
+  - name: pcre-8.35.tar.gz
+    url: https://ftp.pcre.org/pub/pcre/pcre-8.35.tar.gz
   - name_pattern: xtrabackup/autoconf-(?<version>[\d\.]+).tar.gz
-    skip: true
+    repo: http://git.sv.gnu.org/r/autoconf.git
+    commit: v\k<version>
   - name_pattern: xtrabackup/automake-(?<version>[\d\.]+).tar.gz
-    skip: true
-  - name_pattern: xtrabackup/libaio_(?<version>[\d\.]+).orig.tar.gz
-    skip: true
-  - name_pattern: xtrabackup/libdbd-mysql-perl_(?<version>[\d\.]+).orig.tar.gz
-    skip: true
-  - name_pattern: xtrabackup/libdbi-perl_(?<version>[\d\.]+).orig.tar.gz
-    skip: true
+    repo: http://git.savannah.gnu.org/cgit/automake.git
+    commit: v\k<version>
+  - name: xtrabackup/libaio_0.3.110.orig.tar.gz
+    url: https://launchpad.net/ubuntu/+archive/primary/+files/libaio_0.3.110.orig.tar.gz
+    url: http://archive.ubuntu.com/ubuntu/pool/main/libd/libdbd-mysql-perl/libdbd-mysql-perl_4.025.orig.tar.gz
+  - name: xtrabackup/libdbi-perl_1.630.orig.tar.gz
+    url: http://archive.ubuntu.com/ubuntu/pool/main/libd/libdbi-perl/libdbi-perl_1.630.orig.tar.gz
   - name_pattern: xtrabackup/libtool-(?<version>[\d\.]+).tar.gz
-    skip: true
+    repo: https://git.savannah.gnu.org/git/libtool.git
+    commit: v\k<version>
+  - name_pattern: xtrabackup/percona-xtrabackup-percona-xtrabackup-(?<version>[\d\.]+).tar.gz
+    repo: https://github.com/percona/percona-xtrabackup.git
+    commit: percona-xtrabackup-\k<version>
   - name_pattern: xtrabackup/socat-(?<version>[\d\.]+).tar.gz
     skip: true
-  - name_pattern: mysqlclient/mariadb-connector-c-(?<version>[\d\.]+)-src.tar.gz
-    skip: true
+  - name: mysqlclient/mariadb-connector-c-2.1.0-src.tar.gz
+    repo: https://github.com/MariaDB/mariadb-connector-c.git
+    commit: 2.1
   - name_pattern: galera/galera-(?<version>[\d\.]+).tar.gz
-    skip: true
+    repo: https://github.com/MariaDB/galera.git
+    commit: mariadb-\k<version>
   - name_pattern: mariadb/mariadb-(?<version>[\d\.]+).tar.gz
-    skip: true
-  - name_pattern: xtrabackup/libev-(?<version>\d+\.\d+)\.tar\.gz
-    skip: true
-  - name_pattern: xtrabackup/percona-xtrabackup-percona-xtrabackup-(?<version>\d+\.\d+\.\d+)\.tar\.gz
-    skip: true
+    repo: https://github.com/MariaDB/server.git
+    commit: mariadb-\k<version>
   - name_pattern: boost_(?<major>\d+)_(?<minor>\d+)_(?<patch>\d+)\.tar\.gz
     repo: https://github.com/boostorg/boost.git
     commit: boost-\k<major>.\k<minor>.\k<patch>
@@ -43,25 +47,30 @@ releases:
   branch: v1.25
   blobs:
   - name_pattern: xtrabackup/autoconf-(?<version>[\d\.]+).tar.gz
-    skip: true
+    repo: http://git.sv.gnu.org/r/autoconf.git
+    commit: v\k<version>
   - name_pattern: xtrabackup/automake-(?<version>[\d\.]+).tar.gz
-    skip: true
-  - name_pattern: xtrabackup/libaio_(?<version>[\d\.]+).orig.tar.gz
-    skip: true
-  - name_pattern: xtrabackup/libdbd-mysql-perl_(?<version>[\d\.]+).orig.tar.gz
-    skip: true
-  - name_pattern: xtrabackup/libdbi-perl_(?<version>[\d\.]+).orig.tar.gz
-    skip: true
+    repo: http://git.savannah.gnu.org/cgit/automake.git
+    commit: v\k<version>
+  - name: xtrabackup/libaio_0.3.110.orig.tar.gz
+    url: https://launchpad.net/ubuntu/+archive/primary/+files/libaio_0.3.110.orig.tar.gz
+  - name: xtrabackup/libdbd-mysql-perl_4.025.orig.tar.gz
+    url: http://archive.ubuntu.com/ubuntu/pool/main/libd/libdbd-mysql-perl/libdbd-mysql-perl_4.025.orig.tar.gz
+  - name: xtrabackup/libdbi-perl_1.630.orig.tar.gz
+    url: http://archive.ubuntu.com/ubuntu/pool/main/libd/libdbi-perl/libdbi-perl_1.630.orig.tar.gz
   - name_pattern: xtrabackup/libtool-(?<version>[\d\.]+).tar.gz
-    skip: true
+    repo: https://git.savannah.gnu.org/git/libtool.git
+    commit: v\k<version>
   - name_pattern: xtrabackup/percona-xtrabackup-percona-xtrabackup-(?<version>[\d\.]+).tar.gz
-    skip: true
+    repo: https://github.com/percona/percona-xtrabackup.git
+    commit: percona-xtrabackup-\k<version>
   - name_pattern: xtrabackup/socat-(?<version>[\d\.]+).tar.gz
     skip: true
   - name: awscli/awscli-bundle.zip
     skip: true
   - name_pattern: mariadb/mariadb-(?<version>[\d\.]+).tar.gz
-    skip: true
+    repo: https://github.com/MariaDB/server.git
+    commit: mariadb-\k<version>
 - repo: git@github.com:pivotal-cf-experimental/mysql-monitoring-release.git
   scan_root: false
   branch: v3
